@@ -4573,6 +4573,7 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 <class number="1" name="power" width="0.3048" drill="0">
 </class>
