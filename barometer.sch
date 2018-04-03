@@ -5104,6 +5104,8 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 <text x="4.445" y="133.096" size="1.778" layer="97" font="vector">Test Points</text>
 <text x="88.5825" y="46.101" size="1.778" layer="97" font="vector" rot="MR0" align="top-right">Connectors</text>
 <text x="172.72" y="37.465" size="1.778" layer="97" font="vector">Digital-to-Analog Converter</text>
+<text x="168.91" y="5.08" size="1.778" layer="97" font="vector" align="bottom-right">Degson Electrical
+15EDGRC-3.5-04P-14-00A-H</text>
 </plain>
 <instances>
 <instance part="U4" gate="G$1" x="45.72" y="63.5"/>
@@ -5583,6 +5585,8 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 <text x="172.72" y="116.84" size="1.778" layer="97" font="vector" align="center">+7-30V to +5V0 Buck Converter</text>
 <text x="127" y="83.82" size="1.778" layer="97" font="vector" align="center">Input Power Connector</text>
 <text x="55.88" y="30.48" size="1.778" layer="97" font="vector" align="center">+5V0 to +3V3 Buck Converter</text>
+<text x="127" y="104.14" size="1.778" layer="97" font="vector" align="center">Degson Electrical
+15EDGRC-3.5-02P-15-00A-H</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
