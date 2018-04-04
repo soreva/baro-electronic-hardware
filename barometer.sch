@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2476,155 +2476,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-IC-Comms">
-<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
-This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="PSOP-8">
-<description>&lt;h3&gt;PSOP-8&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:8&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;PCA9306&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1" y1="-1.03" x2="1" y2="-1.03" width="0.08" layer="21"/>
-<wire x1="1" y1="-1.03" x2="1" y2="1.04" width="0.08" layer="21"/>
-<wire x1="1" y1="1.04" x2="-1" y2="1.04" width="0.08" layer="21"/>
-<wire x1="-1" y1="1.04" x2="-1" y2="-1.03" width="0.08" layer="21"/>
-<circle x="-0.66" y="-0.67" radius="0.1524" width="0" layer="21"/>
-<smd name="1" x="-0.73" y="-1.37" dx="0.25" dy="0.5" layer="1"/>
-<smd name="2" x="-0.23" y="-1.37" dx="0.25" dy="0.5" layer="1"/>
-<smd name="3" x="0.27" y="-1.37" dx="0.25" dy="0.5" layer="1"/>
-<smd name="4" x="0.77" y="-1.37" dx="0.25" dy="0.5" layer="1"/>
-<smd name="8" x="-0.73" y="1.38" dx="0.25" dy="0.5" layer="1"/>
-<smd name="7" x="-0.23" y="1.38" dx="0.25" dy="0.5" layer="1"/>
-<smd name="6" x="0.27" y="1.38" dx="0.25" dy="0.5" layer="1"/>
-<smd name="5" x="0.77" y="1.38" dx="0.25" dy="0.5" layer="1"/>
-<circle x="-1.27" y="-0.67" radius="0.1524" width="0" layer="21"/>
-</package>
-<package name="PCA9306DC">
-<description>&lt;h3&gt;PCA9306DC&lt;/h3&gt;
-1:1 package. 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;PCA9306&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="1" y1="-0.93" x2="1" y2="0.94" width="0.2032" layer="21"/>
-<wire x1="-1" y1="0.94" x2="-1" y2="-0.93" width="0.2032" layer="21"/>
-<circle x="-1.28" y="-1.47" radius="0.1923" width="0" layer="21"/>
-<smd name="1" x="-0.73" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
-<smd name="2" x="-0.23" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
-<smd name="3" x="0.27" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
-<smd name="4" x="0.77" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
-<smd name="8" x="-0.73" y="1.4308" dx="0.25" dy="0.6016" layer="1"/>
-<smd name="7" x="-0.23" y="1.4308" dx="0.25" dy="0.6016" layer="1"/>
-<smd name="6" x="0.27" y="1.4308" dx="0.25" dy="0.6016" layer="1"/>
-<smd name="5" x="0.77" y="1.4308" dx="0.25" dy="0.6016" layer="1"/>
-<text x="-1.2954" y="-1.2" size="0.6096" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
-<text x="1.2954" y="-1.2" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="PCA9306">
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<pin name="SDA1" x="-15.24" y="0" length="middle"/>
-<pin name="SCL1" x="-15.24" y="2.54" length="middle"/>
-<pin name="EN" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="VREF1" x="-15.24" y="5.08" length="middle"/>
-<pin name="VREF2" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="SCL2" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="SDA2" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="GND" x="-15.24" y="-2.54" length="middle"/>
-<text x="-10.16" y="10.922" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="1.778" y1="0" x2="-1.778" y2="0" width="0.254" layer="97"/>
-<wire x1="1.778" y1="2.54" x2="-1.778" y2="2.54" width="0.254" layer="97"/>
-<wire x1="-1.778" y1="2.54" x2="-1.27" y2="3.048" width="0.254" layer="97"/>
-<wire x1="-1.778" y1="2.54" x2="-1.27" y2="2.032" width="0.254" layer="97"/>
-<wire x1="1.778" y1="2.54" x2="1.27" y2="3.048" width="0.254" layer="97"/>
-<wire x1="1.778" y1="2.54" x2="1.27" y2="2.032" width="0.254" layer="97"/>
-<wire x1="-1.778" y1="0" x2="-1.27" y2="0.508" width="0.254" layer="97"/>
-<wire x1="-1.778" y1="0" x2="-1.27" y2="-0.508" width="0.254" layer="97"/>
-<wire x1="1.778" y1="0" x2="1.27" y2="0.508" width="0.254" layer="97"/>
-<wire x1="1.778" y1="0" x2="1.27" y2="-0.508" width="0.254" layer="97"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PCA9306" prefix="U" uservalue="yes">
-<description>&lt;h3&gt;Bidirectional I2C level shifter&lt;/h3&gt;
-&lt;p&gt;Not compatible with all available part number pinout schemes- DOUBLE CHECK!!!
-&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/BreakoutBoards/PCA9306DC.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12649"&gt;SparkFun Inventor's Kit for RedBot&lt;/a&gt; (ROB-12649)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13166"&gt;SparkFun RedBot Basic Kit&lt;/a&gt; (ROB-13166)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11955"&gt;SparkFun Level Translator Breakout - PCA9306&lt;/a&gt; (BOB-11955)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13770"&gt;SparkFun Block for Intel Edison - ADC&lt;/a&gt; (DEV-13770)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13044"&gt;SparkFun Block for Intel® Edison - Raspberry Pi B&lt;/a&gt; (DEV-13044)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12589"&gt;SparkFun RedBot Sensor - Accelerometer&lt;/a&gt; (SEN-12589)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="PCA9306" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PSOP-8">
-<connects>
-<connect gate="G$1" pin="EN" pad="8"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="SCL1" pad="2"/>
-<connect gate="G$1" pin="SCL2" pad="6"/>
-<connect gate="G$1" pin="SDA1" pad="3"/>
-<connect gate="G$1" pin="SDA2" pad="5"/>
-<connect gate="G$1" pin="VREF1" pad="1"/>
-<connect gate="G$1" pin="VREF2" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-10023"/>
-<attribute name="VALUE" value="PCA9306"/>
-</technology>
-</technologies>
-</device>
-<device name="PCA9306DC-1:1" package="PCA9306DC">
-<connects>
-<connect gate="G$1" pin="EN" pad="8"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="SCL1" pad="2"/>
-<connect gate="G$1" pin="SCL2" pad="6"/>
-<connect gate="G$1" pin="SDA1" pad="3"/>
-<connect gate="G$1" pin="SDA2" pad="5"/>
-<connect gate="G$1" pin="VREF1" pad="1"/>
-<connect gate="G$1" pin="VREF2" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-10023"/>
-<attribute name="VALUE" value="PCA9306"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="XC6215">
 <description>XC6215 Series: 0.8 uA Low Power Consumption Voltage Regulator with ON/OFF Switch</description>
 <packages>
@@ -4319,6 +4170,155 @@ Distributor Buerklin, 11G810</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Comms">
+<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
+This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="PSOP-8">
+<description>&lt;h3&gt;PSOP-8&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:8&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;PCA9306&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1" y1="-1.03" x2="1" y2="-1.03" width="0.08" layer="21"/>
+<wire x1="1" y1="-1.03" x2="1" y2="1.04" width="0.08" layer="21"/>
+<wire x1="1" y1="1.04" x2="-1" y2="1.04" width="0.08" layer="21"/>
+<wire x1="-1" y1="1.04" x2="-1" y2="-1.03" width="0.08" layer="21"/>
+<circle x="-0.66" y="-0.67" radius="0.1524" width="0" layer="21"/>
+<smd name="1" x="-0.73" y="-1.37" dx="0.25" dy="0.5" layer="1"/>
+<smd name="2" x="-0.23" y="-1.37" dx="0.25" dy="0.5" layer="1"/>
+<smd name="3" x="0.27" y="-1.37" dx="0.25" dy="0.5" layer="1"/>
+<smd name="4" x="0.77" y="-1.37" dx="0.25" dy="0.5" layer="1"/>
+<smd name="8" x="-0.73" y="1.38" dx="0.25" dy="0.5" layer="1"/>
+<smd name="7" x="-0.23" y="1.38" dx="0.25" dy="0.5" layer="1"/>
+<smd name="6" x="0.27" y="1.38" dx="0.25" dy="0.5" layer="1"/>
+<smd name="5" x="0.77" y="1.38" dx="0.25" dy="0.5" layer="1"/>
+<circle x="-1.27" y="-0.67" radius="0.1524" width="0" layer="21"/>
+</package>
+<package name="PCA9306DC">
+<description>&lt;h3&gt;PCA9306DC&lt;/h3&gt;
+1:1 package. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;PCA9306&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="1" y1="-0.93" x2="1" y2="0.94" width="0.2032" layer="21"/>
+<wire x1="-1" y1="0.94" x2="-1" y2="-0.93" width="0.2032" layer="21"/>
+<circle x="-1.28" y="-1.47" radius="0.1923" width="0" layer="21"/>
+<smd name="1" x="-0.73" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
+<smd name="2" x="-0.23" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
+<smd name="3" x="0.27" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
+<smd name="4" x="0.77" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
+<smd name="8" x="-0.73" y="1.4308" dx="0.25" dy="0.6016" layer="1"/>
+<smd name="7" x="-0.23" y="1.4308" dx="0.25" dy="0.6016" layer="1"/>
+<smd name="6" x="0.27" y="1.4308" dx="0.25" dy="0.6016" layer="1"/>
+<smd name="5" x="0.77" y="1.4308" dx="0.25" dy="0.6016" layer="1"/>
+<text x="-1.2954" y="-1.2" size="0.6096" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<text x="1.2954" y="-1.2" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PCA9306">
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<pin name="SDA1" x="-15.24" y="-2.54" length="middle"/>
+<pin name="SCL1" x="-15.24" y="0" length="middle"/>
+<pin name="EN" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="VREF1" x="-15.24" y="2.54" length="middle"/>
+<pin name="VREF2" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="SCL2" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="SDA2" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-15.24" y="5.08" length="middle"/>
+<text x="-10.16" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="1.778" y1="-2.54" x2="-1.778" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="1.778" y1="0" x2="-1.778" y2="0" width="0.254" layer="97"/>
+<wire x1="-1.778" y1="0" x2="-1.27" y2="0.508" width="0.254" layer="97"/>
+<wire x1="-1.778" y1="0" x2="-1.27" y2="-0.508" width="0.254" layer="97"/>
+<wire x1="1.778" y1="0" x2="1.27" y2="0.508" width="0.254" layer="97"/>
+<wire x1="1.778" y1="0" x2="1.27" y2="-0.508" width="0.254" layer="97"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.27" y2="-2.032" width="0.254" layer="97"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.27" y2="-3.048" width="0.254" layer="97"/>
+<wire x1="1.778" y1="-2.54" x2="1.27" y2="-2.032" width="0.254" layer="97"/>
+<wire x1="1.778" y1="-2.54" x2="1.27" y2="-3.048" width="0.254" layer="97"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PCA9306" prefix="U" uservalue="yes">
+<description>&lt;h3&gt;Bidirectional I2C level shifter&lt;/h3&gt;
+&lt;p&gt;Not compatible with all available part number pinout schemes- DOUBLE CHECK!!!
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/BreakoutBoards/PCA9306DC.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12649"&gt;SparkFun Inventor's Kit for RedBot&lt;/a&gt; (ROB-12649)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13166"&gt;SparkFun RedBot Basic Kit&lt;/a&gt; (ROB-13166)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11955"&gt;SparkFun Level Translator Breakout - PCA9306&lt;/a&gt; (BOB-11955)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13770"&gt;SparkFun Block for Intel Edison - ADC&lt;/a&gt; (DEV-13770)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13044"&gt;SparkFun Block for Intel® Edison - Raspberry Pi B&lt;/a&gt; (DEV-13044)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12589"&gt;SparkFun RedBot Sensor - Accelerometer&lt;/a&gt; (SEN-12589)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PCA9306" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PSOP-8">
+<connects>
+<connect gate="G$1" pin="EN" pad="8"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SCL1" pad="3"/>
+<connect gate="G$1" pin="SCL2" pad="6"/>
+<connect gate="G$1" pin="SDA1" pad="4"/>
+<connect gate="G$1" pin="SDA2" pad="5"/>
+<connect gate="G$1" pin="VREF1" pad="2"/>
+<connect gate="G$1" pin="VREF2" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-10023"/>
+<attribute name="VALUE" value="PCA9306"/>
+</technology>
+</technologies>
+</device>
+<device name="PCA9306DC-1:1" package="PCA9306DC">
+<connects>
+<connect gate="G$1" pin="EN" pad="8"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SCL1" pad="3"/>
+<connect gate="G$1" pin="SCL2" pad="6"/>
+<connect gate="G$1" pin="SDA1" pad="4"/>
+<connect gate="G$1" pin="SDA2" pad="5"/>
+<connect gate="G$1" pin="VREF1" pad="2"/>
+<connect gate="G$1" pin="VREF2" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-10023"/>
+<attribute name="VALUE" value="PCA9306"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4359,7 +4359,6 @@ Distributor Buerklin, 11G810</description>
 <part name="R8" library="microbuilder" deviceset="RESISTOR" device="0603" value="120"/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10u"/>
 <part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10u"/>
-<part name="U3" library="SparkFun-IC-Comms" deviceset="PCA9306" device="" value="PCA9306"/>
 <part name="U5" library="XC6215" deviceset="XC6215" device="XC6215B182NR"/>
 <part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="1u"/>
 <part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="1u"/>
@@ -4370,7 +4369,6 @@ Distributor Buerklin, 11G810</description>
 <part name="R16" library="microbuilder" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R17" library="microbuilder" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND3" library="microbuilder" deviceset="GND" device=""/>
-<part name="GND2" library="microbuilder" deviceset="GND" device=""/>
 <part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="GND1" library="microbuilder" deviceset="GND" device=""/>
 <part name="R18" library="microbuilder" deviceset="RESISTOR" device="0603" value="1k"/>
@@ -4425,6 +4423,7 @@ Distributor Buerklin, 11G810</description>
 <part name="X2" library="con-phoenix-350" deviceset="1751264" device=""/>
 <part name="S1" library="switch" deviceset="255SB" device="" value="Analog Output Format"/>
 <part name="S2" library="switch" deviceset="255SB" device="" value="Digital Output Format"/>
+<part name="U3" library="SparkFun-IC-Comms" deviceset="PCA9306" device="" value="PCA9306"/>
 </parts>
 <sheets>
 <sheet>
@@ -4436,21 +4435,20 @@ Distributor Buerklin, 11G810</description>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="U3" gate="G$1" x="133.35" y="146.05"/>
 <instance part="R15" gate="G$1" x="157.48" y="154.94" rot="R180"/>
 <instance part="C12" gate="G$1" x="156.21" y="149.86" rot="R270"/>
 <instance part="R16" gate="G$1" x="161.29" y="137.16" rot="R180"/>
 <instance part="R17" gate="G$1" x="161.29" y="129.54" rot="R180"/>
 <instance part="GND3" gate="G$1" x="165.1" y="146.05"/>
-<instance part="GND2" gate="G$1" x="115.57" y="139.7"/>
-<instance part="C13" gate="G$1" x="110.49" y="151.13" rot="R90"/>
-<instance part="GND1" gate="G$1" x="102.87" y="147.32"/>
+<instance part="C13" gate="G$1" x="105.41" y="151.13" rot="R90"/>
+<instance part="GND1" gate="G$1" x="97.79" y="147.32"/>
 <instance part="R18" gate="G$1" x="100.33" y="137.16" rot="R180"/>
 <instance part="R19" gate="G$1" x="100.33" y="129.54" rot="R180"/>
 <instance part="IC3" gate="G$1" x="76.2" y="50.8"/>
 <instance part="R23" gate="G$1" x="53.34" y="40.64" rot="R270"/>
 <instance part="C19" gate="G$1" x="49.53" y="50.8"/>
 <instance part="C20" gate="G$1" x="105.41" y="50.8"/>
+<instance part="U3" gate="G$1" x="133.35" y="148.59"/>
 </instances>
 <busses>
 </busses>
@@ -4463,15 +4461,9 @@ Distributor Buerklin, 11G810</description>
 <wire x1="165.1" y1="149.86" x2="165.1" y2="148.59" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="118.11" y1="143.51" x2="115.57" y2="143.51" width="0.1524" layer="91"/>
-<wire x1="115.57" y1="143.51" x2="115.57" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="G$1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C13" gate="G$1" pin="P$1"/>
-<wire x1="105.41" y1="151.13" x2="102.87" y2="151.13" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="151.13" x2="102.87" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="151.13" x2="97.79" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="97.79" y1="151.13" x2="97.79" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -4491,6 +4483,11 @@ Distributor Buerklin, 11G810</description>
 <junction x="53.34" y="33.02"/>
 <label x="54.61" y="34.29" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<wire x1="118.11" y1="153.67" x2="115.57" y2="153.67" width="0.1524" layer="91"/>
+<label x="114.935" y="154.305" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -4509,20 +4506,20 @@ Distributor Buerklin, 11G810</description>
 <net name="+1V8" class="0">
 <segment>
 <pinref part="C13" gate="G$1" pin="P$2"/>
-<pinref part="U3" gate="G$1" pin="VREF1"/>
-<wire x1="113.03" y1="151.13" x2="115.57" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="151.13" x2="110.49" y2="151.13" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="115.57" y1="151.13" x2="118.11" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="151.13" x2="118.11" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="95.25" y1="129.54" x2="90.17" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="90.17" y1="129.54" x2="90.17" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="90.17" y1="137.16" x2="90.17" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="90.17" y1="158.75" x2="115.57" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="115.57" y1="158.75" x2="115.57" y2="151.13" width="0.1524" layer="91"/>
-<junction x="115.57" y="151.13"/>
+<wire x1="90.17" y1="158.75" x2="110.49" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="158.75" x2="110.49" y2="151.13" width="0.1524" layer="91"/>
+<junction x="110.49" y="151.13"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="95.25" y1="137.16" x2="90.17" y2="137.16" width="0.1524" layer="91"/>
 <junction x="90.17" y="137.16"/>
 <label x="90.17" y="160.02" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="VREF1"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDD"/>
@@ -4539,10 +4536,8 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="VREF_3V3" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="EN"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="148.59" y1="153.67" x2="149.86" y2="153.67" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VREF2"/>
 <wire x1="149.86" y1="153.67" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="148.59" y1="151.13" x2="149.86" y2="151.13" width="0.1524" layer="91"/>
@@ -4552,11 +4547,12 @@ Distributor Buerklin, 11G810</description>
 <wire x1="153.67" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="149.86" x2="149.86" y2="151.13" width="0.1524" layer="91"/>
 <junction x="149.86" y="151.13"/>
+<pinref part="U3" gate="G$1" pin="EN"/>
+<pinref part="U3" gate="G$1" pin="VREF2"/>
 </segment>
 </net>
 <net name="SCL_3V3" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="SCL2"/>
 <wire x1="148.59" y1="148.59" x2="153.67" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="153.67" y1="148.59" x2="153.67" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
@@ -4564,11 +4560,11 @@ Distributor Buerklin, 11G810</description>
 <wire x1="156.21" y1="129.54" x2="153.67" y2="129.54" width="0.1524" layer="91"/>
 <junction x="153.67" y="129.54"/>
 <label x="154.94" y="123.19" size="1.778" layer="95" rot="MR180"/>
+<pinref part="U3" gate="G$1" pin="SCL2"/>
 </segment>
 </net>
 <net name="SDA_3V3" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="SDA2"/>
 <wire x1="148.59" y1="146.05" x2="151.13" y2="146.05" width="0.1524" layer="91"/>
 <wire x1="151.13" y1="146.05" x2="151.13" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
@@ -4576,11 +4572,11 @@ Distributor Buerklin, 11G810</description>
 <wire x1="156.21" y1="137.16" x2="151.13" y2="137.16" width="0.1524" layer="91"/>
 <junction x="151.13" y="137.16"/>
 <label x="149.86" y="123.19" size="1.778" layer="95" rot="R180"/>
+<pinref part="U3" gate="G$1" pin="SDA2"/>
 </segment>
 </net>
 <net name="SDA_1V8" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="SDA1"/>
 <wire x1="118.11" y1="146.05" x2="110.49" y2="146.05" width="0.1524" layer="91"/>
 <wire x1="110.49" y1="146.05" x2="110.49" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -4588,6 +4584,7 @@ Distributor Buerklin, 11G810</description>
 <wire x1="105.41" y1="137.16" x2="110.49" y2="137.16" width="0.1524" layer="91"/>
 <junction x="110.49" y="137.16"/>
 <label x="111.76" y="123.19" size="1.778" layer="95" rot="MR180"/>
+<pinref part="U3" gate="G$1" pin="SDA1"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SDA"/>
@@ -4597,7 +4594,6 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="SCL_1V8" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="SCL1"/>
 <wire x1="118.11" y1="148.59" x2="107.95" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="107.95" y1="148.59" x2="107.95" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -4605,6 +4601,7 @@ Distributor Buerklin, 11G810</description>
 <wire x1="105.41" y1="129.54" x2="107.95" y2="129.54" width="0.1524" layer="91"/>
 <junction x="107.95" y="129.54"/>
 <label x="106.68" y="123.19" size="1.778" layer="95" rot="R180"/>
+<pinref part="U3" gate="G$1" pin="SCL1"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SCK"/>
@@ -4991,6 +4988,11 @@ Distributor Buerklin, 11G810</description>
 <wire x1="48.26" y1="156.21" x2="48.26" y2="158.75" width="0.1524" layer="91"/>
 <label x="49.53" y="160.02" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="SJ2" gate="1" pin="2"/>
+<wire x1="133.35" y1="36.83" x2="133.35" y2="39.37" width="0.1524" layer="91"/>
+<label x="134.62" y="40.64" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="ROUT" class="0">
 <segment>
@@ -5007,11 +5009,6 @@ Distributor Buerklin, 11G810</description>
 <wire x1="99.06" y1="104.14" x2="99.06" y2="100.965" width="0.1524" layer="91"/>
 <label x="100.33" y="98.7425" size="1.778" layer="95" font="vector" rot="MR180"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="SJ4" gate="1" pin="2"/>
-<wire x1="148.59" y1="31.75" x2="148.59" y2="34.29" width="0.1524" layer="91"/>
-<label x="149.86" y="35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="!INV" class="0">
@@ -5037,11 +5034,6 @@ Distributor Buerklin, 11G810</description>
 <label x="130.81" y="98.7425" size="1.778" layer="95" font="vector" rot="MR180"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="133.35" y1="36.83" x2="133.35" y2="39.37" width="0.1524" layer="91"/>
-<label x="134.62" y="40.64" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="DOUT" class="0">
 <segment>
@@ -5053,6 +5045,11 @@ Distributor Buerklin, 11G810</description>
 <pinref part="TP8" gate="G$1" pin="TP"/>
 <wire x1="53.34" y1="156.21" x2="53.34" y2="158.75" width="0.1524" layer="91"/>
 <label x="54.61" y="160.02" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SJ4" gate="1" pin="2"/>
+<wire x1="148.59" y1="31.75" x2="148.59" y2="34.29" width="0.1524" layer="91"/>
+<label x="149.86" y="35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
