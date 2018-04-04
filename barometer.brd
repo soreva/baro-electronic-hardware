@@ -42122,9 +42122,6 @@ design rules under a new name.</description>
 <wire x1="26.3525" y1="30.4775" x2="26.67" y2="30.795" width="0.254" layer="16"/>
 <wire x1="26.67" y1="30.795" x2="31.115" y2="30.795" width="0.254" layer="16"/>
 </signal>
-<signal name="!INV">
-<contactref element="U4" pad="10"/>
-</signal>
 <signal name="DIN">
 <contactref element="U4" pad="11"/>
 <contactref element="U2" pad="4"/>

@@ -5011,13 +5011,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="!INV" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="\!INV"/>
-<wire x1="60.96" y1="60.96" x2="64.135" y2="60.96" width="0.1524" layer="91"/>
-<label x="65.405" y="62.23" size="1.778" layer="95" font="vector" rot="MR180"/>
-</segment>
-</net>
 <net name="DIN" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="DIN"/>
