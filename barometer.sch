@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4424,6 +4424,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S1" library="switch" deviceset="255SB" device="" value="Analog Output Format"/>
 <part name="S2" library="switch" deviceset="255SB" device="" value="Digital Output Format"/>
 <part name="U3" library="SparkFun-IC-Comms" deviceset="PCA9306" device="" value="PCA9306"/>
+<part name="SJ10" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ11" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 </parts>
 <sheets>
 <sheet>
@@ -4661,6 +4663,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="62.23" y="132.08" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="JP2" gate="G$1" x="48.26" y="45.72"/>
+<instance part="SJ10" gate="1" x="72.39" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.85" y="132.08" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="SJ11" gate="1" x="80.01" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.47" y="132.08" size="1.778" layer="95" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4743,6 +4751,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="134.62" y1="138.43" x2="134.62" y2="140.97" width="0.1524" layer="91"/>
 <label x="135.89" y="142.24" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="SJ10" gate="1" pin="1"/>
+<wire x1="72.39" y1="129.54" x2="72.39" y2="127" width="0.1524" layer="91"/>
+<label x="71.12" y="125.73" size="1.778" layer="95" rot="R270"/>
+</segment>
 </net>
 <net name="B4" class="0">
 <segment>
@@ -4754,6 +4767,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="TP7" gate="G$1" pin="TP"/>
 <wire x1="129.54" y1="138.43" x2="129.54" y2="140.97" width="0.1524" layer="91"/>
 <label x="130.81" y="142.24" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SJ11" gate="1" pin="1"/>
+<wire x1="80.01" y1="129.54" x2="80.01" y2="127" width="0.1524" layer="91"/>
+<label x="78.74" y="125.73" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="B0" class="0">
@@ -4834,6 +4852,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JP2" gate="G$1" pin="4"/>
 <wire x1="50.8" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
 <label x="59.69" y="46.99" size="1.778" layer="95" rot="MR180"/>
+</segment>
+</net>
+<net name="ROUT" class="0">
+<segment>
+<pinref part="SJ10" gate="1" pin="2"/>
+<wire x1="72.39" y1="139.7" x2="72.39" y2="142.24" width="0.1524" layer="91"/>
+<label x="73.66" y="143.51" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="DIN" class="0">
+<segment>
+<pinref part="SJ11" gate="1" pin="2"/>
+<wire x1="80.01" y1="139.7" x2="80.01" y2="142.24" width="0.1524" layer="91"/>
+<label x="81.28" y="143.51" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
