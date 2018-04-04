@@ -4426,6 +4426,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U3" library="SparkFun-IC-Comms" deviceset="PCA9306" device="" value="PCA9306"/>
 <part name="SJ10" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ11" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="TP15" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="TP16" library="testpad" deviceset="PTR1" device="B1,27"/>
 </parts>
 <sheets>
 <sheet>
@@ -4933,6 +4935,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X2" gate="-4" x="120.65" y="8.89" rot="R180"/>
 <instance part="S1" gate="1" x="27.94" y="35.56" rot="R270"/>
 <instance part="S2" gate="1" x="50.8" y="12.7" rot="R270"/>
+<instance part="TP15" gate="G$1" x="58.42" y="153.67"/>
+<instance part="TP16" gate="G$1" x="63.5" y="153.67"/>
 </instances>
 <busses>
 </busses>
@@ -5344,12 +5348,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="40.64" y="34.29" size="1.778" layer="95" font="vector"/>
 <pinref part="S1" gate="1" pin="O"/>
 </segment>
+<segment>
+<pinref part="TP15" gate="G$1" pin="TP"/>
+<wire x1="58.42" y1="156.21" x2="58.42" y2="158.75" width="0.1524" layer="91"/>
+<label x="59.69" y="160.02" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="I-OUT" class="0">
 <segment>
 <wire x1="39.37" y1="30.48" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
 <label x="40.64" y="29.21" size="1.778" layer="95" font="vector"/>
 <pinref part="S1" gate="1" pin="S"/>
+</segment>
+<segment>
+<pinref part="TP16" gate="G$1" pin="TP"/>
+<wire x1="63.5" y1="156.21" x2="63.5" y2="158.75" width="0.1524" layer="91"/>
+<label x="64.77" y="160.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
