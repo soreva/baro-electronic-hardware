@@ -4441,8 +4441,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SJ11" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="TP15" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="TP16" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="U$5" library="switch-daier" deviceset="SS" device="12F21" value="Analog Output Format"/>
-<part name="U$6" library="switch-daier" deviceset="SS" device="12F21" value="Digital Output Format"/>
+<part name="S-ANALOG" library="switch-daier" deviceset="SS" device="12F21" value="Analog Output Format"/>
+<part name="S-DIGITAL" library="switch-daier" deviceset="SS" device="12F21" value="Digital Output Format"/>
 </parts>
 <sheets>
 <sheet>
@@ -4950,11 +4950,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X2" gate="-4" x="120.65" y="8.89" rot="R180"/>
 <instance part="TP15" gate="G$1" x="58.42" y="153.67"/>
 <instance part="TP16" gate="G$1" x="63.5" y="153.67"/>
-<instance part="U$5" gate="G$1" x="30.48" y="33.02" smashed="yes">
+<instance part="S-ANALOG" gate="G$1" x="30.48" y="33.02" smashed="yes">
 <attribute name="NAME" x="23.114" y="41.148" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.274" y="40.894" size="1.778" layer="95"/>
 </instance>
-<instance part="U$6" gate="G$1" x="53.34" y="10.16" smashed="yes">
+<instance part="S-DIGITAL" gate="G$1" x="53.34" y="10.16" smashed="yes">
 <attribute name="NAME" x="45.974" y="18.288" size="1.778" layer="95"/>
 <attribute name="VALUE" x="56.134" y="18.034" size="1.778" layer="95"/>
 </instance>
@@ -5158,7 +5158,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="39.37" y1="10.16" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
 <label x="38.1" y="8.89" size="1.778" layer="95" font="vector" rot="MR0"/>
-<pinref part="U$6" gate="G$1" pin="COMMON"/>
+<pinref part="S-DIGITAL" gate="G$1" pin="COMMON"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
@@ -5244,7 +5244,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="62.23" y1="12.065" x2="68.58" y2="12.065" width="0.1524" layer="91"/>
 <label x="69.85" y="13.335" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="U$6" gate="G$1" pin="SLIDE-1"/>
+<pinref part="S-DIGITAL" gate="G$1" pin="SLIDE-1"/>
 </segment>
 </net>
 <net name="485EN" class="0">
@@ -5303,7 +5303,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="62.23" y1="8.255" x2="68.58" y2="8.255" width="0.1524" layer="91"/>
 <label x="69.85" y="9.525" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="U$6" gate="G$1" pin="SLIDE-2"/>
+<pinref part="S-DIGITAL" gate="G$1" pin="SLIDE-2"/>
 </segment>
 </net>
 <net name="D-OUT-1" class="0">
@@ -5355,7 +5355,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="22.86" y1="33.02" x2="16.51" y2="33.02" width="0.1524" layer="91"/>
 <label x="15.24" y="34.29" size="1.778" layer="95" font="vector" rot="R180"/>
-<pinref part="U$5" gate="G$1" pin="COMMON"/>
+<pinref part="S-ANALOG" gate="G$1" pin="COMMON"/>
 </segment>
 </net>
 <net name="V-OUT" class="0">
@@ -5367,7 +5367,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="45.72" y1="34.925" x2="39.37" y2="34.925" width="0.1524" layer="91"/>
 <label x="46.99" y="33.655" size="1.778" layer="95" font="vector"/>
-<pinref part="U$5" gate="G$1" pin="SLIDE-1"/>
+<pinref part="S-ANALOG" gate="G$1" pin="SLIDE-1"/>
 </segment>
 <segment>
 <pinref part="TP15" gate="G$1" pin="TP"/>
@@ -5379,7 +5379,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="45.72" y1="31.115" x2="39.37" y2="31.115" width="0.1524" layer="91"/>
 <label x="46.99" y="29.845" size="1.778" layer="95" font="vector"/>
-<pinref part="U$5" gate="G$1" pin="SLIDE-2"/>
+<pinref part="S-ANALOG" gate="G$1" pin="SLIDE-2"/>
 </segment>
 <segment>
 <pinref part="TP16" gate="G$1" pin="TP"/>
