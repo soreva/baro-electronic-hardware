@@ -4070,106 +4070,6 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="switch">
-<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
-Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="255SB">
-<description>&lt;b&gt;SLIDING SWITCH&lt;/b&gt;&lt;p&gt;
-distributor Buerklin, 11G810</description>
-<wire x1="-5.588" y1="3.048" x2="5.588" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="5.588" y1="-3.048" x2="5.588" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="5.588" y1="-3.048" x2="-5.588" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="-5.588" y1="3.048" x2="-5.588" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.397" x2="3.81" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="1.397" x2="-3.81" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="0.762" x2="-1.27" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="-1.524" x2="-0.762" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.524" x2="-1.778" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.524" x2="-1.27" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="-1.524" x2="-2.286" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="1.524" x2="-2.286" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="1.524" x2="-1.778" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="1.016" x2="-2.794" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-3.302" y1="1.397" x2="-3.302" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="1.524" x2="-3.302" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="-1.524" x2="-2.794" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.524" x2="3.81" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="1.524" x2="3.81" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.27" x2="-0.762" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.524" x2="-1.27" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.778" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="-1.016" x2="-2.794" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="-1.524" x2="-3.302" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="-1.397" x2="-3.302" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="-1.524" x2="-3.81" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-1.397" x2="-3.81" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="1.524" x2="-3.81" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="1.524" x2="-3.302" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="1.524" x2="-2.794" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="1.524" x2="-2.794" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="1.524" x2="-2.286" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.524" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.524" x2="-0.762" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="1.524" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="1.524" x2="3.81" y2="1.524" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.1176" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.1176" shape="long" rot="R90"/>
-<pad name="3" x="3.81" y="0" drill="1.1176" shape="long" rot="R90"/>
-<text x="-5.207" y="-2.794" size="1.27" layer="21" ratio="10">1</text>
-<text x="4.191" y="-2.794" size="1.27" layer="21" ratio="10">2</text>
-<text x="-5.588" y="3.556" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="3.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SIS">
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
-<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="S" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="O" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="255SB" prefix="S" uservalue="yes">
-<description>&lt;b&gt;SLIDING SWITCH&lt;/b&gt;&lt;p&gt;
-Distributor Buerklin, 11G810</description>
-<gates>
-<gate name="1" symbol="SIS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="255SB">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-IC-Comms">
 <description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
 This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
@@ -4319,6 +4219,121 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="switch-daier">
+<description>Switches from Daier, Yueqing, CN</description>
+<packages>
+<package name="12F21">
+<text x="-5.3975" y="6.82625" size="1.27" layer="25" align="top-left">&gt;NAME</text>
+<text x="5.3975" y="2.286" size="1.27" layer="27" rot="R180" align="top-left">&gt;VALUE</text>
+<pad name="P$1" x="0" y="0" drill="0.9"/>
+<pad name="P$2" x="3.01625" y="0" drill="0.9"/>
+<pad name="P$3" x="-3.01625" y="0" drill="0.9"/>
+<wire x1="-3.81" y1="-0.9525" x2="-2.2225" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-2.2225" y1="-0.9525" x2="-2.2225" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="-2.2225" y1="2.06375" x2="-3.81" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.06375" x2="-3.81" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-0.79375" y1="-0.9525" x2="-0.79375" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="0.79375" y1="2.06375" x2="-0.79375" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="-0.79375" y1="-0.9525" x2="0.79375" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="0.79375" y1="-0.9525" x2="0.79375" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="-0.9525" x2="2.2225" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-0.9525" x2="3.81" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="-0.9525" x2="3.81" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="2.06375" x2="3.81" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.06375" x2="-5.55625" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="5.55625" y1="2.06375" x2="3.81" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="-2.2225" y1="2.06375" x2="-0.79375" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="0.79375" y1="2.06375" x2="2.2225" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="-5.55625" y1="2.06375" x2="-5.55625" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-5.55625" y1="6.985" x2="-3.01625" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-3.01625" y1="6.985" x2="0" y2="6.985" width="0.127" layer="21"/>
+<wire x1="0" y1="6.985" x2="5.55625" y2="6.985" width="0.127" layer="21"/>
+<wire x1="5.55625" y1="6.985" x2="5.55625" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="-3.01625" y1="6.985" x2="-3.01625" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-3.01625" y1="10.00125" x2="-2.8575" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-2.8575" y1="10.00125" x2="-2.69875" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-2.69875" y1="10.00125" x2="-2.54" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="10.00125" x2="-2.38125" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-2.38125" y1="10.00125" x2="-2.2225" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-2.2225" y1="10.00125" x2="-2.06375" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-2.06375" y1="10.00125" x2="-1.905" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="10.00125" x2="-1.74625" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-1.74625" y1="10.00125" x2="-1.5875" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="10.00125" x2="-1.42875" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-1.42875" y1="10.00125" x2="-1.27" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="10.00125" x2="-1.11125" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-1.11125" y1="10.00125" x2="-0.9525" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="10.00125" x2="-0.79375" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-0.79375" y1="10.00125" x2="-0.635" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="10.00125" x2="-0.47625" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="10.00125" x2="-0.3175" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="10.00125" x2="-0.15875" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-0.15875" y1="10.00125" x2="0" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="0" y1="10.00125" x2="0" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="10.00125" x2="-1.905" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="10.00125" x2="-1.5875" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="10.00125" x2="-1.27" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="10.00125" x2="-0.9525" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="10.00125" x2="-0.635" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="10.00125" x2="-0.3175" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-2.2225" y1="10.00125" x2="-2.2225" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="10.00125" x2="-2.54" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-2.8575" y1="10.00125" x2="-2.8575" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-2.69875" y1="10.00125" x2="-2.69875" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-2.38125" y1="10.00125" x2="-2.38125" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-2.06375" y1="10.00125" x2="-2.06375" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-1.74625" y1="10.00125" x2="-1.74625" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-1.42875" y1="9.68375" x2="-1.42875" y2="10.00125" width="0.127" layer="21"/>
+<wire x1="-1.11125" y1="10.00125" x2="-1.11125" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-0.79375" y1="10.00125" x2="-0.79375" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="10.00125" x2="-0.47625" y2="9.68375" width="0.127" layer="21"/>
+<wire x1="-0.15875" y1="10.00125" x2="-0.15875" y2="9.68375" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SS">
+<text x="-7.366" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.366" y="-6.096" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="COMMON" x="-7.62" y="0" visible="off" length="middle"/>
+<pin name="SLIDE-1" x="8.89" y="1.905" visible="off" length="middle" rot="R180"/>
+<pin name="SLIDE-2" x="8.89" y="-1.905" visible="off" length="middle" rot="R180"/>
+<wire x1="3.81" y1="1.905" x2="2.54" y2="1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="0.635" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.985" x2="0" y2="6.985" width="0.254" layer="94"/>
+<wire x1="0" y1="6.985" x2="2.54" y2="6.985" width="0.254" layer="94"/>
+<wire x1="0" y1="6.985" x2="0" y2="5.08" width="0.127" layer="94"/>
+<wire x1="0" y1="4.445" x2="0" y2="3.81" width="0.127" layer="94"/>
+<wire x1="0" y1="3.81" x2="-0.635" y2="3.175" width="0.127" layer="94"/>
+<wire x1="-0.635" y1="3.175" x2="0" y2="2.54" width="0.127" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.127" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.3175" width="0.127" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SS">
+<description>SPDT Sliding Switch</description>
+<gates>
+<gate name="G$1" symbol="SS" x="10.16" y="-15.24"/>
+</gates>
+<devices>
+<device name="12F21" package="12F21">
+<connects>
+<connect gate="G$1" pin="COMMON" pad="P$1"/>
+<connect gate="G$1" pin="SLIDE-1" pad="P$2"/>
+<connect gate="G$1" pin="SLIDE-2" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4421,13 +4436,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U1" library="microbuilder" deviceset="DAC_MCP4725" device="" value="MCP4725"/>
 <part name="X3" library="con-phoenix-350" deviceset="1751248" device=""/>
 <part name="X2" library="con-phoenix-350" deviceset="1751264" device=""/>
-<part name="S1" library="switch" deviceset="255SB" device="" value="Analog Output Format"/>
-<part name="S2" library="switch" deviceset="255SB" device="" value="Digital Output Format"/>
 <part name="U3" library="SparkFun-IC-Comms" deviceset="PCA9306" device="" value="PCA9306"/>
 <part name="SJ10" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ11" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="TP15" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="TP16" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="U$5" library="switch-daier" deviceset="SS" device="12F21" value="Analog Output Format"/>
+<part name="U$6" library="switch-daier" deviceset="SS" device="12F21" value="Digital Output Format"/>
 </parts>
 <sheets>
 <sheet>
@@ -4933,10 +4948,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X2" gate="-2" x="120.65" y="19.05" rot="R180"/>
 <instance part="X2" gate="-3" x="120.65" y="13.97" rot="R180"/>
 <instance part="X2" gate="-4" x="120.65" y="8.89" rot="R180"/>
-<instance part="S1" gate="1" x="27.94" y="35.56" rot="R270"/>
-<instance part="S2" gate="1" x="50.8" y="12.7" rot="R270"/>
 <instance part="TP15" gate="G$1" x="58.42" y="153.67"/>
 <instance part="TP16" gate="G$1" x="63.5" y="153.67"/>
+<instance part="U$5" gate="G$1" x="30.48" y="33.02" smashed="yes">
+<attribute name="NAME" x="23.114" y="41.148" size="1.778" layer="95"/>
+<attribute name="VALUE" x="33.274" y="40.894" size="1.778" layer="95"/>
+</instance>
+<instance part="U$6" gate="G$1" x="53.34" y="10.16" smashed="yes">
+<attribute name="NAME" x="45.974" y="18.288" size="1.778" layer="95"/>
+<attribute name="VALUE" x="56.134" y="18.034" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5137,7 +5158,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="39.37" y1="10.16" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
 <label x="38.1" y="8.89" size="1.778" layer="95" font="vector" rot="MR0"/>
-<pinref part="S2" gate="1" pin="P"/>
+<pinref part="U$6" gate="G$1" pin="COMMON"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
@@ -5221,9 +5242,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C7" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="12.7" x2="62.23" y2="12.7" width="0.1524" layer="91"/>
-<label x="63.5" y="13.97" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="S2" gate="1" pin="O"/>
+<wire x1="62.23" y1="12.065" x2="68.58" y2="12.065" width="0.1524" layer="91"/>
+<label x="69.85" y="13.335" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="U$6" gate="G$1" pin="SLIDE-1"/>
 </segment>
 </net>
 <net name="485EN" class="0">
@@ -5280,9 +5301,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="7.62" x2="62.23" y2="7.62" width="0.1524" layer="91"/>
-<label x="63.5" y="8.89" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="S2" gate="1" pin="S"/>
+<wire x1="62.23" y1="8.255" x2="68.58" y2="8.255" width="0.1524" layer="91"/>
+<label x="69.85" y="9.525" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="U$6" gate="G$1" pin="SLIDE-2"/>
 </segment>
 </net>
 <net name="D-OUT-1" class="0">
@@ -5334,7 +5355,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="22.86" y1="33.02" x2="16.51" y2="33.02" width="0.1524" layer="91"/>
 <label x="15.24" y="34.29" size="1.778" layer="95" font="vector" rot="R180"/>
-<pinref part="S1" gate="1" pin="P"/>
+<pinref part="U$5" gate="G$1" pin="COMMON"/>
 </segment>
 </net>
 <net name="V-OUT" class="0">
@@ -5344,9 +5365,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="232.41" y="67.31" size="1.778" layer="95" rot="MR180"/>
 </segment>
 <segment>
-<wire x1="39.37" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
-<label x="40.64" y="34.29" size="1.778" layer="95" font="vector"/>
-<pinref part="S1" gate="1" pin="O"/>
+<wire x1="45.72" y1="34.925" x2="39.37" y2="34.925" width="0.1524" layer="91"/>
+<label x="46.99" y="33.655" size="1.778" layer="95" font="vector"/>
+<pinref part="U$5" gate="G$1" pin="SLIDE-1"/>
 </segment>
 <segment>
 <pinref part="TP15" gate="G$1" pin="TP"/>
@@ -5356,9 +5377,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I-OUT" class="0">
 <segment>
-<wire x1="39.37" y1="30.48" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
-<label x="40.64" y="29.21" size="1.778" layer="95" font="vector"/>
-<pinref part="S1" gate="1" pin="S"/>
+<wire x1="45.72" y1="31.115" x2="39.37" y2="31.115" width="0.1524" layer="91"/>
+<label x="46.99" y="29.845" size="1.778" layer="95" font="vector"/>
+<pinref part="U$5" gate="G$1" pin="SLIDE-2"/>
 </segment>
 <segment>
 <pinref part="TP16" gate="G$1" pin="TP"/>
