@@ -2476,7 +2476,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="XC6215">
+<library name="v-regulator-torex">
 <description>XC6215 Series: 0.8 uA Low Power Consumption Voltage Regulator with ON/OFF Switch</description>
 <packages>
 <package name="SOT25">
@@ -3462,7 +3462,7 @@ SRN6045- 33uH, 20% 1.4A</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="MurataZPA">
+<library name="barometer-murata">
 <description>Murata ZPA Series Capacitive MEMS Barometers</description>
 <packages>
 <package name="2326">
@@ -4359,7 +4359,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R8" library="microbuilder" deviceset="RESISTOR" device="0603" value="120"/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10u"/>
 <part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10u"/>
-<part name="U5" library="XC6215" deviceset="XC6215" device="XC6215B182NR"/>
+<part name="U5" library="v-regulator-torex" deviceset="XC6215" device="XC6215B182NR"/>
 <part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="1u"/>
 <part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="1u"/>
 <part name="R14" library="microbuilder" deviceset="RESISTOR" device="0603" value="10k"/>
@@ -4386,7 +4386,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R20" library="microbuilder" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R21" library="microbuilder" deviceset="RESISTOR" device="0603" value="3.24k"/>
 <part name="R22" library="microbuilder" deviceset="RESISTOR" device="0603" value="1.78k"/>
-<part name="IC3" library="MurataZPA" deviceset="ZPA2326" device="-0311A-R"/>
+<part name="IC3" library="barometer-murata" deviceset="ZPA2326" device="-0311A-R"/>
 <part name="R23" library="microbuilder" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
