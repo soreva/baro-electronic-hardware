@@ -1,0 +1,29 @@
+{
+  "name": "electronicBarometer-electronic-hardware",
+  "version": "1.0",
+  "description": "Electronic hardware for the capacitive MEMS absolute barometric pressure sensor",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@git.weather-india.com:barometer-active/electronic-hardware.git"
+  },
+  "author": {
+    "name": "Anirudh Ramesh",
+    "url": "https://www.linkedin.com/in/anirudh-ramesh-54012194/"
+  },
+  "engines": {
+    "Autodesk EAGLE": ">=7.2.0"
+  },
+  "homepage": "http://git.weather-india.com/barometer-active/electronic-hardware",
+  "keywords": [
+    "schematic",
+    "board layout",
+    "block diagram",
+    "electronic hardware",
+    "barometer",
+    "MEMS",
+    "capacitive",
+    "pressure sensor",
+    "Murata",
+    "R M Young"
+  ]
+}
