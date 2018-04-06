@@ -40642,6 +40642,12 @@
 <text x="7.5" y="25" size="0.8128" layer="25" font="vector" ratio="18">MISO</text>
 <text x="7.5" y="27.5" size="0.8128" layer="25" font="vector" ratio="18">SCK</text>
 <text x="7.5" y="30" size="0.8128" layer="25" font="vector" ratio="18">RESET</text>
+<text x="34" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-right">+7-30V</text>
+<text x="26.5" y="7.25" size="0.8128" layer="25" font="vector" ratio="18">GND</text>
+<text x="37" y="7.25" size="0.8128" layer="25" font="vector" ratio="18">GND</text>
+<text x="51.5" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-right">RX/B</text>
+<text x="46" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-center">TX/A</text>
+<text x="42.5" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-center">V/I</text>
 </plain>
 <libraries>
 <library name="microbuilder">
