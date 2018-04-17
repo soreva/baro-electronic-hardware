@@ -4391,8 +4391,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IC2" library="texas" deviceset="TPS5410" device=""/>
 <part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="4.7u"/>
 <part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.01u"/>
-<part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="47u"/>
-<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="47u"/>
 <part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="150p"/>
 <part name="C17" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="2700p"/>
 <part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.056u"/>
@@ -4443,6 +4441,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP16" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="S-ANALOG" library="switch-daier" deviceset="SS" device="12F21" value="Analog Output Format"/>
 <part name="S-DIGITAL" library="switch-daier" deviceset="SS" device="12F21" value="Digital Output Format"/>
+<part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="47u"/>
+<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="47u"/>
 </parts>
 <sheets>
 <sheet>
