@@ -176,9 +176,9 @@
 <text x="3.5" y="32" size="0.8128" layer="25" font="vector" ratio="18" rot="R180" align="center">GND</text>
 <text x="1.75" y="27.75" size="0.8128" layer="25" font="vector" ratio="18" rot="R90" align="center">MOSI</text>
 <text x="3.5" y="23.5" size="0.8128" layer="25" font="vector" ratio="18" align="center">+3V3</text>
-<text x="7.5" y="25" size="0.8128" layer="25" font="vector" ratio="18">MISO</text>
-<text x="7.5" y="27.5" size="0.8128" layer="25" font="vector" ratio="18">SCK</text>
-<text x="7.5" y="30" size="0.8128" layer="25" font="vector" ratio="18">RESET</text>
+<text x="7.5" y="25.1875" size="0.8128" layer="25" font="vector" ratio="18" align="center-left">MISO</text>
+<text x="7.5" y="27.7275" size="0.8128" layer="25" font="vector" ratio="18" align="center-left">SCK</text>
+<text x="7.5" y="30.2675" size="0.8128" layer="25" font="vector" ratio="18" align="center-left">RESET</text>
 <text x="36.75" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-right">+7-30V</text>
 <text x="29.25" y="7.25" size="0.8128" layer="25" font="vector" ratio="18">GND</text>
 <text x="38.77" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-center">GND</text>
