@@ -160,7 +160,7 @@
 <wire x1="58.42" y1="0" x2="58.42" y2="38.415" width="0" layer="20"/>
 <wire x1="58.42" y1="38.415" x2="0" y2="38.415" width="0" layer="20"/>
 <wire x1="0" y1="38.415" x2="0" y2="0" width="0" layer="20"/>
-<text x="11.1718" y="2.8775" size="0.8128" layer="25" font="vector" rot="SR0" align="top-left">SBG022V-1.0</text>
+<text x="11.1718" y="2.8775" size="0.8128" layer="25" font="vector" rot="SR0" align="top-left">SGB022V-1.0</text>
 <rectangle x1="9.20685" y1="3.24433125" x2="9.21955" y2="3.25703125" layer="200"/>
 <rectangle x1="9.295746875" y1="3.244334375" x2="9.308446875" y2="3.257034375" layer="200"/>
 <rectangle x1="9.01635" y1="3.25703125" x2="9.02905" y2="3.26973125" layer="200"/>
