@@ -40644,7 +40644,7 @@
 <text x="34" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-right">+7-30V</text>
 <text x="26.5" y="7.25" size="0.8128" layer="25" font="vector" ratio="18">GND</text>
 <text x="36.77" y="7.25" size="0.8128" layer="25" font="vector" ratio="18">GND</text>
-<text x="50.9" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-right">RX/B</text>
+<text x="51.23" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-right">RX/B</text>
 <text x="45.77" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-center">TX/A</text>
 <text x="42.27" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-center">V/I</text>
 <dimension x1="10.5" y1="11.3125" x2="12.625" y2="11.25" x3="11.5625" y3="-4.0625" textsize="1.778" layer="47" dtype="horizontal"/>
