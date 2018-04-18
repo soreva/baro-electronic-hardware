@@ -160,7 +160,7 @@
 <wire x1="58.42" y1="0" x2="58.42" y2="38.415" width="0" layer="20"/>
 <wire x1="58.42" y1="38.415" x2="0" y2="38.415" width="0" layer="20"/>
 <wire x1="0" y1="38.415" x2="0" y2="0" width="0" layer="20"/>
-<text x="11.1718" y="2.8775" size="0.8128" layer="25" font="vector" rot="SR0" align="top-left">SGB022V-1.0</text>
+<text x="25.1718" y="2.5275" size="0.8128" layer="25" font="vector" rot="SR0" align="bottom-right">SGB022V-1.0</text>
 <wire x1="1.75" y1="1.75" x2="24" y2="1.75" width="0.254" layer="52"/>
 <wire x1="1.75" y1="1.75" x2="1.75" y2="18.5" width="0.254" layer="52"/>
 <wire x1="1.75" y1="18.5" x2="24" y2="18.5" width="0.254" layer="52"/>
@@ -209,6 +209,8 @@
 <dimension x1="54.9275" y1="34.9225" x2="54.9275" y2="3.4925" x3="76.75" y3="19.2075" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="54.9275" y1="3.4925" x2="54" y2="7.75" x3="61.25" y3="5.62125" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="54.9275" y1="3.4925" x2="54.01625" y2="17.75" x3="66.25" y3="10.62125" textsize="1.778" layer="47" dtype="vertical"/>
+<text x="6.1718" y="4.6275" size="0.8128" layer="25" font="vector" ratio="18" rot="SR0" align="top-left">SGS Weather &amp; Environmental
+Systems</text>
 </plain>
 <libraries>
 <library name="microbuilder">
