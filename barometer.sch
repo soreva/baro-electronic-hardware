@@ -4443,6 +4443,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S-DIGITAL" library="switch-daier" deviceset="SS" device="12F21" value="Digital Output Format"/>
 <part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="47u"/>
 <part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="47u"/>
+<part name="TP17" library="testpad" deviceset="PTR1" device="B1,27"/>
 </parts>
 <sheets>
 <sheet>
@@ -4958,6 +4959,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="45.974" y="18.288" size="1.778" layer="95"/>
 <attribute name="VALUE" x="56.134" y="18.034" size="1.778" layer="95"/>
 </instance>
+<instance part="TP17" gate="G$1" x="68.58" y="153.67"/>
 </instances>
 <busses>
 </busses>
@@ -5267,6 +5269,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="109.22" y1="104.14" x2="109.22" y2="100.965" width="0.1524" layer="91"/>
 <label x="110.49" y="98.7425" size="1.778" layer="95" font="vector" rot="MR180"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="TP17" gate="G$1" pin="TP"/>
+<wire x1="68.58" y1="156.21" x2="68.58" y2="158.75" width="0.1524" layer="91"/>
+<label x="69.85" y="160.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="485VCC" class="0">
