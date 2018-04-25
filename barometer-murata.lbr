@@ -74,6 +74,7 @@ Murata Manufacturing Company Ltd. &lt;br&gt;</description>
 <wire x1="1.016" y1="1.27" x2="1.016" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="1.016" y1="-1.27" x2="-1.016" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-1.016" y1="-1.27" x2="-1.016" y2="1.27" width="0.127" layer="21"/>
+<circle x="-1.524" y="1.524" radius="0.1905" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
