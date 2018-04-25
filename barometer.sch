@@ -4444,6 +4444,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="47u"/>
 <part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="47u"/>
 <part name="TP17" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="SJ12" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 </parts>
 <sheets>
 <sheet>
@@ -4687,6 +4688,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SJ11" gate="1" x="80.01" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.47" y="132.08" size="1.778" layer="95" rot="R90"/>
 </instance>
+<instance part="SJ12" gate="1" x="87.63" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="85.09" y="132.08" size="1.778" layer="95" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4744,6 +4748,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SJ8" gate="1" pin="1"/>
 <wire x1="57.15" y1="129.54" x2="57.15" y2="127" width="0.1524" layer="91"/>
 <label x="55.88" y="125.73" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="SJ12" gate="1" pin="1"/>
+<wire x1="87.63" y1="129.54" x2="87.63" y2="127" width="0.1524" layer="91"/>
+<label x="86.36" y="125.73" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -4884,6 +4893,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SJ11" gate="1" pin="2"/>
 <wire x1="80.01" y1="139.7" x2="80.01" y2="142.24" width="0.1524" layer="91"/>
 <label x="81.28" y="143.51" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="485EN" class="0">
+<segment>
+<pinref part="SJ12" gate="1" pin="2"/>
+<wire x1="87.63" y1="139.7" x2="87.63" y2="142.24" width="0.1524" layer="91"/>
+<label x="88.9" y="143.51" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
