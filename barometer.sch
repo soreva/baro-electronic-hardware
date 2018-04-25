@@ -4108,6 +4108,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="6" x="0.27" y="1.38" dx="0.25" dy="0.5" layer="1"/>
 <smd name="5" x="0.77" y="1.38" dx="0.25" dy="0.5" layer="1"/>
 <circle x="-1.27" y="-0.67" radius="0.1524" width="0" layer="21"/>
+<text x="2.286" y="0" size="0.6096" layer="21" font="vector" ratio="18" rot="R90" align="center">&gt;VALUE</text>
+<text x="1.524" y="0" size="0.6096" layer="21" font="vector" ratio="18" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="PCA9306DC">
 <description>&lt;h3&gt;PCA9306DC&lt;/h3&gt;
