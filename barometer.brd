@@ -169,8 +169,8 @@
 <wire x1="-0.25" y1="22" x2="27.5" y2="22" width="0.254" layer="52"/>
 <wire x1="-0.25" y1="-0.25" x2="-0.25" y2="22" width="0.254" layer="52"/>
 <wire x1="27.5" y1="-0.25" x2="27.5" y2="22" width="0.254" layer="52"/>
-<text x="48" y="9.25" size="1.016" layer="25" font="vector" ratio="18" align="center">4-20mA</text>
-<text x="54.6" y="9.25" size="1.016" layer="25" font="vector" ratio="18" rot="R180" align="center">0-5V</text>
+<text x="54" y="9.25" size="1.016" layer="25" font="vector" ratio="18" align="center">4-20mA</text>
+<text x="47.35" y="9.25" size="1.016" layer="25" font="vector" ratio="18" rot="R180" align="center">0-5V</text>
 <text x="55.25" y="30.25" size="1.016" layer="25" font="vector" ratio="18" rot="R90" align="center">232</text>
 <text x="46.75" y="30.25" size="1.016" layer="25" font="vector" ratio="18" rot="R90" align="center">485</text>
 <text x="3.5" y="32" size="0.8128" layer="25" font="vector" ratio="18" rot="R180" align="center">GND</text>
