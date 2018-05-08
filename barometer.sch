@@ -4972,11 +4972,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="TP16" gate="G$1" x="63.5" y="153.67"/>
 <instance part="S-ANALOG" gate="G$1" x="30.48" y="33.02" smashed="yes">
 <attribute name="NAME" x="23.114" y="41.148" size="1.778" layer="95"/>
-<attribute name="VALUE" x="33.274" y="40.894" size="1.778" layer="95"/>
+<attribute name="VALUE" x="35.814" y="38.354" size="1.778" layer="95"/>
 </instance>
 <instance part="S-DIGITAL" gate="G$1" x="53.34" y="10.16" smashed="yes">
 <attribute name="NAME" x="45.974" y="18.288" size="1.778" layer="95"/>
-<attribute name="VALUE" x="56.134" y="18.034" size="1.778" layer="95"/>
+<attribute name="VALUE" x="56.134" y="5.334" size="1.778" layer="95"/>
 </instance>
 <instance part="TP17" gate="G$1" x="68.58" y="153.67"/>
 </instances>
