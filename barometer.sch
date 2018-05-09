@@ -4654,10 +4654,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>Microcontroller</description>
 <plain>
 <text x="172.72" y="20.32" size="2.54" layer="97" font="vector">Microcontroller</text>
-<text x="50.8" y="114.3" size="1.778" layer="97" font="vector" align="center">Solder Jumpers</text>
+<text x="50.8" y="114.3" size="1.778" layer="97" font="vector" align="center">Solder Joints</text>
 <text x="129.54" y="114.3" size="1.778" layer="97" font="vector" align="center">Test Points</text>
 <text x="210.82" y="114.3" size="1.778" layer="97" font="vector" align="center">Microcontroller</text>
-<text x="48.26" y="63.5" size="1.778" layer="97" font="vector" align="center">Programming Jumpers</text>
+<text x="48.26" y="63.5" size="1.778" layer="97" font="vector" align="center">Programming Headers</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -4974,18 +4974,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SJ4" gate="1" x="148.59" y="26.67" smashed="yes" rot="R90">
 <attribute name="NAME" x="146.05" y="24.13" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="TP8" gate="G$1" x="53.34" y="153.67"/>
-<instance part="TP9" gate="G$1" x="48.26" y="153.67"/>
-<instance part="TP10" gate="G$1" x="43.18" y="153.67"/>
-<instance part="TP11" gate="G$1" x="38.1" y="153.67"/>
+<instance part="TP8" gate="G$1" x="45.72" y="152.4"/>
+<instance part="TP9" gate="G$1" x="40.64" y="152.4"/>
+<instance part="TP10" gate="G$1" x="35.56" y="152.4"/>
+<instance part="TP11" gate="G$1" x="30.48" y="152.4"/>
 <instance part="U1" gate="G$1" x="215.9" y="63.5"/>
 <instance part="X2" gate="-1" x="120.65" y="24.13" rot="R180"/>
 <instance part="X2" gate="-2" x="120.65" y="19.05" rot="R180"/>
 <instance part="X2" gate="-3" x="120.65" y="13.97" rot="R180"/>
 <instance part="X2" gate="-4" x="120.65" y="8.89" rot="R180"/>
-<instance part="TP15" gate="G$1" x="58.42" y="153.67"/>
-<instance part="TP16" gate="G$1" x="63.5" y="153.67"/>
-<instance part="TP17" gate="G$1" x="68.58" y="153.67"/>
+<instance part="TP15" gate="G$1" x="50.8" y="152.4"/>
+<instance part="TP16" gate="G$1" x="55.88" y="152.4"/>
+<instance part="TP17" gate="G$1" x="60.96" y="152.4"/>
 <instance part="JP1" gate="A" x="46.99" y="35.56"/>
 <instance part="JP2" gate="A" x="46.99" y="15.24"/>
 </instances>
@@ -5072,8 +5072,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="TP9" gate="G$1" pin="TP"/>
-<wire x1="48.26" y1="156.21" x2="48.26" y2="158.75" width="0.1524" layer="91"/>
-<label x="49.53" y="160.02" size="1.778" layer="95" rot="R90"/>
+<wire x1="40.64" y1="154.94" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
+<label x="41.91" y="158.75" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="SJ2" gate="1" pin="2"/>
@@ -5123,8 +5123,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="TP8" gate="G$1" pin="TP"/>
-<wire x1="53.34" y1="156.21" x2="53.34" y2="158.75" width="0.1524" layer="91"/>
-<label x="54.61" y="160.02" size="1.778" layer="95" rot="R90"/>
+<wire x1="45.72" y1="154.94" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
+<label x="46.99" y="158.75" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="SJ4" gate="1" pin="2"/>
@@ -5219,8 +5219,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="TP10" gate="G$1" pin="TP"/>
-<wire x1="43.18" y1="156.21" x2="43.18" y2="158.75" width="0.1524" layer="91"/>
-<label x="44.45" y="160.02" size="1.778" layer="95" rot="R90"/>
+<wire x1="35.56" y1="154.94" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
+<label x="36.83" y="158.75" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -5246,8 +5246,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="TP11" gate="G$1" pin="TP"/>
-<wire x1="38.1" y1="156.21" x2="38.1" y2="158.75" width="0.1524" layer="91"/>
-<label x="39.37" y="160.02" size="1.778" layer="95" rot="R90"/>
+<wire x1="30.48" y1="154.94" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
+<label x="31.75" y="158.75" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="232VCC" class="0">
@@ -5300,8 +5300,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="TP17" gate="G$1" pin="TP"/>
-<wire x1="68.58" y1="156.21" x2="68.58" y2="158.75" width="0.1524" layer="91"/>
-<label x="69.85" y="160.02" size="1.778" layer="95" rot="R90"/>
+<wire x1="60.96" y1="154.94" x2="60.96" y2="157.48" width="0.1524" layer="91"/>
+<label x="62.23" y="158.75" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="485VCC" class="0">
@@ -5406,8 +5406,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="TP15" gate="G$1" pin="TP"/>
-<wire x1="58.42" y1="156.21" x2="58.42" y2="158.75" width="0.1524" layer="91"/>
-<label x="59.69" y="160.02" size="1.778" layer="95" rot="R90"/>
+<wire x1="50.8" y1="154.94" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
+<label x="52.07" y="158.75" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="I-OUT" class="0">
@@ -5418,8 +5418,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="TP16" gate="G$1" pin="TP"/>
-<wire x1="63.5" y1="156.21" x2="63.5" y2="158.75" width="0.1524" layer="91"/>
-<label x="64.77" y="160.02" size="1.778" layer="95" rot="R90"/>
+<wire x1="55.88" y1="154.94" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
+<label x="57.15" y="158.75" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
