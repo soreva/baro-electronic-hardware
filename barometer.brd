@@ -157,9 +157,9 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="58.42" y2="0" width="0" layer="20"/>
-<wire x1="58.42" y1="0" x2="58.42" y2="38.415" width="0" layer="20"/>
-<wire x1="58.42" y1="38.415" x2="0" y2="38.415" width="0" layer="20"/>
-<wire x1="0" y1="38.415" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="58.42" y1="0" x2="58.42" y2="40.415" width="0" layer="20"/>
+<wire x1="58.42" y1="40.415" x2="0" y2="40.415" width="0" layer="20"/>
+<wire x1="0" y1="40.415" x2="0" y2="0" width="0" layer="20"/>
 <text x="25.1718" y="2.5275" size="0.8128" layer="25" font="vector" rot="SR0" align="bottom-right">SGB022V-1.0</text>
 <wire x1="1.75" y1="1.75" x2="24" y2="1.75" width="0.254" layer="52"/>
 <wire x1="1.75" y1="1.75" x2="1.75" y2="18.5" width="0.254" layer="52"/>
@@ -194,11 +194,11 @@
 <dimension x1="27.5" y1="-0.25" x2="23.9375" y2="-0.25" x3="25.71875" y3="-12.9125" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="32" y1="3.5" x2="28.5" y2="3.5" x3="30.25" y3="-7.95" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="54.9275" y1="3.4925" x2="51.43" y2="3.5" x3="53.17875" y3="-4.75" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="0" y1="38.415" x2="58.42" y2="38.415" x3="29.21" y3="39.3" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="0" y1="0" x2="0" y2="38.415" x3="-13.45" y3="19.2075" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="3.4925" y1="34.9225" x2="0" y2="38.415" x3="1.74625" y3="40.2" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="3.4925" y1="34.9225" x2="0" y2="38.415" x3="-1.1" y3="36.66875" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="3.4925" y1="34.9225" x2="4.7425" y2="34.925" x3="4.093703125" y3="46.82125625" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="40.415" x2="58.42" y2="40.415" x3="29.21" y3="41.3" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="0" y2="40.415" x3="-13.45" y3="20.2075" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="3.4925" y1="34.9225" x2="0" y2="40.415" x3="1.74625" y3="42.2" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="3.4925" y1="34.9225" x2="0" y2="40.415" x3="-1.1" y3="37.66875" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="3.4925" y1="34.9225" x2="4.7425" y2="34.925" x3="4.089703125" y3="48.82125" textsize="1.778" layer="47"/>
 <dimension x1="54.9275" y1="3.4925" x2="54.01625" y2="25.5" x3="71.35" y3="14.49625" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="54.9275" y1="3.4925" x2="51.5" y2="31.5" x3="74.85" y3="17.49625" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="1.75" y1="1.75" x2="24" y2="1.75" x3="12.875" y3="-11.75" textsize="1.778" layer="47"/>
@@ -1408,8 +1408,8 @@ design rules under a new name.</description>
 <contactref element="C7" pad="2"/>
 <contactref element="C6" pad="2"/>
 <polygon width="0.3048" layer="16">
-<vertex x="0" y="38.415"/>
-<vertex x="58.42" y="38.415"/>
+<vertex x="0" y="40.415"/>
+<vertex x="58.42" y="40.415"/>
 <vertex x="58.42" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
@@ -1439,8 +1439,8 @@ design rules under a new name.</description>
 <vertex x="58.42" y="17.1425"/>
 <vertex x="58.42" y="0"/>
 <vertex x="0" y="0"/>
-<vertex x="0" y="38.415"/>
-<vertex x="58.42" y="38.415"/>
+<vertex x="0" y="40.415"/>
+<vertex x="58.42" y="40.415"/>
 <vertex x="58.42" y="17.7775"/>
 <vertex x="44.1325" y="17.7775"/>
 <vertex x="44.1325" y="20.9525"/>
