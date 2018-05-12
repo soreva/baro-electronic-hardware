@@ -217,7 +217,7 @@ Systems</text>
 <wire x1="24" y1="0" x2="24" y2="17.75" width="0.3048" layer="22"/>
 <wire x1="24" y1="17.75" x2="0" y2="17.75" width="0.3048" layer="22"/>
 <wire x1="0" y1="17.75" x2="0" y2="21.5" width="0.3048" layer="22"/>
-<dimension x1="34" y1="3.5" x2="36.75" y2="3.5" x3="35.375" y3="-3" textsize="1.778" layer="21" dtype="horizontal"/>
+<dimension x1="34" y1="3.5" x2="36.75" y2="3.5" x3="35.375" y3="-3" textsize="1.778" layer="47" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="microbuilder">
