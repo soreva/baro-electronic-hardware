@@ -196,9 +196,9 @@
 <dimension x1="54.9275" y1="3.4925" x2="51.43" y2="3.5" x3="53.17875" y3="-4.75" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="40.415" x2="58.42" y2="40.415" x3="29.21" y3="41.3" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="0" x2="0" y2="40.415" x3="-13.45" y3="20.2075" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="3.4925" y1="34.9225" x2="0" y2="40.415" x3="1.74625" y3="42.2" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="3.4925" y1="34.9225" x2="0" y2="40.415" x3="-1.1" y3="37.66875" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="3.4925" y1="34.9225" x2="4.7425" y2="34.925" x3="4.089703125" y3="48.82125" textsize="1.778" layer="47"/>
+<dimension x1="3.4925" y1="36.9225" x2="0" y2="40.415" x3="1.74625" y3="42.2" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="3.4925" y1="36.9225" x2="0" y2="40.415" x3="-1.1" y3="38.66875" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="3.4925" y1="36.9225" x2="4.7425" y2="36.9225" x3="4.1175" y3="48.82125" textsize="1.778" layer="47"/>
 <dimension x1="54.9275" y1="3.4925" x2="54.01625" y2="25.5" x3="71.35" y3="14.49625" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="54.9275" y1="3.4925" x2="51.5" y2="31.5" x3="74.85" y3="17.49625" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="1.75" y1="1.75" x2="24" y2="1.75" x3="12.875" y3="-11.75" textsize="1.778" layer="47"/>
@@ -206,7 +206,7 @@
 <dimension x1="-0.75" y1="-0.25" x2="27.5" y2="-0.25" x3="13.375" y3="-15.25" textsize="1.778" layer="47"/>
 <dimension x1="-0.25" y1="-0.75" x2="-0.25" y2="22" x3="-10.25" y3="10.625" textsize="1.778" layer="47"/>
 <dimension x1="3.4925" y1="3.4925" x2="54.9275" y2="3.4925" x3="29.21" y3="-20.25" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="54.9275" y1="34.9225" x2="54.9275" y2="3.4925" x3="78.25" y3="19.2075" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="54.9275" y1="36.9225" x2="54.9275" y2="3.4925" x3="78.25" y3="20.2075" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="54.9275" y1="3.4925" x2="51.5" y2="10.25" x3="61.25" y3="6.87125" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="54.9275" y1="3.4925" x2="54.01625" y2="16.25" x3="66.25" y3="9.87125" textsize="1.778" layer="47" dtype="vertical"/>
 <text x="6.1718" y="4.6275" size="0.8128" layer="25" font="vector" ratio="18" rot="SR0" align="top-left">SGS Weather &amp; Environmental
@@ -1261,9 +1261,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="47.4225" y="6.09" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180"/>
 </element>
 <element name="U$1" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="3.4925" y="3.4925"/>
-<element name="U$2" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="3.4925" y="34.9225"/>
+<element name="U$2" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="3.4925" y="36.9225"/>
 <element name="U$3" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="54.9275" y="3.4925"/>
-<element name="U$4" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="54.9275" y="34.9225"/>
+<element name="U$4" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="54.9275" y="36.9225"/>
 <element name="TP8" library="testpad" package="B1,27" value="PTR1B1,27" x="35.56" y="31.7475" smashed="yes" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="36.195" y="29.8425" size="1" layer="38" rot="MR0"/>
 <attribute name="NAME" x="36.195" y="32.7635" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
