@@ -1155,6 +1155,24 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <vertex x="2.032" y="-0.762"/>
 </polygon>
 </symbol>
+<symbol name="NPN">
+<wire x1="0" y1="2.54" x2="-2.032" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-1.524" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-0.762" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-1" y1="-2.04" x2="-2.232" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-2.413" x2="-0.254" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-2.413" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-1.778" x2="-1.016" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.635" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-2.286" x2="-0.762" y2="-2.032" width="0.254" layer="94"/>
+<text x="1.27" y="0.635" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="1.27" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="2.54" layer="94"/>
+<pin name="B" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
@@ -1832,6 +1850,52 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRANSISTOR_NPN" prefix="Q" uservalue="yes">
+<description>&lt;p&gt;&lt;b&gt;NPN Transistor&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Transistor (NPN) 500mA 45V - BC817 [Digikey: 568-1631-1-ND]&lt;/li&gt;
+&lt;li&gt;Transistor (NPN) 500mA 45V - BC817,215 [Mouser: 771-BC817-T/R]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;SOT23-R&lt;/b&gt; - SOT23 footprint optimised for use with solder paste and reflow ovens.&lt;br&gt;
+&lt;b&gt;SOT23-W&lt;/b&gt; - SOT23 footprint optimised for hand-soldering (larger pads).
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-R">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="WAVE" package="SOT23-W">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="WIDE" package="SOT23-WIDE">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4398,6 +4462,99 @@ This is a subset of the communications library, which contains things that exist
 </deviceset>
 </devicesets>
 </library>
+<library name="transceiver-burrbrown">
+<packages>
+<package name="MSOP8-0.65-3X3MM">
+<description>&lt;b&gt;8M, 8-Lead, 0.118" Wide, Miniature Small Outline Package&lt;/b&gt;&lt;p&gt;
+MSOP&lt;br&gt;
+8M-Package doc1097.pdf</description>
+<wire x1="-1.2" y1="1.5" x2="1.2" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="1.5" x2="1.5" y2="1.2" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.2" y1="-1.5" x2="1.2" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="-1.5" x2="1.5" y2="-1.2" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.5" y1="-1.2" x2="1.5" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="-1.2" y1="1.5" x2="-1.5" y2="1.2" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.5" y1="1.2" x2="-1.5" y2="-1.2" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-1.2" x2="-1.2" y2="-1.5" width="0.1524" layer="21" curve="90"/>
+<smd name="1" x="-2.35" y="0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="2" x="-2.35" y="0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="3" x="-2.35" y="-0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="4" x="-2.35" y="-0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="5" x="2.35" y="-0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="6" x="2.35" y="-0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="7" x="2.35" y="0.325" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<smd name="8" x="2.35" y="0.975" dx="0.4" dy="1.1" layer="1" rot="R270"/>
+<text x="-1.27" y="1.905" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<rectangle x1="1.8" y1="-1.425" x2="2.2" y2="-0.525" layer="51" rot="R90"/>
+<rectangle x1="1.8" y1="-0.775" x2="2.2" y2="0.125" layer="51" rot="R90"/>
+<rectangle x1="1.8" y1="-0.125" x2="2.2" y2="0.775" layer="51" rot="R90"/>
+<rectangle x1="1.8" y1="0.525" x2="2.2" y2="1.425" layer="51" rot="R90"/>
+<rectangle x1="-2.2" y1="0.525" x2="-1.8" y2="1.425" layer="51" rot="R90"/>
+<rectangle x1="-2.2" y1="-0.125" x2="-1.8" y2="0.775" layer="51" rot="R90"/>
+<rectangle x1="-2.2" y1="-0.775" x2="-1.8" y2="0.125" layer="51" rot="R90"/>
+<rectangle x1="-2.2" y1="-1.425" x2="-1.8" y2="-0.525" layer="51" rot="R90"/>
+<rectangle x1="-1.5" y1="-1.5" x2="1.5" y2="1.5" layer="39"/>
+<circle x="-2.155" y="1.655" radius="0.254" width="0" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TRANSCEIVER-XTR117">
+<pin name="I-IN" x="-13.97" y="1.27" length="short" direction="in"/>
+<pin name="I-RETURN" x="-13.97" y="-1.27" length="short" direction="in"/>
+<pin name="I-OUT" x="-13.97" y="-3.81" length="short" direction="out"/>
+<pin name="+5V0" x="13.97" y="3.81" length="short" direction="nc" rot="R180"/>
+<pin name="V+" x="13.97" y="1.27" length="short" direction="in" rot="R180"/>
+<pin name="BASE" x="13.97" y="-1.27" length="short" direction="out" rot="R180"/>
+<pin name="EMITTER" x="13.97" y="-3.81" length="short" direction="in" rot="R180"/>
+<wire x1="-10.16" y1="6.35" x2="10.16" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="6.35" x2="10.16" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="10.16" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-1.27" x2="10.16" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-3.81" x2="10.16" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-6.35" x2="-10.16" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-6.35" x2="-10.16" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-3.81" x2="-10.16" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-1.27" x2="-10.16" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="1.27" x2="-10.16" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="3.81" x2="-10.16" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-11.43" y1="3.81" x2="-10.16" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-11.43" y1="1.27" x2="-10.16" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-11.43" y1="-1.27" x2="-10.16" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-11.43" y1="-3.81" x2="-10.16" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="11.43" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-1.27" x2="11.43" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-3.81" x2="11.43" y2="-3.81" width="0.1524" layer="94"/>
+<text x="-10.16" y="7.62" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.27" layer="96" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="10.16" y1="1.27" x2="11.43" y2="1.27" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TRANSCEIVER-XTR117" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TRANSCEIVER-XTR117" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSOP8-0.65-3X3MM">
+<connects>
+<connect gate="G$1" pin="+5V0" pad="8"/>
+<connect gate="G$1" pin="BASE" pad="6"/>
+<connect gate="G$1" pin="EMITTER" pad="5"/>
+<connect gate="G$1" pin="I-IN" pad="2"/>
+<connect gate="G$1" pin="I-OUT" pad="4"/>
+<connect gate="G$1" pin="I-RETURN" pad="3"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4513,6 +4670,9 @@ This is a subset of the communications library, which contains things that exist
 <part name="R11" library="microbuilder" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="Q1" library="microbuilder" deviceset="MOSFET-N" device="WIDE"/>
 <part name="Q2" library="microbuilder" deviceset="MOSFET-N" device="WIDE"/>
+<part name="U7" library="transceiver-burrbrown" deviceset="TRANSCEIVER-XTR117" device="" value="XTR117"/>
+<part name="R1" library="microbuilder" deviceset="RESISTOR" device="0603" value="25k"/>
+<part name="Q3" library="microbuilder" deviceset="TRANSISTOR_NPN" device="WIDE" value="BC817"/>
 </parts>
 <sheets>
 <sheet>
@@ -5060,6 +5220,9 @@ This is a subset of the communications library, which contains things that exist
 <instance part="R11" gate="G$1" x="241.3" y="102.87" rot="R90"/>
 <instance part="Q1" gate="G$1" x="193.04" y="102.87" rot="R270"/>
 <instance part="Q2" gate="G$1" x="233.68" y="97.79" rot="R270"/>
+<instance part="U7" gate="G$1" x="215.9" y="154.94"/>
+<instance part="R1" gate="G$1" x="191.77" y="158.75" rot="R180"/>
+<instance part="Q3" gate="G$1" x="246.38" y="153.67"/>
 </instances>
 <busses>
 </busses>
@@ -5241,11 +5404,6 @@ This is a subset of the communications library, which contains things that exist
 <label x="23.495" y="77.47" size="1.778" layer="95" font="vector" rot="R180"/>
 </segment>
 <segment>
-<wire x1="123.19" y1="8.89" x2="125.73" y2="8.89" width="0.1524" layer="91"/>
-<label x="127" y="10.16" size="1.778" layer="95"/>
-<pinref part="X2" gate="-4" pin="K"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="A0"/>
 <wire x1="203.2" y1="60.96" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
 <label x="199.39" y="62.23" size="1.778" layer="95" rot="R180"/>
@@ -5254,6 +5412,11 @@ This is a subset of the communications library, which contains things that exist
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="228.6" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
 <label x="232.41" y="62.23" size="1.778" layer="95" rot="MR180"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="I-RETURN"/>
+<wire x1="201.93" y1="153.67" x2="184.15" y2="153.67" width="0.1524" layer="91"/>
+<label x="182.88" y="154.94" size="1.778" layer="95" font="vector" rot="R180"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -5486,6 +5649,11 @@ This is a subset of the communications library, which contains things that exist
 <wire x1="50.8" y1="154.94" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
 <label x="52.07" y="158.75" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="186.69" y1="158.75" x2="184.15" y2="158.75" width="0.1524" layer="91"/>
+<label x="182.88" y="160.02" size="1.778" layer="95" font="vector" rot="R180"/>
+</segment>
 </net>
 <net name="I-OUT" class="0">
 <segment>
@@ -5497,6 +5665,11 @@ This is a subset of the communications library, which contains things that exist
 <pinref part="TP16" gate="G$1" pin="TP"/>
 <wire x1="55.88" y1="154.94" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
 <label x="57.15" y="158.75" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="I-OUT"/>
+<wire x1="201.93" y1="151.13" x2="199.39" y2="151.13" width="0.1524" layer="91"/>
+<label x="198.12" y="152.4" size="1.778" layer="95" font="vector" rot="R180"/>
 </segment>
 </net>
 <net name="SDA_5V0" class="0">
@@ -5546,6 +5719,51 @@ This is a subset of the communications library, which contains things that exist
 <pinref part="U1" gate="G$1" pin="SCL"/>
 <wire x1="203.2" y1="66.04" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
 <label x="199.39" y="67.31" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="I-IN" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="196.85" y1="158.75" x2="199.39" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="199.39" y1="158.75" x2="199.39" y2="156.21" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="I-IN"/>
+<wire x1="199.39" y1="156.21" x2="201.93" y2="156.21" width="0.1524" layer="91"/>
+<label x="198.12" y="160.02" size="1.778" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="EMITTER" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="EMITTER"/>
+<wire x1="229.87" y1="151.13" x2="232.41" y2="151.13" width="0.1524" layer="91"/>
+<label x="245.11" y="147.32" size="1.778" layer="95" font="vector" rot="MR0"/>
+<wire x1="232.41" y1="151.13" x2="232.41" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="232.41" y1="146.05" x2="246.38" y2="146.05" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="E"/>
+<wire x1="246.38" y1="146.05" x2="246.38" y2="148.59" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="COLLECTOR" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="V+"/>
+<wire x1="229.87" y1="156.21" x2="232.41" y2="156.21" width="0.1524" layer="91"/>
+<label x="233.68" y="160.02" size="1.778" layer="95" font="vector" rot="MR180"/>
+<wire x1="232.41" y1="156.21" x2="232.41" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="232.41" y1="161.29" x2="246.38" y2="161.29" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
+<wire x1="246.38" y1="161.29" x2="246.38" y2="158.75" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="123.19" y1="8.89" x2="125.73" y2="8.89" width="0.1524" layer="91"/>
+<label x="127" y="10.16" size="1.778" layer="95"/>
+<pinref part="X2" gate="-4" pin="K"/>
+</segment>
+</net>
+<net name="BASE" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="BASE"/>
+<label x="240.03" y="152.4" size="1.778" layer="95" font="vector" rot="MR0" align="top-left"/>
+<pinref part="Q3" gate="G$1" pin="B"/>
+<wire x1="241.3" y1="153.67" x2="229.87" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
