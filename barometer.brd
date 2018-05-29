@@ -352,7 +352,7 @@ Systems</text>
 </package>
 </packages>
 </library>
-<library name="adafruit">
+<library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
 <package name="SOD-123FL">
 <wire x1="-0.5" y1="0" x2="0.5" y2="0.4" width="0.1524" layer="21"/>
@@ -614,7 +614,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </package>
 </packages>
 </library>
-<library name="SparkFun-DiscreteSemi">
+<library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
 <description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
 This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
 &lt;br&gt;
@@ -629,7 +629,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SMA-DIODE">
+<package name="SMA-DIODE" urn="urn:adsk.eagle:footprint:38402/1" library_version="1">
 <description>&lt;B&gt;Diode&lt;/B&gt;
 &lt;p&gt;Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140&lt;/p&gt;
 &lt;p&gt;SMA is the smallest package in the DO-214 standard (DO-214AC)&lt;/p&gt;</description>
@@ -646,6 +646,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="SMA-DIODE" urn="urn:adsk.eagle:package:38443/1" type="box" library_version="1">
+<description>Diode
+Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140
+SMA is the smallest package in the DO-214 standard (DO-214AC)</description>
+<packageinstances>
+<packageinstance name="SMA-DIODE"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="Particle">
 <packages>
@@ -1140,10 +1150,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="D1" library="adafruit" package="SOD-123FL" value="SCHOTTKY" x="30.0075" y="13.9675" smashed="yes" rot="MR0">
+<element name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-123FL" value="SCHOTTKY" x="30.0075" y="13.9675" smashed="yes" rot="MR0">
 <attribute name="NAME" x="33.6475" y="13.6975" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 </element>
-<element name="IC1" library="adafruit" package="SOT23-5L" value="MIC5225-3.3v" x="36.195" y="13.9675" smashed="yes" rot="MR90">
+<element name="IC1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOT23-5L" value="MIC5225-3.3v" x="36.195" y="13.9675" smashed="yes" rot="MR90">
 <attribute name="NAME" x="38.4175" y="12.6975" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90"/>
 </element>
 <element name="U4" library="texas-msp" package="TSSOP16" value="MAX3221" x="36.195" y="29.8425" smashed="yes" rot="MR270">
@@ -1259,7 +1269,7 @@ design rules under a new name.</description>
 <element name="C9" library="microbuilder" package="0603" value="0.01u" x="30.1625" y="22.2225" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.0515" y="23.6195" size="0.8128" layer="25" font="vector" ratio="18" rot="R270"/>
 </element>
-<element name="D2" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="B340A" x="36.5125" y="22.2225" smashed="yes">
+<element name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:38443/1" value="3A/40V/500mV" x="36.5125" y="22.2225" smashed="yes">
 <attribute name="NAME" x="37.465" y="23.8735" size="0.8128" layer="25" font="vector" ratio="18"/>
 <attribute name="PROD_ID" value="DIO-09886" x="36.5125" y="22.2225" size="1.778" layer="27" display="off"/>
 </element>
