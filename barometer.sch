@@ -5170,6 +5170,8 @@ MSOP&lt;br&gt;
 <text x="168.91" y="5.08" size="1.778" layer="97" font="vector" align="bottom-right">Degson Electrical
 15EDGRC-3.5-04P-14-00A-H</text>
 <text x="215.9" y="44.45" size="1.778" layer="97" font="vector" align="center">I2C Slave Address = 0x60</text>
+<text x="172.72" y="131.7625" size="1.778" layer="97" font="vector" rot="MR0" align="top-right">+3V3 &lt;=&gt; +5V0 I2C Logic Level Converter</text>
+<text x="172.72" y="133.35" size="1.778" layer="97" font="vector">Current-loop Transceiver</text>
 </plain>
 <instances>
 <instance part="U4" gate="G$1" x="45.72" y="63.5"/>
