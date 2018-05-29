@@ -3971,7 +3971,7 @@ Murata Manufacturing Company Ltd. &lt;br&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Retired">
+<library name="SparkFun-Retired-0">
 <description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
 In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
 &lt;br&gt;
@@ -4548,20 +4548,9 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-IC-Comms">
-<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
-This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="v-shifter-sparkfun">
+<description>&lt;h3&gt;SparkFun Level Shifter ICs&lt;/h3&gt;
+This is a subset of the communications library, which contains things that exist on wired busses. This fork contains level shifters.</description>
 <packages>
 <package name="PSOP-8">
 <description>&lt;h3&gt;PSOP-8&lt;/h3&gt;
@@ -4818,10 +4807,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ4" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ1" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ2" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ3" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ4" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$2" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$3" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
@@ -4835,24 +4824,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP13" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="U6" library="SparkFun-Retired" deviceset="ATTINY45" device="TINY85-20-SMT" value="Tiny85-20-SMT"/>
-<part name="SJ5" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ6" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ7" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ8" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ9" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="U6" library="SparkFun-Retired-0" deviceset="ATTINY45" device="TINY85-20-SMT" value="Tiny85-20-SMT"/>
+<part name="SJ5" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ6" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ7" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ8" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ9" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="U1" library="microbuilder" deviceset="DAC_MCP4725" device="" value="MCP4725"/>
 <part name="X3" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" deviceset="1751248" device="" package3d_urn="urn:adsk.eagle:package:9395/1"/>
 <part name="X2" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" deviceset="1751264" device="" package3d_urn="urn:adsk.eagle:package:9397/1"/>
-<part name="U3" library="SparkFun-IC-Comms" deviceset="PCA9306" device="" value="PCA9306"/>
-<part name="SJ10" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ11" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="U3" library="v-shifter-sparkfun" deviceset="PCA9306" device="" value="PCA9306"/>
+<part name="SJ10" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ11" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="47u"/>
 <part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="1206" value="47u"/>
 <part name="TP17" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="SJ12" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ12" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="JP1" library="microbuilder" deviceset="HEADER-1X3" device="SMT" value="Analog Output Format"/>
 <part name="JP2" library="microbuilder" deviceset="HEADER-1X3" device="SMT" value="Digital Output Format"/>
 <part name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
