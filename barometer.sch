@@ -4489,7 +4489,7 @@ This is a subset of the communications library, which contains things that exist
 <part name="SJ7" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ8" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ9" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="U1" library="microbuilder" deviceset="DAC_MCP4725" device="" value="MCP4725"/>
+<part name="U1" library="microbuilder" deviceset="DAC_MCP4725" device="" value="MCP4725A0"/>
 <part name="X3" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" deviceset="1751248" device="" package3d_urn="urn:adsk.eagle:package:9395/1"/>
 <part name="X2" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" deviceset="1751264" device="" package3d_urn="urn:adsk.eagle:package:9397/1"/>
 <part name="U3" library="v-shifter-sparkfun" deviceset="PCA9306" device="" value="PCA9306"/>
@@ -5009,6 +5009,7 @@ This is a subset of the communications library, which contains things that exist
 <text x="172.72" y="37.465" size="1.778" layer="97" font="vector">Digital-to-Analog Converter</text>
 <text x="168.91" y="5.08" size="1.778" layer="97" font="vector" align="bottom-right">Degson Electrical
 15EDGRC-3.5-04P-14-00A-H</text>
+<text x="215.9" y="44.45" size="1.778" layer="97" font="vector" align="center">I2C Slave Address = 0x60</text>
 </plain>
 <instances>
 <instance part="U4" gate="G$1" x="45.72" y="63.5"/>

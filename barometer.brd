@@ -1399,8 +1399,8 @@ design rules under a new name.</description>
 <element name="SJ9" library="SparkFun-Retired-0" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="17.145" y="30.4775" smashed="yes" rot="MR90">
 <attribute name="NAME" x="15.28" y="31.005" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 </element>
-<element name="U1" library="microbuilder" package="SOT23-6" value="MCP4725" x="14.8625" y="11.5225" smashed="yes">
-<attribute name="NAME" x="11.831" y="11.5225" size="0.8128" layer="25" font="vector" ratio="18"/>
+<element name="U1" library="microbuilder" package="SOT23-6" value="MCP4725A0" x="7.1125" y="11.2725" smashed="yes">
+<attribute name="NAME" x="5.331" y="11.2725" size="0.8128" layer="25" font="vector" ratio="18" align="center-right"/>
 </element>
 <element name="X3" library="con-phoenix-350" library_urn="urn:adsk.eagle:library:174" package="1751248" package3d_urn="urn:adsk.eagle:package:9395/1" value="1751248" x="30.25" y="3.4" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="30.25" y="3.4" size="1.778" layer="27" rot="R180" display="off"/>
