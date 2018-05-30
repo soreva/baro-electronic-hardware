@@ -1527,6 +1527,12 @@ design rules under a new name.</description>
 <element name="Q1" library="microbuilder" package="SOT23-WIDE" value="BC817" x="36.75" y="13.25" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.5" y="14.905" size="0.8128" layer="25" font="vector" ratio="18" rot="R180"/>
 </element>
+<element name="FID3" library="microbuilder" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="7.5" y="36.9225" rot="MR0">
+<attribute name="BOM" value="EXCLUDE" x="7.5" y="36.9225" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="FID4" library="microbuilder" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="54.9275" y="32.75" rot="MR0">
+<attribute name="BOM" value="EXCLUDE" x="54.9275" y="32.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

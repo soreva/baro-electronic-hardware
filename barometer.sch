@@ -4673,6 +4673,8 @@ MSOP&lt;br&gt;
 <part name="U4" library="transceiver-burrbrown" deviceset="TRANSCEIVER-XTR117" device="" value="XTR117"/>
 <part name="R17" library="microbuilder" deviceset="RESISTOR" device="0603" value="25k"/>
 <part name="Q1" library="microbuilder" deviceset="TRANSISTOR_NPN" device="WIDE" value="BC817"/>
+<part name="FID3" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
+<part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
 </parts>
 <sheets>
 <sheet>
@@ -6058,6 +6060,8 @@ MSOP&lt;br&gt;
 <instance part="U$2" gate="G$1" x="27.94" y="115.57"/>
 <instance part="FID1" gate="G$1" x="21.59" y="154.94"/>
 <instance part="FID2" gate="G$1" x="27.94" y="154.94"/>
+<instance part="FID3" gate="G$1" x="35.56" y="154.94"/>
+<instance part="FID4" gate="G$1" x="13.97" y="154.94"/>
 </instances>
 <busses>
 </busses>
