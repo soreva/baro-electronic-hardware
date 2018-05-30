@@ -1377,10 +1377,10 @@ design rules under a new name.</description>
 <element name="SJ4" library="SparkFun-Retired-0" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="49.8075" y="7.6175" smashed="yes" rot="MR90">
 <attribute name="NAME" x="47.4225" y="6.09" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180"/>
 </element>
-<element name="U$1" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="3.4925" y="3.4925"/>
-<element name="U$2" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="3.4925" y="36.9225"/>
-<element name="U$3" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="54.9275" y="3.4925"/>
-<element name="U$4" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="54.9275" y="36.9225"/>
+<element name="U$1" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="3.4925" y="3.4925" smashed="yes"/>
+<element name="U$2" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="3.4925" y="36.9225" smashed="yes"/>
+<element name="U$3" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="54.9275" y="3.4925" smashed="yes"/>
+<element name="U$4" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="54.9275" y="36.9225" smashed="yes"/>
 <element name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="35.56" y="31.7475" smashed="yes" rot="MR0">
 <attribute name="NAME" x="36.195" y="32.7635" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="36.195" y="29.8425" size="1" layer="38" rot="MR0"/>
