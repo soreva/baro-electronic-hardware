@@ -182,6 +182,29 @@
                     "name": "Silkscreen Bottom",
                     "polarity": "positive",
                     "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Legend",
+                        "index": 1,
+                        "layer_type": "Top"
+                    },
+                    "filename_format": "%PREFIX/via_fill.gbr",
+                    "layers": [
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Via Fill",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
                 }
             ],
             "version": "X2"
