@@ -6000,8 +6000,8 @@ MSOP&lt;br&gt;
 <attribute name="VALUE" x="179.07" y="147.32" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
 <instance part="C7" gate="G$1" x="210.82" y="140.97" smashed="yes">
-<attribute name="NAME" x="213.36" y="143.51" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="213.36" y="140.97" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="208.28" y="143.51" size="1.778" layer="95" font="vector" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="208.28" y="140.97" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="C6" gate="G$1" x="218.44" y="140.97" smashed="yes">
 <attribute name="NAME" x="220.98" y="143.51" size="1.778" layer="95" font="vector"/>
