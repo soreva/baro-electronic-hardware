@@ -4762,7 +4762,8 @@ B-1: Drill holes on the four corners of the printed circuit board.</text>
 <description>Sensor</description>
 <plain>
 <text x="172.72" y="20.32" size="2.54" layer="97" font="vector">Sensor</text>
-<text x="78.74" y="25.4" size="1.778" layer="97" font="vector" align="center">MEMS Digital Absolute Pressure Sensor with I2C Interface</text>
+<text x="78.74" y="25.4" size="1.778" layer="97" font="vector" align="center">MEMS Digital Barometric Absolute Pressure Sensor with I2C Interface
+I2C Slave Address = 0x5C</text>
 <text x="132.08" y="111.76" size="1.778" layer="97" font="vector" align="center">+3V3 &lt;=&gt; +1V8 I2C Logic Level Converter</text>
 </plain>
 <instances>
