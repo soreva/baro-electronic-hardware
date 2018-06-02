@@ -5033,7 +5033,7 @@ I2C Slave Address = 0x5C</text>
 </instance>
 <instance part="U7" gate="G$1" x="210.82" y="134.62" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="223.52" y="124.46" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="223.52" y="144.78" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="NAME" x="223.52" y="147.32" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="SJ3" gate="1" x="34.29" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.75" y="132.08" size="1.778" layer="95" font="vector" rot="R90"/>
