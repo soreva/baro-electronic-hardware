@@ -4675,8 +4675,89 @@ MSOP&lt;br&gt;
 <part name="Q1" library="microbuilder" deviceset="TRANSISTOR_NPN" device="WIDE" value="BC817"/>
 <part name="FID3" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
+<part name="FRAME3" library="microbuilder" deviceset="FRAME_A4" device=""/>
+<part name="FRAME7" library="microbuilder" deviceset="FRAME_A4" device=""/>
 </parts>
 <sheets>
+<sheet>
+<description>Documentation</description>
+<plain>
+<text x="172.72" y="20.32" size="2.54" layer="97" font="vector">Documentation</text>
+<text x="7.62" y="170.18" size="2.54" layer="97" font="vector" align="top-left">Sensor:
+
+A/B-3/4: The Murata ZPA2326 (IC2) runs at a voltage of +1V8-GND while the ATtiny85 (U7) runs at a voltage of +3V3-GND and for this reason, the I2C 
+signals would be at different logic levels. In order to convert the logic levels from one to another, a bidirectional bi-channel logic level converter is used.
+
+C/D-1/2/3: The Capacitive MEMS Digital Barometric Absolute Pressure Sensor, Murata ZPA2326.</text>
+<text x="7.62" y="144.78" size="2.54" layer="97" font="vector" align="top-left">Microcontroller:
+
+A/B-1/2/3: The microcontroller has 5 general purpose I/O pins, of which a few are multiplexed with the hardware TWI/SPI. These pins have different 
+functions while programming and while executing the flashed firmware, and for this reason, solder joints are required to connect multi-purpose pins.
+
+A/B-3/4: Test points for the microcontroller.
+
+A/B-5/6: The microcontroller, Atmel ATtiny85.
+
+C/D-1/2: Pin headers for programming the microcontroller using an external device.</text>
+<text x="7.62" y="104.14" size="2.54" layer="97" font="vector" align="top-left">Data Output Interface:
+
+A-1/2: Test points for the data output interfaces.
+
+A-5/6: The 4-20 mA current-loop transceiver, Burr-Brown XTR117. This transceiver converts the current through its input pin into an amplified current 
+through the output pin. The voltage output of the MCP4725 (U3) is converted into a current input to the XTR117 (U4) using a 25k ohm resistor.
+
+B/C-1/2: The TTL-to-RS232 converter, MAX3221 (U6). This behaves as the RS232 transceiver of the microcontroller.
+
+B/C-3/4: The TTL-to-RS485 converter, LTC2850 (U1). This behaves as the RS485 transceiver of the microcontroller.
+
+B-5/6: In order to generate an analog voltage between 0 and +5.0 V, the MCP4725 (U3) requires I2C signals between +5V0-GND. In order to convert the 
+logic levels from one to another, a bidirectional 
+bi-channel logic level converter is used.
+
+D-1/2: The sensor can offer digital and analog outputs simulatenously. However, either one of RS232 or RS485 can be used at a time and either one of 
+0-5 V or 4-20 mA. In order to choose between these, 
+two sets of jumpers are used.
+
+D-3/4: The connector for data exchange with the external world.</text>
+</plain>
+<instances>
+<instance part="FRAME3" gate="G$1" x="0" y="0"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>Documentation</description>
+<plain>
+<text x="172.72" y="20.32" size="2.54" layer="97" font="vector">Documentation</text>
+<text x="7.62" y="170.18" size="2.54" layer="97" font="vector" align="top-left">Power:
+
+A/B-4/5/6: The sensor is expected to operate over a wide input voltage range, between +7V0-GND and +30V0-GND. For this reason, a wide-range input 
+buck converter, delivering +5V0 at upto 1 A is used.
+
+C/D-1/2/3: The +5V0 rail is subsequently down-converted to +3V3 in order to power the microcontroller and the digital output transceivers.
+
+A/B-1/2/3: The +3V3 rail is subsequently down-converted to +1V8 in order to power the sensor's chip.
+
+B/C-5/6: Test points for the power supply.
+
+B/C-3/4: The connector for power supply from the external world.</text>
+<text x="7.62" y="121.92" size="2.54" layer="97" font="vector" align="top-left">Assembly:
+
+A-1: Fiducial alignment points used for calibrating a machine that automates populating a fabricated circuit board.
+
+B-1: Drill holes on the four corners of the printed circuit board.</text>
+</plain>
+<instances>
+<instance part="FRAME7" gate="G$1" x="0" y="0"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 <sheet>
 <description>Sensor</description>
 <plain>
