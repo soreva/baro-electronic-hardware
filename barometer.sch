@@ -1068,7 +1068,7 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <text x="171.45" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="230.505" y="10.16" size="2.54" layer="94" font="vector">&gt;SHEET</text>
 <text x="216.916" y="10.033" size="2.54" layer="94" font="vector">Sheet:</text>
-<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Soreva Energy</text>
+<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">weather-india</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
 </symbol>
 <symbol name="GND">
