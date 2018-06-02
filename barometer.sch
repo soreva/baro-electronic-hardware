@@ -1047,7 +1047,7 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
-<symbol name="FRAME_A4">
+<symbol name="FRAME_A4_WEATHER">
 <wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
@@ -1063,13 +1063,13 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <wire x1="170.18" y1="13.97" x2="214.63" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="214.63" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="170.18" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="214.63" y1="8.89" x2="214.63" y2="3.81" width="0.1016" layer="94"/>
 <text x="171.45" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
 <text x="171.45" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="230.505" y="10.16" size="2.54" layer="94" font="vector">&gt;SHEET</text>
 <text x="216.916" y="10.033" size="2.54" layer="94" font="vector">Sheet:</text>
-<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">weather-india</text>
+<text x="171.196" y="4.953" size="2.54" layer="94" font="vector">SGS Weather and Environmental Systems Pvt. Ltd.</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+<text x="172.72" y="25.4" size="2.54" layer="94" font="vector">Schematic Diagram:</text>
 </symbol>
 <symbol name="GND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -1560,11 +1560,11 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME_A4" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME_A4_WEATHER" prefix="FRAME" uservalue="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A4, landscape with location and doc. field</description>
 <gates>
-<gate name="G$1" symbol="FRAME_A4" x="0" y="0"/>
+<gate name="G$1" symbol="FRAME_A4_WEATHER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4570,16 +4570,16 @@ MSOP&lt;br&gt;
 <part name="IC3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LP298X" device="S" value="MIC5225-3.3v"/>
 <part name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" value="SCHOTTKY"/>
 <part name="U6" library="texas-msp" deviceset="MAX3221" device="-TSSOP16" value="MAX3221"/>
-<part name="FRAME4" library="microbuilder" deviceset="FRAME_A4" device=""/>
+<part name="FRAME4" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="U1" library="LTC_By_element14_Batch_1" deviceset="LTC2850IS8PBF" device="" value="LTC2850"/>
 <part name="FID1" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="FID2" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="FRAME2" library="microbuilder" deviceset="FRAME_A4" device=""/>
-<part name="FRAME6" library="microbuilder" deviceset="FRAME_A4" device=""/>
-<part name="FRAME5" library="microbuilder" deviceset="FRAME_A4" device=""/>
-<part name="FRAME1" library="microbuilder" deviceset="FRAME_A4" device=""/>
+<part name="FRAME2" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
+<part name="FRAME6" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
+<part name="FRAME5" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
+<part name="FRAME1" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="C17" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
@@ -4675,8 +4675,8 @@ MSOP&lt;br&gt;
 <part name="Q1" library="microbuilder" deviceset="TRANSISTOR_NPN" device="WIDE" value="BC817"/>
 <part name="FID3" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
-<part name="FRAME3" library="microbuilder" deviceset="FRAME_A4" device=""/>
-<part name="FRAME7" library="microbuilder" deviceset="FRAME_A4" device=""/>
+<part name="FRAME3" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
+<part name="FRAME7" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 </parts>
 <sheets>
 <sheet>
