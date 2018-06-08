@@ -4840,7 +4840,7 @@ XC6215</text>
 <sheet>
 <description>Documentation</description>
 <plain>
-<text x="172.72" y="20.32" size="2.54" layer="97" font="vector">Documentation</text>
+<text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Documentation</text>
 <text x="7.62" y="170.18" size="2.54" layer="97" font="vector" align="top-left">Sensor:
 
 A/B-3/4: The Murata ZPA2326 (IC2) runs at a voltage of +1V8-GND while the ATtiny85 (U7) runs at a voltage of +3V3-GND and for this reason, the I2C 
@@ -4889,7 +4889,7 @@ D-3/4: The connector for data exchange with the external world.</text>
 <sheet>
 <description>Documentation</description>
 <plain>
-<text x="172.72" y="20.32" size="2.54" layer="97" font="vector">Documentation</text>
+<text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Documentation</text>
 <text x="7.62" y="170.18" size="2.54" layer="97" font="vector" align="top-left">Power:
 
 A/B-4/5/6: The sensor is expected to operate over a wide input voltage range, between +7V0-GND and +30V0-GND. For this reason, a wide-range input 
