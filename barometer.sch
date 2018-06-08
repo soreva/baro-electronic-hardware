@@ -1069,7 +1069,6 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <text x="216.916" y="10.033" size="2.54" layer="94" font="vector">Sheet:</text>
 <text x="171.196" y="4.953" size="2.54" layer="94" font="vector">SGS Weather and Environmental Systems Pvt. Ltd.</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-<text x="172.72" y="25.4" size="2.54" layer="94" font="vector">Schematic Diagram:</text>
 </symbol>
 <symbol name="GND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -4765,6 +4764,7 @@ B-1: Drill holes on the four corners of the printed circuit board.</text>
 <text x="78.74" y="25.4" size="1.778" layer="97" font="vector" align="center">MEMS Digital Barometric Absolute Pressure Sensor with I2C Interface
 I2C Slave Address = 0x5C</text>
 <text x="132.08" y="111.76" size="1.778" layer="97" font="vector" align="center">+3V3 &lt;=&gt; +1V8 I2C Logic Level Converter</text>
+<text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -5008,6 +5008,7 @@ I2C Slave Address = 0x5C</text>
 <text x="129.54" y="114.3" size="1.778" layer="97" font="vector" align="center">Test Points</text>
 <text x="210.82" y="114.3" size="1.778" layer="97" font="vector" align="center">Microcontroller</text>
 <text x="48.26" y="63.5" size="1.778" layer="97" font="vector" align="center">Programming Headers</text>
+<text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -5313,6 +5314,7 @@ I2C Slave Address = 0x5C</text>
 <text x="215.9" y="44.45" size="1.778" layer="97" font="vector" align="center">I2C Slave Address = 0x60</text>
 <text x="172.72" y="131.7625" size="1.778" layer="97" font="vector" rot="MR0" align="top-right">+3V3 &lt;=&gt; +5V0 I2C Logic Level Converter</text>
 <text x="172.72" y="133.35" size="1.778" layer="97" font="vector">Current-loop Transceiver</text>
+<text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 </plain>
 <instances>
 <instance part="U6" gate="G$1" x="45.72" y="63.5" smashed="yes">
@@ -6024,6 +6026,7 @@ I2C Slave Address = 0x5C</text>
 <text x="55.88" y="30.48" size="1.778" layer="97" font="vector" align="center">+5V0 to +3V3 Buck Converter</text>
 <text x="127" y="104.14" size="1.778" layer="97" font="vector" align="center">Degson Electrical
 15EDGRC-3.5-02P-15-00A-H</text>
+<text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -6368,6 +6371,7 @@ I2C Slave Address = 0x5C</text>
 <text x="172.72" y="20.32" size="2.54" layer="97" font="vector">Assembly</text>
 <text x="25.4" y="147.32" size="1.778" layer="97" font="vector" align="center">Fiducial Alignment Points</text>
 <text x="25.4" y="99.06" size="1.778" layer="97" font="vector" align="center">Mounting Holes</text>
+<text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
