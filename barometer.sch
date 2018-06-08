@@ -4676,8 +4676,167 @@ MSOP&lt;br&gt;
 <part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="FRAME3" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="FRAME7" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
+<part name="FRAME8" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 </parts>
 <sheets>
+<sheet>
+<description>Block Diagram</description>
+<plain>
+<text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Block Diagram</text>
+<wire x1="25.4" y1="142.24" x2="50.8" y2="142.24" width="0.254" layer="97"/>
+<wire x1="50.8" y1="142.24" x2="76.2" y2="142.24" width="0.254" layer="97"/>
+<wire x1="76.2" y1="142.24" x2="76.2" y2="129.54" width="0.254" layer="97"/>
+<wire x1="76.2" y1="129.54" x2="76.2" y2="116.84" width="0.254" layer="97"/>
+<wire x1="76.2" y1="116.84" x2="25.4" y2="116.84" width="0.254" layer="97"/>
+<wire x1="25.4" y1="116.84" x2="25.4" y2="142.24" width="0.254" layer="97"/>
+<text x="50.8" y="129.54" size="2.54" layer="97" font="vector" align="center">MEMS Digital Barometric
+Absolute Pressure Sensor
+ZPA2326</text>
+<text x="147.32" y="114.3" size="2.54" layer="97" font="vector" align="center">Microcontroller
+ATtiny85</text>
+<text x="50.8" y="99.06" size="2.54" layer="97" font="vector" align="center">Digital to Analog Converter
+for 0-5 V terminals
+MCP4725</text>
+<text x="147.32" y="73.66" size="2.54" layer="97" font="vector" align="center">TTL to RS-232/RS-485 
+Transceivers
+MAX3221e &amp; SN65HVD78</text>
+<wire x1="121.92" y1="127" x2="172.72" y2="127" width="0.254" layer="97"/>
+<wire x1="172.72" y1="127" x2="172.72" y2="101.6" width="0.254" layer="97"/>
+<wire x1="172.72" y1="101.6" x2="147.32" y2="101.6" width="0.254" layer="97"/>
+<wire x1="147.32" y1="101.6" x2="121.92" y2="101.6" width="0.254" layer="97"/>
+<wire x1="121.92" y1="101.6" x2="121.92" y2="114.3" width="0.254" layer="97"/>
+<wire x1="121.92" y1="114.3" x2="121.92" y2="127" width="0.254" layer="97"/>
+<wire x1="25.4" y1="111.76" x2="76.2" y2="111.76" width="0.254" layer="97"/>
+<wire x1="76.2" y1="111.76" x2="76.2" y2="99.06" width="0.254" layer="97"/>
+<wire x1="76.2" y1="99.06" x2="76.2" y2="86.36" width="0.254" layer="97"/>
+<wire x1="76.2" y1="86.36" x2="50.8" y2="86.36" width="0.254" layer="97"/>
+<wire x1="50.8" y1="86.36" x2="25.4" y2="86.36" width="0.254" layer="97"/>
+<wire x1="25.4" y1="86.36" x2="25.4" y2="111.76" width="0.254" layer="97"/>
+<wire x1="121.92" y1="86.36" x2="147.32" y2="86.36" width="0.254" layer="97"/>
+<wire x1="147.32" y1="86.36" x2="172.72" y2="86.36" width="0.254" layer="97"/>
+<wire x1="172.72" y1="86.36" x2="172.72" y2="60.96" width="0.254" layer="97"/>
+<wire x1="172.72" y1="60.96" x2="147.32" y2="60.96" width="0.254" layer="97"/>
+<wire x1="147.32" y1="60.96" x2="121.92" y2="60.96" width="0.254" layer="97"/>
+<wire x1="121.92" y1="60.96" x2="121.92" y2="86.36" width="0.254" layer="97"/>
+<wire x1="147.32" y1="101.6" x2="147.32" y2="86.36" width="0.254" layer="97" style="shortdash"/>
+<text x="144.78" y="93.98" size="2.54" layer="97" font="vector" rot="R90" align="center">TTL</text>
+<text x="114.3" y="114.3" size="2.54" layer="97" font="vector" rot="R270" align="center">I2C</text>
+<wire x1="83.82" y1="142.24" x2="109.22" y2="142.24" width="0.254" layer="97"/>
+<wire x1="109.22" y1="142.24" x2="109.22" y2="129.54" width="0.254" layer="97"/>
+<wire x1="109.22" y1="129.54" x2="109.22" y2="116.84" width="0.254" layer="97"/>
+<wire x1="109.22" y1="116.84" x2="83.82" y2="116.84" width="0.254" layer="97"/>
+<wire x1="83.82" y1="116.84" x2="83.82" y2="129.54" width="0.254" layer="97"/>
+<text x="96.52" y="129.54" size="2.54" layer="97" font="vector" align="center">+3V3 to +1V8
+Logic Level
+Converter
+PCA9306</text>
+<wire x1="83.82" y1="129.54" x2="83.82" y2="142.24" width="0.254" layer="97"/>
+<wire x1="83.82" y1="111.76" x2="109.22" y2="111.76" width="0.254" layer="97"/>
+<wire x1="109.22" y1="111.76" x2="109.22" y2="99.06" width="0.254" layer="97"/>
+<wire x1="109.22" y1="99.06" x2="109.22" y2="86.36" width="0.254" layer="97"/>
+<wire x1="109.22" y1="86.36" x2="83.82" y2="86.36" width="0.254" layer="97"/>
+<wire x1="83.82" y1="86.36" x2="83.82" y2="99.06" width="0.254" layer="97"/>
+<text x="96.52" y="99.06" size="2.54" layer="97" font="vector" align="center">+3V3 to +5V0
+Logic Level
+Converter
+BSS138</text>
+<wire x1="83.82" y1="99.06" x2="83.82" y2="111.76" width="0.254" layer="97"/>
+<wire x1="76.2" y1="129.54" x2="83.82" y2="129.54" width="0.254" layer="97" style="shortdash"/>
+<wire x1="76.2" y1="99.06" x2="83.82" y2="99.06" width="0.254" layer="97" style="shortdash"/>
+<wire x1="109.22" y1="129.54" x2="116.84" y2="129.54" width="0.254" layer="97" style="shortdash"/>
+<wire x1="116.84" y1="129.54" x2="116.84" y2="114.3" width="0.254" layer="97" style="shortdash"/>
+<wire x1="116.84" y1="114.3" x2="121.92" y2="114.3" width="0.254" layer="97" style="shortdash"/>
+<wire x1="109.22" y1="99.06" x2="116.84" y2="99.06" width="0.254" layer="97" style="shortdash"/>
+<wire x1="116.84" y1="99.06" x2="116.84" y2="114.3" width="0.254" layer="97" style="shortdash"/>
+<text x="50.8" y="68.58" size="2.54" layer="97" font="vector" align="center">Current Amplifier 
+for 4-20 mA loops
+XTR117</text>
+<wire x1="25.4" y1="81.28" x2="50.8" y2="81.28" width="0.254" layer="97"/>
+<wire x1="50.8" y1="81.28" x2="76.2" y2="81.28" width="0.254" layer="97"/>
+<wire x1="76.2" y1="81.28" x2="76.2" y2="55.88" width="0.254" layer="97"/>
+<wire x1="76.2" y1="55.88" x2="50.8" y2="55.88" width="0.254" layer="97"/>
+<wire x1="50.8" y1="55.88" x2="25.4" y2="55.88" width="0.254" layer="97"/>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="81.28" width="0.254" layer="97"/>
+<wire x1="50.8" y1="86.36" x2="50.8" y2="83.82" width="0.254" layer="97" style="shortdash"/>
+<wire x1="50.8" y1="83.82" x2="50.8" y2="81.28" width="0.254" layer="97" style="shortdash"/>
+<wire x1="50.8" y1="142.24" x2="63.5" y2="154.94" width="0.254" layer="97" style="dashdot"/>
+<wire x1="50.8" y1="142.24" x2="38.1" y2="154.94" width="0.254" layer="97" style="dashdot"/>
+<wire x1="38.1" y1="154.94" x2="63.5" y2="154.94" width="0.254" layer="97" style="dashdot"/>
+<text x="50.8" y="157.48" size="2.54" layer="97" font="vector" align="center">Isobaric Chamber</text>
+<text x="83.82" y="38.1" size="2.54" layer="97" font="vector" align="center">Data Output Interface</text>
+<wire x1="58.42" y1="50.8" x2="109.22" y2="50.8" width="0.254" layer="97" style="dashdot"/>
+<wire x1="109.22" y1="50.8" x2="109.22" y2="38.1" width="0.254" layer="97" style="dashdot"/>
+<wire x1="109.22" y1="38.1" x2="109.22" y2="25.4" width="0.254" layer="97" style="dashdot"/>
+<wire x1="109.22" y1="25.4" x2="83.82" y2="25.4" width="0.254" layer="97" style="dashdot"/>
+<wire x1="83.82" y1="25.4" x2="58.42" y2="25.4" width="0.254" layer="97" style="dashdot"/>
+<wire x1="58.42" y1="25.4" x2="58.42" y2="38.1" width="0.254" layer="97" style="dashdot"/>
+<wire x1="58.42" y1="38.1" x2="58.42" y2="50.8" width="0.254" layer="97" style="dashdot"/>
+<wire x1="58.42" y1="38.1" x2="50.8" y2="38.1" width="0.254" layer="97" style="shortdash"/>
+<wire x1="50.8" y1="38.1" x2="50.8" y2="55.88" width="0.254" layer="97" style="shortdash"/>
+<wire x1="83.82" y1="25.4" x2="83.82" y2="20.32" width="0.254" layer="97" style="shortdash"/>
+<wire x1="83.82" y1="20.32" x2="20.32" y2="20.32" width="0.254" layer="97" style="shortdash"/>
+<wire x1="20.32" y1="20.32" x2="20.32" y2="83.82" width="0.254" layer="97" style="shortdash"/>
+<wire x1="20.32" y1="83.82" x2="50.8" y2="83.82" width="0.254" layer="97" style="shortdash"/>
+<wire x1="109.22" y1="38.1" x2="147.32" y2="38.1" width="0.254" layer="97" style="shortdash"/>
+<wire x1="147.32" y1="38.1" x2="147.32" y2="60.96" width="0.254" layer="97" style="shortdash"/>
+<text x="213.36" y="55.88" size="2.54" layer="97" font="vector" align="center">Power Supply Interface</text>
+<wire x1="187.96" y1="68.58" x2="238.76" y2="68.58" width="0.254" layer="97" style="dashdot"/>
+<wire x1="238.76" y1="68.58" x2="238.76" y2="43.18" width="0.254" layer="97" style="dashdot"/>
+<wire x1="238.76" y1="43.18" x2="187.96" y2="43.18" width="0.254" layer="97" style="dashdot"/>
+<wire x1="187.96" y1="43.18" x2="187.96" y2="68.58" width="0.254" layer="97" style="dashdot"/>
+<text x="213.36" y="88.9" size="2.54" layer="97" font="vector" align="center">+7-30 V to +5V0 
+Buck Converter
+TPS5410</text>
+<wire x1="187.96" y1="101.6" x2="213.36" y2="101.6" width="0.254" layer="97"/>
+<wire x1="213.36" y1="101.6" x2="238.76" y2="101.6" width="0.254" layer="97"/>
+<wire x1="238.76" y1="101.6" x2="238.76" y2="76.2" width="0.254" layer="97"/>
+<wire x1="238.76" y1="76.2" x2="213.36" y2="76.2" width="0.254" layer="97"/>
+<wire x1="213.36" y1="76.2" x2="187.96" y2="76.2" width="0.254" layer="97"/>
+<wire x1="187.96" y1="76.2" x2="187.96" y2="88.9" width="0.254" layer="97"/>
+<wire x1="187.96" y1="88.9" x2="187.96" y2="101.6" width="0.254" layer="97"/>
+<wire x1="213.36" y1="76.2" x2="213.36" y2="68.58" width="0.254" layer="97" style="shortdash"/>
+<text x="213.36" y="121.92" size="2.54" layer="97" font="vector" align="center">+5V0 to +3V3 
+Buck Converter
+MIC5225</text>
+<wire x1="187.96" y1="134.62" x2="213.36" y2="134.62" width="0.254" layer="97"/>
+<wire x1="213.36" y1="134.62" x2="238.76" y2="134.62" width="0.254" layer="97"/>
+<wire x1="238.76" y1="134.62" x2="238.76" y2="109.22" width="0.254" layer="97"/>
+<wire x1="238.76" y1="109.22" x2="213.36" y2="109.22" width="0.254" layer="97"/>
+<wire x1="213.36" y1="109.22" x2="187.96" y2="109.22" width="0.254" layer="97"/>
+<wire x1="187.96" y1="109.22" x2="187.96" y2="121.92" width="0.254" layer="97"/>
+<wire x1="187.96" y1="121.92" x2="187.96" y2="134.62" width="0.254" layer="97"/>
+<wire x1="213.36" y1="109.22" x2="213.36" y2="101.6" width="0.254" layer="97" style="shortdash"/>
+<text x="213.36" y="154.94" size="2.54" layer="97" font="vector" align="center">+3V3 to +1V8 
+Buck Converter
+XC6215</text>
+<wire x1="187.96" y1="167.64" x2="238.76" y2="167.64" width="0.254" layer="97"/>
+<wire x1="238.76" y1="167.64" x2="238.76" y2="142.24" width="0.254" layer="97"/>
+<wire x1="238.76" y1="142.24" x2="213.36" y2="142.24" width="0.254" layer="97"/>
+<wire x1="213.36" y1="142.24" x2="187.96" y2="142.24" width="0.254" layer="97"/>
+<wire x1="187.96" y1="142.24" x2="187.96" y2="154.94" width="0.254" layer="97"/>
+<wire x1="187.96" y1="154.94" x2="187.96" y2="167.64" width="0.254" layer="97"/>
+<wire x1="213.36" y1="142.24" x2="213.36" y2="134.62" width="0.254" layer="97" style="shortdash"/>
+<wire x1="187.96" y1="88.9" x2="182.88" y2="88.9" width="0.254" layer="97" style="shortdash"/>
+<wire x1="187.96" y1="121.92" x2="182.88" y2="121.92" width="0.254" layer="97" style="shortdash"/>
+<wire x1="187.96" y1="154.94" x2="182.88" y2="154.94" width="0.254" layer="97" style="shortdash"/>
+<text x="78.74" y="114.3" size="2.54" layer="97" font="vector" rot="R270" align="center">I2C</text>
+<text x="53.34" y="83.82" size="2.54" layer="97" font="vector" align="center-left">V 0-5 V</text>
+<text x="86.36" y="22.86" size="2.54" layer="97" font="vector" align="center-left">V 0-5 V</text>
+<text x="55.88" y="35.56" size="2.54" layer="97" font="vector" align="center-right">I 4-20 mA</text>
+<text x="111.76" y="40.64" size="2.54" layer="97" font="vector" align="center-left">RS-232/RS-485</text>
+<text x="180.34" y="88.9" size="2.54" layer="97" font="vector" rot="R90" align="center">+5V0, GND</text>
+<text x="180.34" y="121.92" size="2.54" layer="97" font="vector" rot="R90" align="center">+3V3, GND</text>
+<text x="180.34" y="154.94" size="2.54" layer="97" font="vector" rot="R90" align="center">+1V8, GND</text>
+<text x="210.82" y="72.39" size="2.54" layer="97" font="vector" align="center-right">V +7-30 V</text>
+</plain>
+<instances>
+<instance part="FRAME8" gate="G$1" x="0" y="0"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 <sheet>
 <description>Documentation</description>
 <plain>
