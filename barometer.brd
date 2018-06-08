@@ -1467,9 +1467,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="41.635" y="8.766" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="40.635" y="5.845" size="1" layer="38" rot="MR0"/>
 </element>
-<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="21.25" y="5.5" smashed="yes">
-<attribute name="NAME" x="20.615" y="6.516" size="0.8128" layer="25" font="vector" ratio="18"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="20.615" y="3.595" size="1" layer="37"/>
+<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="35.25" y="2.5" smashed="yes">
+<attribute name="NAME" x="34.615" y="3.516" size="0.8128" layer="25" font="vector" ratio="18"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="34.615" y="0.595" size="1" layer="37"/>
 </element>
 <element name="C7" library="microbuilder" package="1206" value="47u" x="27.75" y="11.5" smashed="yes">
 <attribute name="NAME" x="24.55" y="11.5" size="0.8128" layer="25" font="vector" ratio="18" rot="R90" align="center"/>
@@ -1521,7 +1521,7 @@ design rules under a new name.</description>
 <element name="U4" library="transceiver-burrbrown" package="MSOP8-0.65-3X3MM" value="XTR117" x="34.25" y="10" smashed="yes">
 <attribute name="NAME" x="32.98" y="11.905" size="0.8128" layer="25" font="vector" ratio="18"/>
 </element>
-<element name="R17" library="microbuilder" package="0603" value="25k" x="18.25" y="5.75" smashed="yes" rot="R180">
+<element name="R17" library="microbuilder" package="0603" value="24.9k" x="18.25" y="5.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.472" y="6.377" size="0.8128" layer="25" font="vector" ratio="18" rot="R180" align="top-left"/>
 </element>
 <element name="Q1" library="microbuilder" package="SOT23-WIDE" value="BC817" x="36.75" y="13.25" smashed="yes" rot="R90">
@@ -1532,6 +1532,9 @@ design rules under a new name.</description>
 </element>
 <element name="FID4" library="microbuilder" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="54.9275" y="32.75" rot="MR0">
 <attribute name="BOM" value="EXCLUDE" x="54.9275" y="32.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R20" library="microbuilder" package="0603" value="100" x="22" y="5.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.472" y="6.627" size="0.8128" layer="25" font="vector" ratio="18" rot="R180" align="top-left"/>
 </element>
 </elements>
 <signals>
@@ -2532,9 +2535,6 @@ design rules under a new name.</description>
 <wire x1="33.25" y1="1.5" x2="27.25" y2="1.5" width="0.6096" layer="1"/>
 <wire x1="27.25" y1="1.5" x2="26.5" y2="2.25" width="0.6096" layer="1"/>
 <wire x1="28.375" y1="5.5" x2="27" y2="5.5" width="0.6096" layer="1"/>
-<wire x1="27" y1="5.5" x2="26.5" y2="5.5" width="0.6096" layer="1"/>
-<wire x1="26.5" y1="5.5" x2="26" y2="5.5" width="0.6096" layer="1"/>
-<wire x1="26" y1="5.5" x2="21.25" y2="5.5" width="0.6096" layer="1"/>
 <wire x1="34.75" y1="5.5" x2="34" y2="4.75" width="0.6096" layer="1"/>
 <wire x1="34" y1="4.75" x2="34" y2="2.25" width="0.6096" layer="1"/>
 <wire x1="34" y1="2.25" x2="33.25" y2="1.5" width="0.6096" layer="1"/>
@@ -2545,9 +2545,9 @@ design rules under a new name.</description>
 <wire x1="30.75" y1="7.875" x2="31.9" y2="9.025" width="0.3048" layer="1"/>
 <wire x1="28.375" y1="5.5" x2="30.75" y2="7.875" width="0.6096" layer="1"/>
 <wire x1="26.5" y1="2.25" x2="26.5" y2="5" width="0.6096" layer="1"/>
-<wire x1="26.5" y1="5" x2="26.5" y2="5.5" width="0.6096" layer="1"/>
 <wire x1="27" y1="5.5" x2="26.5" y2="5" width="0.6096" layer="1"/>
-<wire x1="26.5" y1="5" x2="26" y2="5.5" width="0.6096" layer="1"/>
+<wire x1="34" y1="2.25" x2="35" y2="2.25" width="0.6096" layer="1"/>
+<wire x1="35" y1="2.25" x2="35.25" y2="2.5" width="0.6096" layer="1"/>
 </signal>
 <signal name="SDA_5V0">
 <contactref element="U3" pad="4"/>
@@ -2583,13 +2583,16 @@ design rules under a new name.</description>
 <wire x1="4" y1="9" x2="4" y2="13" width="0.3048" layer="1"/>
 </signal>
 <signal name="I-IN">
-<contactref element="R17" pad="1"/>
 <contactref element="U4" pad="2"/>
-<wire x1="19.1" y1="5.75" x2="20.1" y2="6.75" width="0.6096" layer="1"/>
-<wire x1="20.1" y1="6.75" x2="27.5" y2="6.75" width="0.6096" layer="1"/>
-<wire x1="27.5" y1="6.75" x2="30.25" y2="9.5" width="0.6096" layer="1"/>
-<wire x1="30.25" y1="9.5" x2="31.075" y2="10.325" width="0.3048" layer="1"/>
-<wire x1="31.075" y1="10.325" x2="31.9" y2="10.325" width="0.3048" layer="1"/>
+<contactref element="R20" pad="1"/>
+<wire x1="22.85" y1="5.75" x2="25.25" y2="5.75" width="0.6096" layer="1"/>
+<wire x1="25.25" y1="5.75" x2="26.25" y2="6.75" width="0.6096" layer="1"/>
+<wire x1="26.25" y1="6.75" x2="27.75" y2="6.75" width="0.6096" layer="1"/>
+<wire x1="27.75" y1="6.75" x2="30.25" y2="9.25" width="0.6096" layer="1"/>
+<wire x1="30.25" y1="9.25" x2="30.9944" y2="9.9944" width="0.3048" layer="1"/>
+<wire x1="30.9944" y1="9.9944" x2="30.9944" y2="10.02229375" width="0.3048" layer="1"/>
+<wire x1="30.9944" y1="10.02229375" x2="31.29710625" y2="10.325" width="0.3048" layer="1"/>
+<wire x1="31.29710625" y1="10.325" x2="31.9" y2="10.325" width="0.3048" layer="1"/>
 </signal>
 <signal name="EMITTER">
 <contactref element="U4" pad="5"/>
@@ -2622,6 +2625,11 @@ design rules under a new name.</description>
 <wire x1="37.75" y1="12.3" x2="37.75" y2="10" width="0.3048" layer="1"/>
 <wire x1="37.425" y1="9.675" x2="36.6" y2="9.675" width="0.3048" layer="1"/>
 <wire x1="37.75" y1="10" x2="37.425" y2="9.675" width="0.3048" layer="1"/>
+</signal>
+<signal name="MEZZANINE-1">
+<contactref element="R17" pad="1"/>
+<contactref element="R20" pad="2"/>
+<wire x1="19.1" y1="5.75" x2="21.15" y2="5.75" width="0.8128" layer="1"/>
 </signal>
 </signals>
 </board>

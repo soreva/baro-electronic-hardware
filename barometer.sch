@@ -4670,13 +4670,14 @@ MSOP&lt;br&gt;
 <part name="Q2" library="microbuilder" deviceset="MOSFET-N" device="WIDE"/>
 <part name="Q3" library="microbuilder" deviceset="MOSFET-N" device="WIDE"/>
 <part name="U4" library="transceiver-burrbrown" deviceset="TRANSCEIVER-XTR117" device="" value="XTR117"/>
-<part name="R17" library="microbuilder" deviceset="RESISTOR" device="0603" value="25k"/>
+<part name="R17" library="microbuilder" deviceset="RESISTOR" device="0603" value="24.9k"/>
 <part name="Q1" library="microbuilder" deviceset="TRANSISTOR_NPN" device="WIDE" value="BC817"/>
 <part name="FID3" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="FRAME3" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="FRAME7" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="FRAME8" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
+<part name="R20" library="microbuilder" deviceset="RESISTOR" device="0603" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -5621,13 +5622,17 @@ I2C Slave Address = 0x5C</text>
 <attribute name="NAME" x="205.74" y="162.56" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="205.74" y="147.32" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="R17" gate="G$1" x="191.77" y="158.75" smashed="yes" rot="R180">
-<attribute name="NAME" x="194.31" y="156.718" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="189.23" y="160.655" size="1.778" layer="96" font="vector"/>
+<instance part="R17" gate="G$1" x="191.77" y="168.91" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="166.878" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="189.23" y="170.815" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="Q1" gate="G$1" x="246.38" y="153.67" smashed="yes">
 <attribute name="NAME" x="247.65" y="154.305" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="247.65" y="151.13" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R20" gate="G$1" x="204.47" y="168.91" smashed="yes" rot="R180">
+<attribute name="NAME" x="207.01" y="166.878" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="201.93" y="170.815" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -6057,8 +6062,8 @@ I2C Slave Address = 0x5C</text>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="186.69" y1="158.75" x2="184.15" y2="158.75" width="0.1524" layer="91"/>
-<label x="182.88" y="160.02" size="1.778" layer="95" font="vector" rot="R180"/>
+<wire x1="186.69" y1="168.91" x2="184.15" y2="168.91" width="0.1524" layer="91"/>
+<label x="182.88" y="170.18" size="1.778" layer="95" font="vector" rot="R180"/>
 </segment>
 </net>
 <net name="I-OUT" class="0">
@@ -6129,12 +6134,14 @@ I2C Slave Address = 0x5C</text>
 </net>
 <net name="I-IN" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="196.85" y1="158.75" x2="199.39" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="199.39" y1="158.75" x2="199.39" y2="156.21" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="I-IN"/>
 <wire x1="199.39" y1="156.21" x2="201.93" y2="156.21" width="0.1524" layer="91"/>
-<label x="198.12" y="160.02" size="1.778" layer="95" font="vector"/>
+<label x="198.12" y="157.48" size="1.778" layer="95" font="vector" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="209.55" y1="168.91" x2="212.09" y2="168.91" width="0.1524" layer="91"/>
+<label x="213.36" y="170.18" size="1.778" layer="95" font="vector" rot="MR180"/>
 </segment>
 </net>
 <net name="EMITTER" class="0">
@@ -6170,6 +6177,13 @@ I2C Slave Address = 0x5C</text>
 <label x="240.03" y="152.4" size="1.778" layer="95" font="vector" rot="MR0" align="top-left"/>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <wire x1="241.3" y1="153.67" x2="229.87" y2="153.67" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MEZZANINE-1" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="199.39" y1="168.91" x2="196.85" y2="168.91" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
