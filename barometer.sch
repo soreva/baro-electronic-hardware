@@ -4678,8 +4678,76 @@ MSOP&lt;br&gt;
 <part name="FRAME7" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="FRAME8" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="R20" library="microbuilder" deviceset="RESISTOR" device="0603" value="100"/>
+<part name="FRAME9" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 </parts>
 <sheets>
+<sheet>
+<description>Table of Contents</description>
+<plain>
+<text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Table of Contents</text>
+<wire x1="20.32" y1="162.56" x2="130.81" y2="162.56" width="0.254" layer="97"/>
+<wire x1="130.81" y1="162.56" x2="241.3" y2="162.56" width="0.254" layer="97"/>
+<wire x1="241.3" y1="162.56" x2="241.3" y2="150.876" width="0.254" layer="97"/>
+<wire x1="241.3" y1="150.876" x2="241.3" y2="139.192" width="0.254" layer="97"/>
+<wire x1="241.3" y1="139.192" x2="241.3" y2="127.508" width="0.254" layer="97"/>
+<wire x1="241.3" y1="127.508" x2="241.3" y2="115.824" width="0.254" layer="97"/>
+<wire x1="241.3" y1="115.824" x2="241.3" y2="104.14" width="0.254" layer="97"/>
+<wire x1="241.3" y1="104.14" x2="241.3" y2="92.456" width="0.254" layer="97"/>
+<wire x1="241.3" y1="92.456" x2="241.3" y2="80.772" width="0.254" layer="97"/>
+<wire x1="241.3" y1="80.772" x2="241.3" y2="69.088" width="0.254" layer="97"/>
+<wire x1="241.3" y1="69.088" x2="241.3" y2="57.404" width="0.254" layer="97"/>
+<wire x1="241.3" y1="57.404" x2="241.3" y2="45.72" width="0.254" layer="97"/>
+<wire x1="241.3" y1="45.72" x2="130.81" y2="45.72" width="0.254" layer="97"/>
+<wire x1="130.81" y1="45.72" x2="20.32" y2="45.72" width="0.254" layer="97"/>
+<wire x1="20.32" y1="45.72" x2="20.32" y2="57.404" width="0.254" layer="97"/>
+<wire x1="20.32" y1="57.404" x2="20.32" y2="69.088" width="0.254" layer="97"/>
+<wire x1="20.32" y1="69.088" x2="20.32" y2="80.772" width="0.254" layer="97"/>
+<wire x1="20.32" y1="80.772" x2="20.32" y2="92.456" width="0.254" layer="97"/>
+<wire x1="20.32" y1="92.456" x2="20.32" y2="104.14" width="0.254" layer="97"/>
+<wire x1="20.32" y1="104.14" x2="20.32" y2="115.824" width="0.254" layer="97"/>
+<wire x1="20.32" y1="115.824" x2="20.32" y2="127.508" width="0.254" layer="97"/>
+<wire x1="20.32" y1="127.508" x2="20.32" y2="139.192" width="0.254" layer="97"/>
+<wire x1="20.32" y1="139.192" x2="20.32" y2="150.876" width="0.254" layer="97"/>
+<wire x1="20.32" y1="150.876" x2="20.32" y2="162.56" width="0.254" layer="97"/>
+<wire x1="130.81" y1="162.56" x2="130.81" y2="45.72" width="0.254" layer="97"/>
+<wire x1="20.32" y1="57.404" x2="241.3" y2="57.404" width="0.254" layer="97" style="longdash"/>
+<wire x1="20.32" y1="69.088" x2="241.3" y2="69.088" width="0.254" layer="97" style="longdash"/>
+<wire x1="20.32" y1="80.772" x2="241.3" y2="80.772" width="0.254" layer="97" style="longdash"/>
+<wire x1="20.32" y1="92.456" x2="241.3" y2="92.456" width="0.254" layer="97" style="longdash"/>
+<wire x1="20.32" y1="104.14" x2="241.3" y2="104.14" width="0.254" layer="97" style="longdash"/>
+<wire x1="20.32" y1="115.824" x2="241.3" y2="115.824" width="0.254" layer="97" style="longdash"/>
+<wire x1="20.32" y1="127.508" x2="241.3" y2="127.508" width="0.254" layer="97" style="longdash"/>
+<wire x1="20.32" y1="139.192" x2="241.3" y2="139.192" width="0.254" layer="97" style="longdash"/>
+<wire x1="20.32" y1="150.876" x2="241.3" y2="150.876" width="0.254" layer="97"/>
+<text x="75.565" y="156.718" size="2.54" layer="97" font="vector" align="center">Sheet Number</text>
+<text x="186.055" y="156.718" size="2.54" layer="97" font="vector" align="center">Sheet Name</text>
+<text x="75.565" y="145.034" size="2.54" layer="97" font="vector" align="center">1</text>
+<text x="75.565" y="133.35" size="2.54" layer="97" font="vector" align="center">2</text>
+<text x="75.565" y="121.666" size="2.54" layer="97" font="vector" align="center">3</text>
+<text x="75.565" y="109.982" size="2.54" layer="97" font="vector" align="center">4</text>
+<text x="75.565" y="98.298" size="2.54" layer="97" font="vector" align="center">5</text>
+<text x="75.565" y="86.614" size="2.54" layer="97" font="vector" align="center">6</text>
+<text x="75.565" y="74.93" size="2.54" layer="97" font="vector" align="center">7</text>
+<text x="75.565" y="63.246" size="2.54" layer="97" font="vector" align="center">8</text>
+<text x="75.565" y="51.562" size="2.54" layer="97" font="vector" align="center">9</text>
+<text x="186.055" y="145.034" size="2.54" layer="97" font="vector" align="center">Table of Contents</text>
+<text x="186.055" y="133.35" size="2.54" layer="97" font="vector" align="center">Block Diagram</text>
+<text x="186.055" y="121.666" size="2.54" layer="97" font="vector" align="center">Documentation (1/2)</text>
+<text x="186.055" y="109.982" size="2.54" layer="97" font="vector" align="center">Documentation (2/2)</text>
+<text x="186.055" y="98.298" size="2.54" layer="97" font="vector" align="center">Sensor</text>
+<text x="186.055" y="86.614" size="2.54" layer="97" font="vector" align="center">Microcontroller</text>
+<text x="186.055" y="74.93" size="2.54" layer="97" font="vector" align="center">Data Output Interface</text>
+<text x="186.055" y="63.246" size="2.54" layer="97" font="vector" align="center">Power</text>
+<text x="186.055" y="51.562" size="2.54" layer="97" font="vector" align="center">Assembly</text>
+</plain>
+<instances>
+<instance part="FRAME9" gate="G$1" x="0" y="0"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 <sheet>
 <description>Block Diagram</description>
 <plain>
