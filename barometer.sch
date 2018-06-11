@@ -4608,7 +4608,7 @@ MSOP&lt;br&gt;
 <part name="R9" library="microbuilder" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R8" library="microbuilder" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS5410" device=""/>
-<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="4.7u"/>
+<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="4.7u"/>
 <part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.01u"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-B340A" package3d_urn="urn:adsk.eagle:package:38443/1" value="B340A"/>
 <part name="L1" library="inductor-tdk" deviceset="INDUCTOR-TDK" device="VLS6045EX" value="68u"/>
