@@ -188,35 +188,26 @@
 <wire x1="58.42" y1="0" x2="58.42" y2="40.415" width="0" layer="20"/>
 <wire x1="58.42" y1="40.415" x2="0" y2="40.415" width="0" layer="20"/>
 <wire x1="0" y1="40.415" x2="0" y2="0" width="0" layer="20"/>
-<text x="25.1718" y="2.2775" size="0.8128" layer="25" font="vector" rot="SR0" align="bottom-right">SGB022V-1.0</text>
-<wire x1="1.75" y1="1.75" x2="25.5" y2="1.75" width="0.254" layer="52"/>
-<wire x1="1.75" y1="1.75" x2="1.75" y2="19.5" width="0.254" layer="52"/>
-<wire x1="-0.25" y1="-0.25" x2="25.5" y2="-0.25" width="0.254" layer="52"/>
-<wire x1="-0.25" y1="-0.25" x2="-0.25" y2="19.5" width="0.254" layer="52"/>
-<text x="55.25" y="19.5" size="1.016" layer="25" font="vector" ratio="18" rot="R90" align="center-right">4-20mA</text>
-<text x="46.85" y="19.5" size="1.016" layer="25" font="vector" ratio="18" rot="R270" align="center-left">0-5V</text>
-<text x="55.25" y="30.25" size="1.016" layer="25" font="vector" ratio="18" rot="R90" align="center">232</text>
-<text x="46.75" y="30.25" size="1.016" layer="25" font="vector" ratio="18" rot="R90" align="center">485</text>
-<text x="2" y="30.25" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center-left">GND</text>
-<text x="2" y="27.75" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center">MOSI</text>
-<text x="2" y="25.25" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center-right">+3V3</text>
-<text x="10.74" y="25.1875" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180" align="center-left">MISO</text>
-<text x="10.74" y="27.7275" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180" align="center-left">SCK</text>
-<text x="10.74" y="30.2675" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180" align="center-left">RESET</text>
-<text x="34" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-right">+7-30V</text>
-<text x="26.5" y="7.25" size="0.8128" layer="25" font="vector" ratio="18">GND</text>
-<text x="38.77" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-center">I</text>
-<text x="51.23" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-right">RX/B</text>
-<text x="45.77" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-center">TX/A</text>
-<text x="42.27" y="7.25" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-center">V/I</text>
+<text x="24.4218" y="2.5275" size="1.27" layer="25" font="vector" rot="SR0" align="bottom-right">SGB022 v1.0 rev. B</text>
+<text x="55.25" y="19.5" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center-right">4-20mA</text>
+<text x="46.85" y="20.25" size="1.27" layer="25" font="vector" ratio="18" rot="R270" align="center-left">0-5V</text>
+<text x="55.25" y="30.25" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center">232</text>
+<text x="46.75" y="30.25" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center">485</text>
+<text x="2" y="32.25" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center-left">GND</text>
+<text x="2" y="29.75" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center">MOSI</text>
+<text x="2" y="27.25" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center-right">+3V3</text>
+<text x="7.74" y="25.6875" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180" align="center-right">MISO</text>
+<text x="10.74" y="29.7275" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180" align="center-left">SCK</text>
+<text x="10.74" y="32.2675" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180" align="center-left">RESET</text>
+<text x="36.75" y="7.25" size="1.27" layer="25" font="vector" ratio="18" align="bottom-right">+  V</text>
+<text x="29.25" y="7.25" size="1.27" layer="25" font="vector" ratio="18">GND</text>
+<text x="38.77" y="7.25" size="1.27" layer="25" font="vector" ratio="18" align="bottom-center">I</text>
+<text x="48.48" y="7.25" size="1.27" layer="25" font="vector" ratio="18">RX/B</text>
+<text x="45.77" y="7.25" size="1.27" layer="25" font="vector" ratio="18" align="bottom-center">TX/A</text>
+<text x="43.02" y="7.25" size="1.27" layer="25" font="vector" ratio="18" align="bottom-right">V/I</text>
 <dimension x1="10.5" y1="11.3125" x2="12.625" y2="11.25" x3="11.5625" y3="-4.0625" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.4925" y1="3.4925" x2="10.5" y2="11.1875" x3="6.99625" y3="-3.125" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.4925" y1="3.4925" x2="12" y2="10.5" x3="-1.0625" y3="6.99625" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="3.4925" y1="3.4925" x2="3.4375" y2="18.5" x3="-4.3125" y3="10.99625" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="1.75" y1="18.5" x2="1.75" y2="22" x3="-1.125" y3="20.25" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="3.4925" y1="3.4925" x2="23.9375" y2="3.5" x3="13.715" y3="-8.8125" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="27.5" y1="-0.25" x2="23.9375" y2="-0.25" x3="25.71875" y3="-12.9125" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="32" y1="3.5" x2="28.5" y2="3.5" x3="30.25" y3="-7.95" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="54.9275" y1="3.4925" x2="51.43" y2="3.5" x3="53.17875" y3="-4.75" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="40.415" x2="58.42" y2="40.415" x3="29.21" y3="41.3" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="0" x2="0" y2="40.415" x3="-13.45" y3="20.2075" textsize="1.778" layer="47" dtype="horizontal"/>
@@ -225,19 +216,25 @@
 <dimension x1="3.4925" y1="36.9225" x2="4.7425" y2="36.9225" x3="4.1175" y3="48.82125" textsize="1.778" layer="47"/>
 <dimension x1="54.9275" y1="3.4925" x2="54.01625" y2="25.5" x3="71.35" y3="14.49625" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="54.9275" y1="3.4925" x2="51.5" y2="31.5" x3="74.85" y3="17.49625" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="1.75" y1="1.75" x2="24" y2="1.75" x3="12.875" y3="-11.75" textsize="1.778" layer="47"/>
-<dimension x1="1.75" y1="1.75" x2="1.75" y2="18.5" x3="-7.25" y3="10.125" textsize="1.778" layer="47"/>
-<dimension x1="-0.75" y1="-0.25" x2="27.5" y2="-0.25" x3="13.375" y3="-15.25" textsize="1.778" layer="47"/>
-<dimension x1="-0.25" y1="-0.75" x2="-0.25" y2="22" x3="-10.25" y3="10.625" textsize="1.778" layer="47"/>
-<dimension x1="3.4925" y1="3.4925" x2="54.9275" y2="3.4925" x3="29.21" y3="-20.25" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="3.4925" y1="3.4925" x2="54.9275" y2="3.4925" x3="29.21" y3="-17.375" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="54.9275" y1="36.9225" x2="54.9275" y2="3.4925" x3="78.25" y3="20.2075" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="54.9275" y1="3.4925" x2="51.5" y2="10.25" x3="61.25" y3="6.87125" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="54.9275" y1="3.4925" x2="54.01625" y2="16.25" x3="66.25" y3="9.87125" textsize="1.778" layer="47" dtype="vertical"/>
-<text x="6.1718" y="4.3775" size="0.8128" layer="25" font="vector" ratio="18" rot="SR0" align="top-left">SGS Weather &amp; Environmental
+<text x="49.4218" y="38.6275" size="1.27" layer="25" font="vector" ratio="18" align="top-right">SGS Weather &amp; 
+Environmental 
 Systems</text>
-<dimension x1="34" y1="3.5" x2="36.75" y2="3.5" x3="35.375" y3="-3" textsize="1.778" layer="47" dtype="horizontal"/>
-<wire x1="25.5" y1="0" x2="25.5" y2="19.5" width="0.254" layer="22"/>
-<wire x1="25.5" y1="19.5" x2="0" y2="19.5" width="0.254" layer="22"/>
+<wire x1="26.5" y1="0" x2="26.5" y2="23.75" width="0.254" layer="22"/>
+<wire x1="22.5" y1="19.75" x2="0" y2="19.75" width="0.254" layer="22"/>
+<wire x1="22.5" y1="0" x2="22.5" y2="19.75" width="0.254" layer="22"/>
+<text x="35" y="6.75" size="0.6096" layer="25" font="vector" ratio="18" align="center">7-30</text>
+<wire x1="26.5" y1="23.75" x2="0" y2="23.75" width="0.254" layer="22"/>
+<dimension x1="3.4925" y1="3.4925" x2="22.5" y2="0" x3="12.99625" y3="-8.875" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="3.4925" y1="3.4925" x2="26.5" y2="0" x3="14.99625" y3="-12" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="22.5" y1="0" x2="26.5" y2="0" x3="24.5" y3="-7.875" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="54.9275" y1="3.4925" x2="29.25" y2="0" x3="42.08875" y3="-3.5" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="3.4925" y1="3.4925" x2="0" y2="19.75" x3="-4.5" y3="11.62125" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="3.4925" y1="3.4925" x2="0" y2="23.75" x3="-7.625" y3="13.62125" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="0" y1="19.75" x2="0" y2="23.75" x3="-10.625" y3="21.75" textsize="1.778" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -1241,11 +1238,11 @@ design rules under a new name.</description>
 <attribute name="BOM" value="EXCLUDE" x="-60.0075" y="-124.225" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="28.4875" y="19.5475" smashed="yes" rot="MR0">
-<attribute name="NAME" x="26.785" y="19.2935" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
+<attribute name="NAME" x="28.4875" y="18.5435" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0" align="top-right"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="29.1225" y="17.6425" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="31.0275" y="21.4525" smashed="yes" rot="MR0">
-<attribute name="NAME" x="32.2975" y="21.1985" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180" align="top-left"/>
+<attribute name="NAME" x="32.2975" y="21.4525" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0" align="center-right"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="31.6625" y="19.5475" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="C16" library="microbuilder" package="0603" value="0.1u" x="46.6725" y="29.2075" smashed="yes" rot="MR270">
@@ -1290,14 +1287,14 @@ design rules under a new name.</description>
 <element name="C10" library="microbuilder" package="0603" value="10u" x="30.1625" y="12.0625" smashed="yes" rot="MR0">
 <attribute name="NAME" x="30.8845" y="10.1855" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 </element>
-<element name="U5" library="v-regulator-torex" package="SOT25" value="XC6215XC6215B182NR" x="19.8475" y="11.7975" smashed="yes" rot="MR90">
-<attribute name="NAME" x="22.07" y="11.48" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90"/>
+<element name="U5" library="v-regulator-torex" package="SOT25" value="XC6215XC6215B182NR" x="16.3475" y="11.7975" smashed="yes" rot="MR90">
+<attribute name="NAME" x="18.57" y="11.48" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90"/>
 </element>
 <element name="C4" library="microbuilder" package="0603" value="1u" x="20.0025" y="18.4125" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.177" y="20.1905" size="0.8128" layer="25" font="vector" ratio="18"/>
 </element>
-<element name="C12" library="microbuilder" package="0603" value="1u" x="15.125" y="23.175" smashed="yes" rot="MR0">
-<attribute name="NAME" x="16.522" y="24.064" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
+<element name="C12" library="microbuilder" package="0603" value="1u" x="15.375" y="17.425" smashed="yes" rot="MR0">
+<attribute name="NAME" x="13.522" y="18.064" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0" align="top-left"/>
 </element>
 <element name="R18" library="microbuilder" package="0603" value="10k" x="10.4584" y="8.1262" smashed="yes" rot="MR90">
 <attribute name="NAME" x="10.4584" y="6.3482" size="0.8128" layer="26" font="vector" ratio="18" rot="MR270"/>
@@ -1374,7 +1371,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="29.765" y="4.275" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="31.0275" y="19.5475" smashed="yes" rot="MR0">
-<attribute name="NAME" x="32.2975" y="19.2935" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180" align="top-left"/>
+<attribute name="NAME" x="31.0275" y="18.5435" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0" align="top-right"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="31.6625" y="17.6425" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="SJ6" library="SparkFun-Retired-0" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="55.8875" y="9.3675" smashed="yes" rot="MR90">
@@ -1418,15 +1415,15 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="21.9075" y="33.6525" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="28.4875" y="21.4525" smashed="yes" rot="MR0">
-<attribute name="NAME" x="26.785" y="20.4485" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
+<attribute name="NAME" x="26.285" y="21.4525" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0" align="center-left"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="29.1225" y="19.5475" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="31.0275" y="23.3575" smashed="yes" rot="MR0">
-<attribute name="NAME" x="32.2975" y="23.1035" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180" align="top-left"/>
+<attribute name="NAME" x="32.2975" y="23.3575" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0" align="center-right"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="31.6625" y="21.4525" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="TP13" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="28.4875" y="23.3575" smashed="yes" rot="MR0">
-<attribute name="NAME" x="27.535" y="23.1035" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
+<attribute name="NAME" x="28.4875" y="24.4785" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="29.1225" y="21.4525" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="U7" library="SparkFun-Retired-0" package="SO08-EIAJ_MCU" value="Tiny85-20-SMT" x="18.0975" y="29.8425" smashed="yes" rot="MR180">
@@ -1434,7 +1431,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="IC-09092" x="18.0975" y="29.8425" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="SJ3" library="SparkFun-Retired-0" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="24.13" y="28.89" smashed="yes">
-<attribute name="NAME" x="22.36" y="26.91" size="0.8128" layer="25" font="vector" ratio="18"/>
+<attribute name="NAME" x="23.11" y="27.66" size="0.8128" layer="25" font="vector" ratio="18" align="top-right"/>
 </element>
 <element name="SJ9" library="SparkFun-Retired-0" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="19.05" y="30.4775" smashed="yes" rot="MR90">
 <attribute name="NAME" x="20.6375" y="28.5725" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90"/>
@@ -1446,7 +1443,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.4" y="29.8425" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90"/>
 </element>
 <element name="SJ10" library="SparkFun-Retired-0" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="17.145" y="30.4775" smashed="yes" rot="MR90">
-<attribute name="NAME" x="15.28" y="31.005" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
+<attribute name="NAME" x="15.53" y="29.505" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 </element>
 <element name="U3" library="microbuilder" package="SOT23-6" value="MCP4725A0" x="7.1125" y="11.2725" smashed="yes">
 <attribute name="NAME" x="5.331" y="11.2725" size="0.8128" layer="25" font="vector" ratio="18" align="center-right"/>
