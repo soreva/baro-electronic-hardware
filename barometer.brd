@@ -1367,7 +1367,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="18.4075" y="12.0625" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="27.755" y="6.18" smashed="yes" rot="MR0">
-<attribute name="NAME" x="28.39" y="7.196" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
+<attribute name="NAME" x="27.765" y="7.196" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0" align="bottom-right"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="28.39" y="4.275" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="31.0275" y="19.5475" smashed="yes" rot="MR0">
