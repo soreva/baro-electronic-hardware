@@ -189,10 +189,10 @@
 <wire x1="58.42" y1="40.415" x2="0" y2="40.415" width="0" layer="20"/>
 <wire x1="0" y1="40.415" x2="0" y2="0" width="0" layer="20"/>
 <text x="24.4218" y="2.5275" size="1.27" layer="25" font="vector" rot="SR0" align="bottom-right">SGB022 v1.0 rev. B</text>
-<text x="55.25" y="19.5" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center-right">4-20mA</text>
-<text x="46.85" y="20.25" size="1.27" layer="25" font="vector" ratio="18" rot="R270" align="center-left">0-5V</text>
-<text x="55.25" y="30.25" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center">232</text>
-<text x="46.75" y="30.25" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center">485</text>
+<text x="56.125" y="17.375" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center-right">4-20mA</text>
+<text x="44.725" y="16.375" size="1.27" layer="25" font="vector" ratio="18" rot="R270" align="center-left">0-5V</text>
+<text x="56" y="27.375" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center">232</text>
+<text x="45.75" y="27.125" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center">485</text>
 <text x="2" y="32.25" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center-left">GND</text>
 <text x="2" y="29.75" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center">MOSI</text>
 <text x="2" y="27.25" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center-right">+3V3</text>
@@ -231,10 +231,38 @@ Systems</text>
 <dimension x1="3.4925" y1="3.4925" x2="22.5" y2="0" x3="12.99625" y3="-8.875" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.4925" y1="3.4925" x2="26.5" y2="0" x3="14.99625" y3="-12" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="22.5" y1="0" x2="26.5" y2="0" x3="24.5" y3="-7.875" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="54.9275" y1="3.4925" x2="29.25" y2="0" x3="42.08875" y3="-3.5" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="54.9275" y1="3.4925" x2="28.25" y2="0" x3="41.58875" y3="-3.5" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.4925" y1="3.4925" x2="0" y2="19.75" x3="-4.5" y3="11.62125" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="3.4925" y1="3.4925" x2="0" y2="23.75" x3="-7.625" y3="13.62125" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="0" y1="19.75" x2="0" y2="23.75" x3="-10.625" y3="21.75" textsize="1.778" layer="47" dtype="vertical"/>
+<circle x="48.375" y="30.875" radius="1.25" width="0.1524" layer="25"/>
+<text x="48.375" y="30.875" size="1.778" layer="25" font="vector" ratio="18" align="center">1</text>
+<text x="51" y="33.375" size="1.778" layer="25" font="vector" ratio="18" align="center">2</text>
+<circle x="51" y="33.375" radius="1.256234375" width="0.1524" layer="25"/>
+<circle x="53.625" y="30.875" radius="1.25" width="0.1524" layer="25"/>
+<text x="53.625" y="30.875" size="1.778" layer="25" font="vector" ratio="18" align="center">3</text>
+<wire x1="44.875" y1="29" x2="46.625" y2="29" width="0.1524" layer="25"/>
+<wire x1="46.625" y1="29" x2="46.625" y2="25.375" width="0.1524" layer="25"/>
+<wire x1="46.625" y1="25.375" x2="44.875" y2="25.375" width="0.1524" layer="25"/>
+<wire x1="44.875" y1="25.375" x2="44.875" y2="29" width="0.1524" layer="25"/>
+<wire x1="56.875" y1="29.25" x2="56.875" y2="25.625" width="0.1524" layer="25"/>
+<wire x1="55.125" y1="29.25" x2="55.125" y2="25.625" width="0.1524" layer="25"/>
+<wire x1="55.125" y1="29.25" x2="56.875" y2="29.25" width="0.1524" layer="25"/>
+<wire x1="55.125" y1="25.5" x2="56.875" y2="25.5" width="0.1524" layer="25"/>
+<wire x1="43.875" y1="16.625" x2="43.875" y2="11.75" width="0.1524" layer="25"/>
+<wire x1="43.875" y1="11.75" x2="45.625" y2="11.75" width="0.1524" layer="25"/>
+<wire x1="45.625" y1="11.75" x2="45.625" y2="16.625" width="0.1524" layer="25"/>
+<wire x1="45.625" y1="16.625" x2="43.875" y2="16.625" width="0.1524" layer="25"/>
+<wire x1="55.25" y1="17.875" x2="57" y2="17.875" width="0.1524" layer="25"/>
+<wire x1="57" y1="17.875" x2="57" y2="10.125" width="0.1524" layer="25"/>
+<wire x1="57" y1="10.125" x2="55.25" y2="10.125" width="0.1524" layer="25"/>
+<wire x1="55.25" y1="10.125" x2="55.25" y2="17.875" width="0.1524" layer="25"/>
+<circle x="48.375" y="19.125" radius="1.25" width="0.1524" layer="25"/>
+<circle x="51" y="17.125" radius="1.25" width="0.1524" layer="25"/>
+<circle x="53.625" y="19.125" radius="1.25" width="0.1524" layer="25"/>
+<text x="48.375" y="19.125" size="1.778" layer="25" font="vector" ratio="18" align="center">1</text>
+<text x="51" y="17.125" size="1.778" layer="25" font="vector" ratio="18" align="center">2</text>
+<text x="53.625" y="19.125" size="1.778" layer="25" font="vector" ratio="18" align="center">3</text>
 </plain>
 <libraries>
 <library name="microbuilder">
