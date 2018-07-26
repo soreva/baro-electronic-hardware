@@ -226,7 +226,7 @@ Systems</text>
 <wire x1="26.5" y1="0" x2="26.5" y2="23.75" width="0.254" layer="22"/>
 <wire x1="22.5" y1="19.75" x2="0" y2="19.75" width="0.254" layer="22"/>
 <wire x1="22.5" y1="0" x2="22.5" y2="19.75" width="0.254" layer="22"/>
-<text x="35" y="6.75" size="0.6096" layer="25" font="vector" ratio="18" align="center">7-30</text>
+<text x="36.25" y="7" size="0.6096" layer="25" font="vector" ratio="18" rot="R90" align="center-right">7-30</text>
 <wire x1="26.5" y1="23.75" x2="0" y2="23.75" width="0.254" layer="22"/>
 <dimension x1="3.4925" y1="3.4925" x2="22.5" y2="0" x3="12.99625" y3="-8.875" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.4925" y1="3.4925" x2="26.5" y2="0" x3="14.99625" y3="-12" textsize="1.778" layer="47" dtype="horizontal"/>
@@ -1394,9 +1394,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.36" y="14.9835" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="18.4075" y="12.0625" size="1" layer="38" rot="MR0"/>
 </element>
-<element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="27.755" y="6.18" smashed="yes" rot="MR0">
-<attribute name="NAME" x="27.765" y="7.196" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0" align="bottom-right"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="28.39" y="4.275" size="1" layer="38" rot="MR0"/>
+<element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="39.755" y="9.43" smashed="yes">
+<attribute name="NAME" x="40.745" y="9.696" size="0.8128" layer="25" font="vector" ratio="18" rot="R90" align="top-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="39.12" y="7.525" size="1" layer="37"/>
 </element>
 <element name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="31.0275" y="19.5475" smashed="yes" rot="MR0">
 <attribute name="NAME" x="31.0275" y="18.5435" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0" align="top-right"/>
@@ -1505,7 +1505,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="40.635" y="5.845" size="1" layer="38" rot="MR0"/>
 </element>
 <element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="27.25" y="2.25" smashed="yes">
-<attribute name="NAME" x="26.615" y="3.266" size="0.8128" layer="25" font="vector" ratio="18"/>
+<attribute name="NAME" x="27.365" y="3.266" size="0.8128" layer="25" font="vector" ratio="18" align="bottom-right"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="26.615" y="0.345" size="1" layer="37"/>
 </element>
 <element name="C7" library="microbuilder" package="1206" value="47u" x="27.75" y="11.5" smashed="yes">
@@ -2360,11 +2360,11 @@ design rules under a new name.</description>
 <contactref element="X1" pad="1"/>
 <wire x1="35.19" y1="6.6175" x2="40.6175" y2="6.6175" width="0.6096" layer="1"/>
 <wire x1="40.6175" y1="6.6175" x2="41.25" y2="7.25" width="0.6096" layer="1"/>
-<wire x1="41.25" y1="7.25" x2="41.25" y2="18.5" width="0.6096" layer="1"/>
-<wire x1="27.755" y1="6.18" x2="33.57" y2="6.18" width="0.6096" layer="16"/>
-<wire x1="33.57" y1="6.18" x2="34.75" y2="5" width="0.6096" layer="16"/>
+<wire x1="41.25" y1="7.25" x2="41.25" y2="9.5" width="0.6096" layer="1"/>
+<wire x1="41.25" y1="9.5" x2="41.25" y2="18.5" width="0.6096" layer="1"/>
 <wire x1="33.75" y1="5.1775" x2="33.75" y2="3.5" width="0.6096" layer="1"/>
-<wire x1="34.75" y1="5" x2="33.75" y2="3.5" width="0.6096" layer="16"/>
+<wire x1="39.755" y1="9.43" x2="41.18" y2="9.43" width="0.6096" layer="1"/>
+<wire x1="41.18" y1="9.43" x2="41.25" y2="9.5" width="0.6096" layer="1"/>
 </signal>
 <signal name="PH">
 <contactref element="L1" pad="1"/>
