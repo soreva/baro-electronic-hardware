@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1672,10 +1672,32 @@ package type OT</description>
 <wire x1="137.16" y1="86.36" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <label x="139.7" y="78.74" size="1.778" layer="95" rot="R270"/>
 </segment>
+<segment>
+<pinref part="PAD5" gate="G$1" pin="P"/>
+<wire x1="208.28" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
+<label x="198.12" y="76.2" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
