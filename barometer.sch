@@ -4941,7 +4941,7 @@ B-5/6: In order to generate an analog voltage between 0 and +5.0 V, the MCP4725 
 logic levels from one to another, a bidirectional 
 bi-channel logic level converter is used.
 
-D-1/2: The sensor can offer digital and analog outputs simulatenously. However, either one of RS232 or RS485 can be used at a time and either one of 
+D-1/2: The sensor can offer digital and analog outputs simultaneously. However, either one of RS232 or RS485 can be used at a time and either one of 
 0-5 V or 4-20 mA. In order to choose between these, 
 two sets of jumpers are used.
 
