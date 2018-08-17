@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1028,7 +1028,7 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 </package>
 </packages>
 <symbols>
-<symbol name="FRAME_A4">
+<symbol name="FRAME_A4_WEATHER">
 <wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
@@ -1044,12 +1044,11 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <wire x1="170.18" y1="13.97" x2="214.63" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="214.63" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="170.18" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="214.63" y1="8.89" x2="214.63" y2="3.81" width="0.1016" layer="94"/>
 <text x="171.45" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
 <text x="171.45" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="230.505" y="10.16" size="2.54" layer="94" font="vector">&gt;SHEET</text>
 <text x="216.916" y="10.033" size="2.54" layer="94" font="vector">Sheet:</text>
-<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Soreva Energy</text>
+<text x="171.196" y="4.953" size="2.54" layer="94" font="vector">SGS Weather and Environmental Systems Pvt. Ltd.</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
 </symbol>
 <symbol name="PINHD6">
@@ -1087,11 +1086,11 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME_A4" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME_A4_WEATHER" prefix="FRAME" uservalue="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A4, landscape with location and doc. field</description>
 <gates>
-<gate name="G$1" symbol="FRAME_A4" x="0" y="0"/>
+<gate name="G$1" symbol="FRAME_A4_WEATHER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -2067,7 +2066,7 @@ package type OT</description>
 <part name="R5" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="P+5" library="SparkFun" deviceset="VCC" device="" value="+3V3"/>
 <part name="P+6" library="SparkFun" deviceset="VCC" device="" value="+5V0"/>
-<part name="FRAME1" library="microbuilder" deviceset="FRAME_A4" device=""/>
+<part name="FRAME1" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="IC1" library="adafruit" deviceset="LP298X" device="S" value="MIC5225-3.3v"/>
 <part name="JP1" library="microbuilder" deviceset="HEADER-1X6" device="ROUND"/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="10u"/>
