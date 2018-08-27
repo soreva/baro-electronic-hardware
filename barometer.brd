@@ -325,13 +325,13 @@ Systems</text>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="MOUNTINGHOLE_2.5_PLATED">
-<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<package name="MOUNTINGHOLE_2.75_PLATED">
+<circle x="0" y="0" radius="1.924990625" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="1" width="2.032" layer="39"/>
 <circle x="0" y="0" radius="1" width="2.032" layer="40"/>
 <circle x="0" y="0" radius="1" width="2.032" layer="41"/>
 <circle x="0" y="0" radius="1" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="2.5" diameter="3.2"/>
+<pad name="P$1" x="0" y="0" drill="2.75" diameter="3.81"/>
 </package>
 <package name="SOT23-6">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; - 6 Pin</description>
@@ -1417,10 +1417,10 @@ design rules under a new name.</description>
 <element name="SJ4" library="SparkFun-Retired-0" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="49.8075" y="7.6175" smashed="yes" rot="MR90">
 <attribute name="NAME" x="47.4225" y="10.09" size="0.8128" layer="26" font="vector" ratio="18" rot="MR180"/>
 </element>
-<element name="U$3" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="3.4925" y="3.4925" smashed="yes"/>
-<element name="U$1" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="3.4925" y="36.9225" smashed="yes"/>
-<element name="U$4" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="54.9275" y="3.4925" smashed="yes"/>
-<element name="U$2" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="54.9275" y="36.9225" smashed="yes"/>
+<element name="U$3" library="microbuilder" package="MOUNTINGHOLE_2.75_PLATED" value="MOUNTINGHOLE2.75" x="3.4925" y="3.4925" smashed="yes"/>
+<element name="U$1" library="microbuilder" package="MOUNTINGHOLE_2.75_PLATED" value="MOUNTINGHOLE2.75" x="3.4925" y="36.9225" smashed="yes"/>
+<element name="U$4" library="microbuilder" package="MOUNTINGHOLE_2.75_PLATED" value="MOUNTINGHOLE2.75" x="54.9275" y="3.4925" smashed="yes"/>
+<element name="U$2" library="microbuilder" package="MOUNTINGHOLE_2.75_PLATED" value="MOUNTINGHOLE2.75" x="54.9275" y="36.9225" smashed="yes"/>
 <element name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="35.56" y="31.7475" smashed="yes" rot="MR0">
 <attribute name="NAME" x="36.195" y="32.7635" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="36.195" y="29.8425" size="1" layer="38" rot="MR0"/>

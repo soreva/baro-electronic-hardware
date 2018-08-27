@@ -4639,10 +4639,10 @@ MSOP&lt;br&gt;
 <part name="SJ7" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ5" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ4" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="U$3" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
-<part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
-<part name="U$4" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
-<part name="U$2" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
+<part name="U$3" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.75"/>
+<part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.75"/>
+<part name="U$4" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.75"/>
+<part name="U$2" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.75"/>
 <part name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
