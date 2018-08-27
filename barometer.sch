@@ -1020,6 +1020,14 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="MOUNTINGHOLE_2.75_PLATED">
+<circle x="0" y="0" radius="1.924990625" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="2.75" diameter="3.81"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -1621,6 +1629,11 @@ DIN A4, landscape with location and doc. field</description>
 </technologies>
 </device>
 <device name="2.5_THICK" package="MOUNTINGHOLE_2.5_PLATED_THICK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.75" package="MOUNTINGHOLE_2.75_PLATED">
 <technologies>
 <technology name=""/>
 </technologies>
