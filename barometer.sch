@@ -4626,7 +4626,7 @@ MSOP&lt;br&gt;
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-B340A" package3d_urn="urn:adsk.eagle:package:38443/1" value="B340A"/>
 <part name="L1" library="inductor-tdk" deviceset="INDUCTOR-TDK" device="VLS6045EX" value="68u"/>
 <part name="R10" library="microbuilder" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="R14" library="microbuilder" deviceset="RESISTOR" device="0603" value="3.24k"/>
+<part name="R14" library="microbuilder" deviceset="RESISTOR" device="0603" value="3.16k"/>
 <part name="IC2" library="barometer-murata" deviceset="ZPA2326" device="-0311A-R"/>
 <part name="R19" library="microbuilder" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
