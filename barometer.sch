@@ -5152,8 +5152,8 @@ logic levels from one to another, a bidirectional
 bi-channel logic level converter is used.
 
 D-1/2: The sensor can offer digital and analog outputs simultaneously. However, either one of RS232 or RS485 can be used at a time and either one of 
-0-5 V or 4-20 mA. In order to choose between these, 
-two sets of jumpers are used.
+0-5 V or 4-20 mA is available in a particular board. In order to choose between these, two sets of jumpers are used - the digital format configurable 
+on-the-go and the analog format configured in the factory.
 
 D-3/4: The connector for data exchange with the external world.</text>
 </plain>
