@@ -1689,8 +1689,8 @@ design rules under a new name.</description>
 <via x="42.63" y="11.2525" extent="1-16" drill="0.45"/>
 <contactref element="U2" pad="1"/>
 <via x="17.5" y="36.65" extent="1-16" drill="0.45"/>
-<via x="44.88" y="20.2525" extent="1-16" drill="0.45"/>
-<via x="44.88" y="18.2525" extent="1-16" drill="0.45"/>
+<via x="46.13" y="20.2525" extent="1-16" drill="0.45"/>
+<via x="46.13" y="18.2525" extent="1-16" drill="0.45"/>
 <via x="54.88" y="20.2525" extent="1-16" drill="0.45"/>
 <via x="46.13" y="15.19" extent="1-16" drill="0.45"/>
 <via x="46.13" y="11.2525" extent="1-16" drill="0.45"/>
