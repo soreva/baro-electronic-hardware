@@ -4831,8 +4831,6 @@ MSOP&lt;br&gt;
 <part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="SJ6" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ7" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ5" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ4" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="U$3" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.75"/>
 <part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.75"/>
 <part name="U$4" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.75"/>
@@ -4887,8 +4885,8 @@ MSOP&lt;br&gt;
 <part name="FRAME9" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="SJ13" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
 <part name="SJ14" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
-<part name="SJ15" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
-<part name="SJ16" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
+<part name="SJ4" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
+<part name="SJ5" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5819,12 +5817,6 @@ I2C Slave Address = 0x5C</text>
 <instance part="SJ7" gate="1" x="133.35" y="31.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.81" y="29.21" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="SJ5" gate="1" x="140.97" y="26.67" smashed="yes" rot="R90">
-<attribute name="NAME" x="138.43" y="24.13" size="1.778" layer="95" font="vector" rot="R90"/>
-</instance>
-<instance part="SJ4" gate="1" x="148.59" y="26.67" smashed="yes" rot="R90">
-<attribute name="NAME" x="146.05" y="24.13" size="1.778" layer="95" font="vector" rot="R90"/>
-</instance>
 <instance part="TP14" gate="G$1" x="45.72" y="152.4" smashed="yes">
 <attribute name="NAME" x="44.704" y="146.05" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="46.99" y="149.86" size="1.778" layer="97"/>
@@ -5873,9 +5865,9 @@ I2C Slave Address = 0x5C</text>
 <attribute name="NAME" x="59.944" y="146.05" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="62.23" y="149.86" size="1.778" layer="97"/>
 </instance>
-<instance part="JP1" gate="A" x="24.13" y="26.67" smashed="yes">
-<attribute name="NAME" x="17.78" y="32.385" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="24.13" y="20.32" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="JP1" gate="A" x="29.21" y="36.83" smashed="yes">
+<attribute name="NAME" x="22.86" y="42.545" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="29.21" y="30.48" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R16" gate="G$1" x="200.66" y="107.95" smashed="yes" rot="R90">
 <attribute name="NAME" x="198.628" y="105.41" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -5917,11 +5909,11 @@ I2C Slave Address = 0x5C</text>
 <attribute name="NAME" x="58.42" y="33.02" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="58.42" y="26.67" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ15" gate="1" x="60.96" y="22.86" smashed="yes">
+<instance part="SJ4" gate="1" x="60.96" y="22.86" smashed="yes">
 <attribute name="NAME" x="58.42" y="25.4" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="58.42" y="19.05" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ16" gate="1" x="60.96" y="15.24" smashed="yes">
+<instance part="SJ5" gate="1" x="60.96" y="15.24" smashed="yes">
 <attribute name="NAME" x="58.42" y="17.78" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="58.42" y="11.43" size="1.778" layer="96"/>
 </instance>
@@ -6064,9 +6056,9 @@ I2C Slave Address = 0x5C</text>
 <label x="46.99" y="158.75" size="1.778" layer="95" font="vector" rot="R90"/>
 </segment>
 <segment>
-<pinref part="SJ4" gate="1" pin="2"/>
-<wire x1="148.59" y1="31.75" x2="148.59" y2="34.29" width="0.1524" layer="91"/>
-<label x="149.86" y="35.56" size="1.778" layer="95" font="vector" rot="R90"/>
+<wire x1="20.32" y1="39.37" x2="26.67" y2="39.37" width="0.1524" layer="91"/>
+<label x="19.05" y="40.64" size="1.778" layer="95" font="vector" rot="R180"/>
+<pinref part="JP1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6128,11 +6120,6 @@ I2C Slave Address = 0x5C</text>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<wire x1="15.24" y1="26.67" x2="21.59" y2="26.67" width="0.1524" layer="91"/>
-<label x="13.97" y="27.94" size="1.778" layer="95" font="vector" rot="R180"/>
-<pinref part="JP1" gate="A" pin="2"/>
-</segment>
-<segment>
 <wire x1="190.5" y1="105.41" x2="190.5" y2="115.57" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <label x="189.23" y="116.84" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -6141,6 +6128,56 @@ I2C Slave Address = 0x5C</text>
 <wire x1="231.14" y1="100.33" x2="231.14" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <label x="229.87" y="111.76" size="1.778" layer="95" font="vector" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="VCC"/>
+<wire x1="111.76" y1="78.74" x2="108.585" y2="78.74" width="0.1524" layer="91"/>
+<label x="107.315" y="80.01" size="1.778" layer="95" font="vector" rot="R180"/>
+</segment>
+<segment>
+<wire x1="99.06" y1="114.3" x2="99.06" y2="117.475" width="0.1524" layer="91"/>
+<label x="95.5675" y="121.92" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="117.475" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<label x="105.7275" y="121.92" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="119.38" y1="114.3" x2="119.38" y2="117.475" width="0.1524" layer="91"/>
+<label x="115.8875" y="121.92" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="129.54" y1="114.3" x2="129.54" y2="117.475" width="0.1524" layer="91"/>
+<label x="126.0475" y="121.92" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="139.7" y1="114.3" x2="139.7" y2="117.475" width="0.1524" layer="91"/>
+<label x="136.2075" y="121.92" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="VCC"/>
+<wire x1="60.96" y1="73.66" x2="64.135" y2="73.66" width="0.1524" layer="91"/>
+<label x="65.405" y="74.93" size="1.778" layer="95" font="vector" rot="MR180"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="FORCEON"/>
+<wire x1="60.96" y1="66.04" x2="64.135" y2="66.04" width="0.1524" layer="91"/>
+<label x="65.405" y="67.31" size="1.778" layer="95" font="vector" rot="MR180"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="\!FORCEOFF"/>
+<wire x1="60.96" y1="76.2" x2="64.135" y2="76.2" width="0.1524" layer="91"/>
+<label x="65.405" y="77.47" size="1.778" layer="95" font="vector" rot="MR180"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="116.84" x2="63.5" y2="120.015" width="0.1524" layer="91"/>
+<label x="66.04" y="121.285" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="C15" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="A" class="0">
@@ -6160,14 +6197,14 @@ I2C Slave Address = 0x5C</text>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="SJ5" gate="1" pin="2"/>
-<wire x1="140.97" y1="31.75" x2="140.97" y2="34.29" width="0.1524" layer="91"/>
-<label x="142.24" y="35.56" size="1.778" layer="95" font="vector" rot="R90"/>
-</segment>
-<segment>
 <pinref part="TP6" gate="G$1" pin="TP"/>
 <wire x1="35.56" y1="154.94" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
 <label x="36.83" y="158.75" size="1.778" layer="95" font="vector" rot="R90"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="34.29" x2="26.67" y2="34.29" width="0.1524" layer="91"/>
+<label x="19.05" y="35.56" size="1.778" layer="95" font="vector" rot="R180"/>
+<pinref part="JP1" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -6197,33 +6234,6 @@ I2C Slave Address = 0x5C</text>
 <label x="31.75" y="158.75" size="1.778" layer="95" font="vector" rot="R90"/>
 </segment>
 </net>
-<net name="232VCC" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="VCC"/>
-<wire x1="60.96" y1="73.66" x2="64.135" y2="73.66" width="0.1524" layer="91"/>
-<label x="65.405" y="74.93" size="1.778" layer="95" font="vector" rot="MR180"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="FORCEON"/>
-<wire x1="60.96" y1="66.04" x2="64.135" y2="66.04" width="0.1524" layer="91"/>
-<label x="65.405" y="67.31" size="1.778" layer="95" font="vector" rot="MR180"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="\!FORCEOFF"/>
-<wire x1="60.96" y1="76.2" x2="64.135" y2="76.2" width="0.1524" layer="91"/>
-<label x="65.405" y="77.47" size="1.778" layer="95" font="vector" rot="MR180"/>
-</segment>
-<segment>
-<wire x1="63.5" y1="116.84" x2="63.5" y2="120.015" width="0.1524" layer="91"/>
-<label x="66.04" y="121.285" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="C15" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<wire x1="15.24" y1="29.21" x2="21.59" y2="29.21" width="0.1524" layer="91"/>
-<label x="13.97" y="30.48" size="1.778" layer="95" font="vector" rot="R180"/>
-<pinref part="JP1" gate="A" pin="1"/>
-</segment>
-</net>
 <net name="485EN" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="DE"/>
@@ -6251,43 +6261,6 @@ I2C Slave Address = 0x5C</text>
 <label x="62.23" y="158.75" size="1.778" layer="95" font="vector" rot="R90"/>
 </segment>
 </net>
-<net name="485VCC" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="VCC"/>
-<wire x1="111.76" y1="78.74" x2="108.585" y2="78.74" width="0.1524" layer="91"/>
-<label x="107.315" y="80.01" size="1.778" layer="95" font="vector" rot="R180"/>
-</segment>
-<segment>
-<wire x1="99.06" y1="114.3" x2="99.06" y2="117.475" width="0.1524" layer="91"/>
-<label x="95.5675" y="121.92" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="109.22" y1="117.475" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
-<label x="105.7275" y="127" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="119.38" y1="114.3" x2="119.38" y2="117.475" width="0.1524" layer="91"/>
-<label x="115.8875" y="121.92" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="129.54" y1="114.3" x2="129.54" y2="117.475" width="0.1524" layer="91"/>
-<label x="126.0475" y="127" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="139.7" y1="114.3" x2="139.7" y2="117.475" width="0.1524" layer="91"/>
-<label x="136.2075" y="121.92" size="1.778" layer="95" font="vector" rot="MR180"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="15.24" y1="24.13" x2="21.59" y2="24.13" width="0.1524" layer="91"/>
-<label x="13.97" y="25.4" size="1.778" layer="95" font="vector" rot="R180"/>
-<pinref part="JP1" gate="A" pin="3"/>
-</segment>
-</net>
 <net name="D-OUT-1" class="0">
 <segment>
 <pinref part="SJ6" gate="1" pin="1"/>
@@ -6303,15 +6276,15 @@ I2C Slave Address = 0x5C</text>
 </net>
 <net name="D-OUT-2" class="0">
 <segment>
-<pinref part="SJ5" gate="1" pin="1"/>
 <wire x1="123.19" y1="19.05" x2="140.97" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="19.05" x2="140.97" y2="21.59" width="0.1524" layer="91"/>
-<pinref part="SJ4" gate="1" pin="1"/>
 <wire x1="140.97" y1="19.05" x2="148.59" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="148.59" y1="19.05" x2="148.59" y2="21.59" width="0.1524" layer="91"/>
-<junction x="140.97" y="19.05"/>
 <label x="148.59" y="17.78" size="1.778" layer="95" font="vector" rot="R180"/>
 <pinref part="X2" gate="-2" pin="K"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="36.83" x2="26.67" y2="36.83" width="0.1524" layer="91"/>
+<label x="19.05" y="38.1" size="1.778" layer="95" font="vector" rot="R180"/>
+<pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="SDA_3V3" class="0">
@@ -6362,7 +6335,7 @@ I2C Slave Address = 0x5C</text>
 <label x="198.12" y="152.4" size="1.778" layer="95" font="vector" rot="R180"/>
 </segment>
 <segment>
-<pinref part="SJ15" gate="1" pin="2"/>
+<pinref part="SJ4" gate="1" pin="2"/>
 <wire x1="66.04" y1="22.86" x2="72.39" y2="22.86" width="0.1524" layer="91"/>
 <label x="73.66" y="24.13" size="1.778" layer="95" font="vector"/>
 </segment>
@@ -6450,7 +6423,7 @@ I2C Slave Address = 0x5C</text>
 <wire x1="246.38" y1="161.29" x2="246.38" y2="158.75" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SJ16" gate="1" pin="2"/>
+<pinref part="SJ5" gate="1" pin="2"/>
 <wire x1="66.04" y1="15.24" x2="72.39" y2="15.24" width="0.1524" layer="91"/>
 <label x="73.66" y="16.51" size="1.778" layer="95" font="vector"/>
 </segment>
@@ -6477,7 +6450,7 @@ I2C Slave Address = 0x5C</text>
 <label x="73.66" y="39.37" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="SJ15" gate="1" pin="1"/>
+<pinref part="SJ4" gate="1" pin="1"/>
 <wire x1="55.88" y1="22.86" x2="49.53" y2="22.86" width="0.1524" layer="91"/>
 <label x="48.26" y="24.13" size="1.778" layer="95" font="vector" rot="R180"/>
 </segment>
@@ -6494,7 +6467,7 @@ I2C Slave Address = 0x5C</text>
 <label x="73.66" y="31.75" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="SJ16" gate="1" pin="1"/>
+<pinref part="SJ5" gate="1" pin="1"/>
 <wire x1="55.88" y1="15.24" x2="49.53" y2="15.24" width="0.1524" layer="91"/>
 <label x="48.26" y="16.51" size="1.778" layer="95" font="vector" rot="R180"/>
 </segment>
