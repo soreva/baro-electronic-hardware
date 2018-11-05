@@ -4887,6 +4887,7 @@ MSOP&lt;br&gt;
 <part name="SJ14" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
 <part name="SJ4" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
 <part name="SJ5" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
+<part name="R21" library="microbuilder" deviceset="RESISTOR" device="0603" value="0.22k"/>
 </parts>
 <sheets>
 <sheet>
@@ -6568,9 +6569,9 @@ I2C Slave Address = 0x5C</text>
 <attribute name="NAME" x="227.838" y="139.7" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="231.775" y="144.78" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="R14" gate="G$1" x="229.87" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="227.838" y="116.84" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="231.775" y="121.92" size="1.778" layer="96" font="vector" rot="R270"/>
+<instance part="R14" gate="G$1" x="229.87" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="227.838" y="104.14" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="231.775" y="109.22" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
 <instance part="TP5" gate="G$1" x="224.79" y="72.39" smashed="yes">
 <attribute name="NAME" x="223.774" y="66.04" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -6595,6 +6596,10 @@ I2C Slave Address = 0x5C</text>
 <instance part="X1" gate="-2" x="134.62" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="133.35" y="92.329" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="120.65" y="92.329" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="R21" gate="G$1" x="229.87" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="227.838" y="116.84" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="231.775" y="121.92" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -6661,10 +6666,10 @@ I2C Slave Address = 0x5C</text>
 <junction x="210.82" y="134.62"/>
 <label x="189.23" y="135.89" size="1.778" layer="95" font="vector"/>
 <label x="143.51" y="135.89" size="1.778" layer="95" font="vector"/>
-<wire x1="210.82" y1="134.62" x2="210.82" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="107.95" x2="229.87" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="134.62" x2="210.82" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="95.25" x2="229.87" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="229.87" y1="107.95" x2="229.87" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="229.87" y1="95.25" x2="229.87" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="91.44" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
@@ -6818,13 +6823,20 @@ I2C Slave Address = 0x5C</text>
 <wire x1="171.45" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="144.78" x2="175.26" y2="130.81" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="130.81" x2="229.87" y2="130.81" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="229.87" y1="124.46" x2="229.87" y2="130.81" width="0.1524" layer="91"/>
-<junction x="229.87" y="130.81"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="229.87" y1="137.16" x2="229.87" y2="130.81" width="0.1524" layer="91"/>
 <label x="175.26" y="129.54" size="1.778" layer="95" font="vector" rot="MR180"/>
 <label x="228.6" y="132.08" size="1.778" layer="95" font="vector" rot="MR0"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="229.87" y1="130.81" x2="229.87" y2="124.46" width="0.1524" layer="91"/>
+<junction x="229.87" y="130.81"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="229.87" y1="111.76" x2="229.87" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
