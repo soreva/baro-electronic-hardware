@@ -4948,7 +4948,11 @@ MSOP&lt;br&gt;
 <text x="186.055" y="51.562" size="2.54" layer="97" font="vector" align="center">Assembly</text>
 </plain>
 <instances>
-<instance part="FRAME9" gate="G$1" x="0" y="0"/>
+<instance part="FRAME9" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5106,7 +5110,11 @@ XC6215</text>
 <text x="210.82" y="72.39" size="2.54" layer="97" font="vector" align="center-right">V +7-30 V</text>
 </plain>
 <instances>
-<instance part="FRAME8" gate="G$1" x="0" y="0"/>
+<instance part="FRAME8" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5155,7 +5163,11 @@ on-the-go and the analog format configured in the factory.
 D-3/4: The connector for data exchange with the external world.</text>
 </plain>
 <instances>
-<instance part="FRAME3" gate="G$1" x="0" y="0"/>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5185,7 +5197,11 @@ A-1: Fiducial alignment points used for calibrating a machine that automates pop
 B-1: Drill holes on the four corners of the printed circuit board.</text>
 </plain>
 <instances>
-<instance part="FRAME7" gate="G$1" x="0" y="0"/>
+<instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5202,7 +5218,11 @@ I2C Slave Address = 0x5C</text>
 <text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 <instance part="R12" gate="G$1" x="157.48" y="154.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="157.48" y="156.718" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="160.02" y="156.845" size="1.778" layer="96" font="vector" rot="R90"/>
@@ -5446,7 +5466,11 @@ I2C Slave Address = 0x5C</text>
 <text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 </plain>
 <instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0"/>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 <instance part="TP17" gate="G$1" x="134.62" y="135.89" smashed="yes">
 <attribute name="NAME" x="133.604" y="129.54" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="135.89" y="133.35" size="1.778" layer="97"/>
@@ -5758,7 +5782,11 @@ I2C Slave Address = 0x5C</text>
 <attribute name="VALUE" x="33.02" y="81.28" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="33.02" y="50.8" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="FRAME4" gate="G$1" x="0" y="0"/>
+<instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 <instance part="U1" gate="A" x="129.54" y="71.12" smashed="yes">
 <attribute name="NAME" x="124.8156" y="85.3186" size="1.778" layer="95" font="vector" rot="SR0"/>
 <attribute name="VALUE" x="124.1044" y="49.53" size="1.778" layer="96" font="vector" rot="SR0"/>
@@ -6515,7 +6543,11 @@ I2C Slave Address = 0x5C</text>
 <text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 </plain>
 <instances>
-<instance part="FRAME5" gate="G$1" x="0" y="0"/>
+<instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 <instance part="IC3" gate="G$1" x="58.42" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.34" y="63.5" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="53.34" y="38.1" size="1.778" layer="96" font="vector"/>
@@ -6871,7 +6903,11 @@ I2C Slave Address = 0x5C</text>
 <text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 </plain>
 <instances>
-<instance part="FRAME6" gate="G$1" x="0" y="0"/>
+<instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 <instance part="U$3" gate="G$1" x="21.59" y="115.57" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="27.94" y="109.22" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="21.59" y="109.22" smashed="yes"/>
