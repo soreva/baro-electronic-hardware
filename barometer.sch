@@ -5765,7 +5765,7 @@ I2C Slave Address = 0x5C</text>
 <text x="4.445" y="90.17" size="1.778" layer="97" font="vector">TTL-to-RS232 Peripherals</text>
 <text x="172.72" y="20.32" size="2.54" layer="97" font="vector">Data Output Interface</text>
 <text x="4.445" y="4.5085" size="1.778" layer="97" font="vector">Jumpers</text>
-<text x="4.445" y="133.096" size="1.778" layer="97" font="vector">Test Points</text>
+<text x="4.445" y="133.35" size="1.778" layer="97" font="vector">Test Points</text>
 <text x="88.5825" y="46.101" size="1.778" layer="97" font="vector" rot="MR0" align="top-right">Connectors</text>
 <text x="172.72" y="37.465" size="1.778" layer="97" font="vector">Digital-to-Analog Converter</text>
 <text x="168.91" y="5.08" size="1.778" layer="97" font="vector" align="bottom-right">Degson Electrical
