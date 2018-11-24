@@ -4883,11 +4883,9 @@ MSOP&lt;br&gt;
 <part name="FRAME8" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="R20" library="microbuilder" deviceset="RESISTOR" device="0603" value="100"/>
 <part name="FRAME9" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
-<part name="SJ13" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
-<part name="SJ14" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
-<part name="SJ4" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
-<part name="SJ5" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
 <part name="R21" library="microbuilder" deviceset="RESISTOR" device="0603" value="0.22k"/>
+<part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
+<part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 </parts>
 <sheets>
 <sheet>
@@ -5753,6 +5751,7 @@ I2C Slave Address = 0x5C</text>
 <text x="172.72" y="133.35" size="1.778" layer="97" font="vector">Current-loop Transceiver</text>
 <text x="172.72" y="25.4" size="2.54" layer="97" font="vector">Schematic Diagram:</text>
 <text x="60.96" y="10.16" size="1.778" layer="97" font="vector" align="center">Analog Output Format</text>
+<text x="88.5825" y="133.35" size="1.778" layer="97" font="vector">Decoupling Capacitors</text>
 </plain>
 <instances>
 <instance part="U6" gate="G$1" x="45.72" y="63.5" smashed="yes">
@@ -5913,10 +5912,16 @@ I2C Slave Address = 0x5C</text>
 <instance part="SJ4" gate="1" x="60.96" y="22.86" smashed="yes">
 <attribute name="NAME" x="58.42" y="25.4" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="58.42" y="19.05" size="1.778" layer="96"/>
+<instance part="C18" gate="G$1" x="115.57" y="152.4" smashed="yes">
+<attribute name="NAME" x="118.11" y="154.94" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="118.11" y="152.4" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SJ5" gate="1" x="60.96" y="15.24" smashed="yes">
 <attribute name="NAME" x="58.42" y="17.78" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="58.42" y="11.43" size="1.778" layer="96"/>
+<instance part="C20" gate="G$1" x="140.97" y="152.4" smashed="yes">
+<attribute name="NAME" x="143.51" y="154.94" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="143.51" y="152.4" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -6112,11 +6117,17 @@ I2C Slave Address = 0x5C</text>
 <pinref part="U4" gate="G$1" pin="I-RETURN"/>
 <wire x1="201.93" y1="153.67" x2="184.15" y2="153.67" width="0.1524" layer="91"/>
 <label x="182.88" y="154.94" size="1.778" layer="95" font="vector" rot="R180"/>
+<wire x1="115.57" y1="146.685" x2="115.57" y2="149.86" width="0.1524" layer="91"/>
+<label x="114.2111" y="145.1356" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="C18" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="SJ14" gate="1" pin="1"/>
 <wire x1="55.88" y1="30.48" x2="49.53" y2="30.48" width="0.1524" layer="91"/>
 <label x="48.26" y="31.75" size="1.778" layer="95" font="vector" rot="R180"/>
+<wire x1="140.97" y1="146.685" x2="140.97" y2="149.86" width="0.1524" layer="91"/>
+<label x="139.6111" y="145.1356" size="1.778" layer="95" font="vector" rot="MR180"/>
+<pinref part="C20" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6179,6 +6190,16 @@ I2C Slave Address = 0x5C</text>
 <wire x1="63.5" y1="116.84" x2="63.5" y2="120.015" width="0.1524" layer="91"/>
 <label x="66.04" y="121.285" size="1.778" layer="95" font="vector" rot="MR180"/>
 <pinref part="C15" gate="G$1" pin="P$1"/>
+</segment>
+<segment>
+<wire x1="115.57" y1="157.48" x2="115.57" y2="160.655" width="0.1524" layer="91"/>
+<label x="116.84" y="161.925" size="1.778" layer="95" font="vector" rot="MR90"/>
+<pinref part="C18" gate="G$1" pin="P$1"/>
+</segment>
+<segment>
+<wire x1="140.97" y1="157.48" x2="140.97" y2="160.655" width="0.1524" layer="91"/>
+<label x="142.24" y="161.925" size="1.778" layer="95" font="vector" rot="MR90"/>
+<pinref part="C20" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="A" class="0">
