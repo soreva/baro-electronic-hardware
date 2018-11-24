@@ -5839,11 +5839,11 @@ I2C Slave Address = 0x5C</text>
 <attribute name="NAME" x="157.988" y="106.68" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="161.925" y="111.76" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="SJ6" gate="1" x="125.73" y="31.75" smashed="yes" rot="R90">
-<attribute name="NAME" x="123.19" y="29.21" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="SJ6" gate="1" x="144.78" y="26.67" smashed="yes" rot="R90">
+<attribute name="NAME" x="142.24" y="24.13" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="SJ7" gate="1" x="133.35" y="31.75" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.81" y="29.21" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="SJ7" gate="1" x="152.4" y="26.67" smashed="yes" rot="R90">
+<attribute name="NAME" x="149.86" y="24.13" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="TP14" gate="G$1" x="45.72" y="152.4" smashed="yes">
 <attribute name="NAME" x="44.704" y="146.05" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -6040,8 +6040,8 @@ I2C Slave Address = 0x5C</text>
 </segment>
 <segment>
 <pinref part="SJ7" gate="1" pin="2"/>
-<wire x1="133.35" y1="36.83" x2="133.35" y2="39.37" width="0.1524" layer="91"/>
-<label x="134.62" y="40.64" size="1.778" layer="95" font="vector" rot="R90"/>
+<wire x1="152.4" y1="31.75" x2="152.4" y2="34.29" width="0.1524" layer="91"/>
+<label x="153.67" y="35.56" size="1.778" layer="95" font="vector" rot="R90"/>
 </segment>
 </net>
 <net name="ROUT" class="0">
@@ -6275,8 +6275,8 @@ I2C Slave Address = 0x5C</text>
 </segment>
 <segment>
 <pinref part="SJ6" gate="1" pin="2"/>
-<wire x1="125.73" y1="36.83" x2="125.73" y2="39.37" width="0.1524" layer="91"/>
-<label x="127" y="40.64" size="1.778" layer="95" font="vector" rot="R90"/>
+<wire x1="144.78" y1="31.75" x2="144.78" y2="34.29" width="0.1524" layer="91"/>
+<label x="146.05" y="35.56" size="1.778" layer="95" font="vector" rot="R90"/>
 </segment>
 <segment>
 <pinref part="TP11" gate="G$1" pin="TP"/>
@@ -6314,22 +6314,21 @@ I2C Slave Address = 0x5C</text>
 <net name="D-OUT-1" class="0">
 <segment>
 <pinref part="SJ6" gate="1" pin="1"/>
-<wire x1="123.19" y1="24.13" x2="125.73" y2="24.13" width="0.1524" layer="91"/>
-<wire x1="125.73" y1="24.13" x2="125.73" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="19.05" x2="144.78" y2="21.59" width="0.1524" layer="91"/>
 <pinref part="SJ7" gate="1" pin="1"/>
-<wire x1="125.73" y1="24.13" x2="133.35" y2="24.13" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="24.13" x2="133.35" y2="26.67" width="0.1524" layer="91"/>
-<junction x="125.73" y="24.13"/>
-<label x="133.35" y="22.86" size="1.778" layer="95" font="vector" rot="R180"/>
-<pinref part="X2" gate="-1" pin="K"/>
+<wire x1="144.78" y1="19.05" x2="152.4" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="19.05" x2="152.4" y2="21.59" width="0.1524" layer="91"/>
+<label x="152.4" y="17.78" size="1.778" layer="95" font="vector" rot="R180"/>
+<pinref part="X2" gate="-2" pin="K"/>
+<wire x1="123.19" y1="19.05" x2="144.78" y2="19.05" width="0.1524" layer="91"/>
+<junction x="144.78" y="19.05"/>
 </segment>
 </net>
 <net name="D-OUT-2" class="0">
 <segment>
-<wire x1="123.19" y1="19.05" x2="140.97" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="19.05" x2="148.59" y2="19.05" width="0.1524" layer="91"/>
-<label x="148.59" y="17.78" size="1.778" layer="95" font="vector" rot="R180"/>
-<pinref part="X2" gate="-2" pin="K"/>
+<wire x1="123.19" y1="24.13" x2="125.73" y2="24.13" width="0.1524" layer="91"/>
+<label x="127" y="25.4" size="1.778" layer="95" font="vector"/>
+<pinref part="X2" gate="-1" pin="K"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="36.83" x2="26.67" y2="36.83" width="0.1524" layer="91"/>
@@ -6509,8 +6508,6 @@ I2C Slave Address = 0x5C</text>
 <label x="127" y="15.24" size="1.778" layer="95" font="vector"/>
 <pinref part="X2" gate="-3" pin="K"/>
 </segment>
-</net>
-<net name="A-OUT-2" class="0">
 <segment>
 <pinref part="SJ14" gate="1" pin="2"/>
 <wire x1="66.04" y1="30.48" x2="72.39" y2="30.48" width="0.1524" layer="91"/>
