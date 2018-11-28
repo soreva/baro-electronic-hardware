@@ -4644,6 +4644,7 @@ MSOP&lt;br&gt;
 <part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
+<part name="TP19" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5702,6 +5703,10 @@ I2C Slave Address = 0x5C</text>
 <attribute name="NAME" x="143.51" y="154.94" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="143.51" y="152.4" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="TP19" gate="G$1" x="66.04" y="152.4" smashed="yes">
+<attribute name="NAME" x="65.024" y="146.05" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="TP_SIGNAL_NAME" x="67.31" y="149.86" size="1.778" layer="97"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6304,6 +6309,11 @@ I2C Slave Address = 0x5C</text>
 <pinref part="U3" gate="G$1" pin="V-OUT-B"/>
 <wire x1="194.31" y1="72.39" x2="191.135" y2="72.39" width="0.1524" layer="91"/>
 <label x="189.865" y="73.66" size="1.778" layer="95" font="vector" rot="R180"/>
+</segment>
+<segment>
+<pinref part="TP19" gate="G$1" pin="TP"/>
+<wire x1="66.04" y1="154.94" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
+<label x="67.31" y="158.75" size="1.778" layer="95" font="vector" rot="R90"/>
 </segment>
 </net>
 </nets>

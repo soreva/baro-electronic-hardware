@@ -1559,6 +1559,10 @@ design rules under a new name.</description>
 <element name="C20" library="microbuilder" package="0603" value="0.1u" x="14" y="26.25" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.722" y="27.123" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90"/>
 </element>
+<element name="TP19" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="15" y="6.25" smashed="yes">
+<attribute name="NAME" x="14.865" y="7.016" size="0.8128" layer="25" font="vector" ratio="18"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="15" y="6.25" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2655,6 +2659,9 @@ design rules under a new name.</description>
 <wire x1="3.75" y1="6.75" x2="6" y2="4.5" width="0.254" layer="1"/>
 <wire x1="6" y1="4.5" x2="16.15" y2="4.5" width="0.254" layer="1"/>
 <wire x1="16.15" y1="4.5" x2="17.4" y2="5.75" width="0.254" layer="1"/>
+<contactref element="TP19" pad="TP"/>
+<wire x1="15" y1="6.25" x2="15" y2="5.65" width="0.254" layer="1"/>
+<wire x1="15" y1="5.65" x2="16.15" y2="4.5" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
