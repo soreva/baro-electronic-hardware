@@ -4735,7 +4735,7 @@ ZPA2326</text>
 ATtiny85</text>
 <text x="50.8" y="99.06" size="2.54" layer="97" font="vector" align="center">Digital to Analog Converter
 for 0-5 V terminals
-MCP4725</text>
+8574</text>
 <text x="147.32" y="73.66" size="2.54" layer="97" font="vector" align="center">TTL to RS-232/RS-485 
 Transceivers
 MAX3221e &amp; SN65HVD78</text>
@@ -4905,21 +4905,22 @@ C/D-1/2: Pin headers for programming the microcontroller using an external devic
 A-1/2: Test points for the data output interfaces.
 
 A-5/6: The 4-20 mA current-loop transceiver, Burr-Brown XTR117. This transceiver converts the current through its input pin into an amplified current 
-through the output pin. The voltage output of the MCP4725 (U3) is converted into a current input to the XTR117 (U4) using a 25k ohm resistor.
+through the output pin. The voltage output of the 8574 (U3) is converted into a current input to the XTR117 (U4) using a 25k ohm resistor.
 
 B/C-1/2: The TTL-to-RS232 converter, MAX3221 (U6). This behaves as the RS232 transceiver of the microcontroller.
 
 B/C-3/4: The TTL-to-RS485 converter, LTC2850 (U1). This behaves as the RS485 transceiver of the microcontroller.
 
-B-5/6: In order to generate an analog voltage between 0 and +5.0 V, the MCP4725 (U3) requires I2C signals between +5V0-GND. In order to convert the 
-logic levels from one to another, a bidirectional 
-bi-channel logic level converter is used.
+B-5/6: In order to generate an analog voltage between 0 and +5.0 V, the 8574 (U3) requires I2C signals between +5V0-GND. In order to convert the logic 
+levels from one to another, a bidirectional bi-channel logic level converter is used.
 
 D-1/2: The sensor can offer digital and analog outputs simultaneously. However, either one of RS232 or RS485 can be used at a time and either one of 
 0-5 V or 4-20 mA is available in a particular board. In order to choose between these, two sets of jumpers are used - the digital format configurable 
 on-the-go and the analog format configured in the factory.
 
-D-3/4: The connector for data exchange with the external world.</text>
+D-3/4: The connector for data exchange with the external world.
+
+*Revision D and beyond feature Texas Instruments DAC8574 instead of the Microchip DAC MCP4725.</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
