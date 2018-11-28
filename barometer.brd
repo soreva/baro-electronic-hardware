@@ -1347,7 +1347,7 @@ design rules under a new name.</description>
 <element name="R10" library="microbuilder" package="0603" value="10k" x="30.0075" y="16.9675" smashed="yes" rot="MR270">
 <attribute name="NAME" x="29.127" y="16.778" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="top-left"/>
 </element>
-<element name="R14" library="microbuilder" package="0603" value="3.16k" x="32.0675" y="13.9675" smashed="yes" rot="R180">
+<element name="R14" library="microbuilder" package="0603" value="3.01k" x="32.0675" y="13.9675" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.409" y="12.2095" size="0.8128" layer="25" font="vector" ratio="18"/>
 </element>
 <element name="IC2" library="barometer-murata" package="2326" value="ZPA2326-0311A-R" x="11.585" y="11.8" smashed="yes" rot="MR180">
