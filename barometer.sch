@@ -4601,7 +4601,6 @@ MSOP&lt;br&gt;
 <part name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP13" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="U7" library="SparkFun-Retired-0" deviceset="ATTINY45" device="TINY85-20-SMT" value="Tiny85-20-SMT"/>
-<part name="SJ3" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ9" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ8" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ11" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="TRACE"/>
@@ -4646,6 +4645,7 @@ MSOP&lt;br&gt;
 <part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="TP19" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="JP3" library="microbuilder" deviceset="HEADER-1X3" device="SMT" value="Analog Output Format 2"/>
+<part name="SJ3" library="SparkFun-Retired-0" deviceset="SOLDERJUMPER" device="NO"/>
 </parts>
 <sheets>
 <sheet>
@@ -5256,9 +5256,6 @@ I2C Slave Address = 0x5C</text>
 <attribute name="VALUE" x="223.52" y="124.46" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="223.52" y="147.32" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="SJ3" gate="1" x="34.29" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.75" y="132.08" size="1.778" layer="95" font="vector" rot="R90"/>
-</instance>
 <instance part="SJ9" gate="1" x="41.91" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.37" y="132.08" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
@@ -5298,6 +5295,9 @@ I2C Slave Address = 0x5C</text>
 <instance part="PAD6" gate="1" x="45.72" y="43.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="46.863" y="46.482" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="SJ3" gate="1" x="34.29" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.75" y="132.08" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5328,9 +5328,9 @@ I2C Slave Address = 0x5C</text>
 </net>
 <net name="SDA_3V3" class="0">
 <segment>
-<pinref part="SJ3" gate="1" pin="2"/>
 <wire x1="34.29" y1="139.7" x2="34.29" y2="142.24" width="0.1524" layer="91"/>
 <label x="35.56" y="143.51" size="1.778" layer="95" font="vector" rot="R90"/>
+<pinref part="SJ3" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="SCL_3V3" class="0">
@@ -5410,9 +5410,9 @@ I2C Slave Address = 0x5C</text>
 </net>
 <net name="B0" class="0">
 <segment>
-<pinref part="SJ3" gate="1" pin="1"/>
 <wire x1="34.29" y1="127" x2="34.29" y2="129.54" width="0.1524" layer="91"/>
 <label x="33.02" y="125.73" size="1.778" layer="95" font="vector" rot="R270"/>
+<pinref part="SJ3" gate="1" pin="1"/>
 </segment>
 <segment>
 <wire x1="194.945" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
