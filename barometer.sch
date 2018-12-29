@@ -4639,12 +4639,13 @@ MSOP&lt;br&gt;
 <part name="R20" library="microbuilder" deviceset="RESISTOR" device="0603" value="100"/>
 <part name="FRAME9" library="microbuilder" deviceset="FRAME_A4_WEATHER" device=""/>
 <part name="R21" library="microbuilder" deviceset="RESISTOR" device="0603" value="0.22k"/>
-<part name="JP2" library="microbuilder" deviceset="HEADER-1X3" device="SMT" value="Analog Output Format"/>
+<part name="JP2" library="microbuilder" deviceset="HEADER-1X3" device="SMT" value="Analog Output Format 1"/>
 <part name="U3" library="texas-msp" deviceset="DAC8574" device=""/>
 <part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.1u"/>
 <part name="TP19" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="JP3" library="microbuilder" deviceset="HEADER-1X3" device="SMT" value="Analog Output Format 2"/>
 </parts>
 <sheets>
 <sheet>
@@ -5708,6 +5709,10 @@ I2C Slave Address = 0x5C</text>
 <attribute name="NAME" x="65.024" y="146.05" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="67.31" y="149.86" size="1.778" layer="97"/>
 </instance>
+<instance part="JP3" gate="A" x="72.39" y="31.75" smashed="yes">
+<attribute name="NAME" x="66.04" y="37.465" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="72.39" y="25.4" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5942,6 +5947,11 @@ I2C Slave Address = 0x5C</text>
 <wire x1="140.97" y1="146.685" x2="140.97" y2="149.86" width="0.1524" layer="91"/>
 <label x="139.6111" y="145.1356" size="1.778" layer="95" font="vector" rot="MR180"/>
 <pinref part="C20" gate="G$1" pin="P$2"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="69.85" y1="34.29" x2="63.5" y2="34.29" width="0.1524" layer="91"/>
+<label x="62.23" y="35.56" size="1.778" layer="95" font="vector" rot="R180"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6268,9 +6278,9 @@ I2C Slave Address = 0x5C</text>
 <wire x1="246.38" y1="161.29" x2="246.38" y2="158.75" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="123.19" y1="8.89" x2="125.73" y2="8.89" width="0.1524" layer="91"/>
-<label x="127" y="10.16" size="1.778" layer="95" font="vector"/>
-<pinref part="X2" gate="-4" pin="K"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="69.85" y1="29.21" x2="63.5" y2="29.21" width="0.1524" layer="91"/>
+<label x="62.23" y="30.48" size="1.778" layer="95" font="vector" rot="R180"/>
 </segment>
 </net>
 <net name="BASE" class="0">
@@ -6315,6 +6325,18 @@ I2C Slave Address = 0x5C</text>
 <pinref part="TP19" gate="G$1" pin="TP"/>
 <wire x1="66.04" y1="154.94" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
 <label x="67.31" y="158.75" size="1.778" layer="95" font="vector" rot="R90"/>
+</segment>
+</net>
+<net name="A-OUT-2" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="69.85" y1="31.75" x2="63.5" y2="31.75" width="0.1524" layer="91"/>
+<label x="62.23" y="33.02" size="1.778" layer="95" font="vector" rot="R180"/>
+</segment>
+<segment>
+<wire x1="123.19" y1="8.89" x2="125.73" y2="8.89" width="0.1524" layer="91"/>
+<label x="127" y="10.16" size="1.778" layer="95" font="vector"/>
+<pinref part="X2" gate="-4" pin="K"/>
 </segment>
 </net>
 </nets>
