@@ -188,7 +188,7 @@
 <wire x1="58.42" y1="0" x2="58.42" y2="40.415" width="0" layer="20"/>
 <wire x1="58.42" y1="40.415" x2="0" y2="40.415" width="0" layer="20"/>
 <wire x1="0" y1="40.415" x2="0" y2="0" width="0" layer="20"/>
-<text x="24.4218" y="2.5275" size="1.27" layer="25" font="vector" rot="SR0" align="bottom-right">SGB022 v1.0 rev. D</text>
+<text x="24.4218" y="2.5275" size="1.27" layer="25" font="vector" rot="SR0" align="bottom-right">SGB022 v1.0 rev. E</text>
 <text x="56" y="27.375" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center">232</text>
 <text x="45.75" y="27.125" size="1.27" layer="25" font="vector" ratio="18" rot="R90" align="center">485</text>
 <text x="2" y="32.25" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90" align="center-left">GND</text>
