@@ -4908,9 +4908,9 @@ A-1/2: Test points for the data output interfaces.
 A-5/6: The 4-20 mA current-loop transceiver, Burr-Brown XTR117. This transceiver converts the current through its input pin into an amplified current 
 through the output pin. The voltage output of the 8574 (U3) is converted into a current input to the XTR117 (U4) using a 25k ohm resistor.
 
-B/C-1/2: The TTL-to-RS232 converter, MAX3221 (U6). This behaves as the RS232 transceiver of the microcontroller.
+B/C-1/2: The TTL-to-RS232 converter, Texas Instruments MAX3221 (U6). This behaves as the RS232 transceiver of the microcontroller.
 
-B/C-3/4: The TTL-to-RS485 converter, LTC2850 (U1). This behaves as the RS485 transceiver of the microcontroller.
+B/C-3/4: The TTL-to-RS485 converter, Linear Technology LTC2850 (U1). This behaves as the RS485 transceiver of the microcontroller.
 
 B-5/6: In order to generate an analog voltage between 0 and +5.0 V, the 8574 (U3) requires I2C signals between +5V0-GND. In order to convert the logic 
 levels from one to another, a bidirectional bi-channel logic level converter is used.
