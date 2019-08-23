@@ -4916,10 +4916,13 @@ B-5/6: In order to generate an analog voltage between 0 and +5.0 V, the 8574 (U3
 levels from one to another, a bidirectional bi-channel logic level converter is used.
 
 D-1/2: The sensor can offer digital and analog outputs simultaneously. However, either one of RS232 or RS485 can be used at a time and either one of 
-0-5 V or 4-20 mA is available in a particular board. In order to choose between these, two sets of jumpers are used - the digital format configurable 
-on-the-go and the analog format configured in the factory.
+0-5 V or 4-20 mA can be used at a time. In order to choose between these, two sets of jumpers are used - the formats configurable on-the-go.
 
 D-3/4: The connector for data exchange with the external world.
+
+C-5/6: The sensor can offer measurements as an analog voltage in the range of 0 and +5.0 V and as 
+an analog current in the range of 4 to 20 mA. In order to generate a voltage output from the pressure 
+measurements, the Texas Instruments DAC8574 (U5), a quad-channel DAC, is used.
 
 *Revision D and beyond feature Texas Instruments DAC8574 instead of the Microchip DAC MCP4725.</text>
 </plain>
